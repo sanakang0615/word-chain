@@ -21,6 +21,7 @@ export default function GameBoard() {
   const [hintCount, setHintCount] = useState(0);
   const [gameStatus, setGameStatus] = useState(null);
   const [lastCorrectWord, setLastCorrectWord] = useState("");
+  
 
   useEffect(() => {
     const randomStart = wordList[Math.floor(Math.random() * wordList.length)].term;
@@ -32,34 +33,64 @@ export default function GameBoard() {
   const usedWords = history.map(h => h.word);
 
   const handleSubmit = () => {
-    const match = wordList.find(w => w.term === userInput && !usedWords.includes(userInput));
-    if (match && userInput.startsWith(lastLetter)) {
-      const updatedUsedWords = [...usedWords, userInput];
-      setLastCorrectWord(userInput);
-      setMessage("😏 Success!");
-      setGameStatus("success");
-      setHistory(prev => [...prev, { word: userInput, source: "user" }]);
-
-      const systemNext = wordList.find(w =>
-        w.term.startsWith(userInput.slice(-1)) && !updatedUsedWords.includes(w.term)
-      );
-      if (systemNext) {
-        setTimeout(() => {
-          setSystemWord(systemNext.term);
-          setHistory(prev => [...prev, { word: systemNext.term, source: "system" }]);
-        }, 500);
-      }
-
-      setUserInput("");
-      setHints([]);
+    const match = wordList.find(
+      (w) => w.term === userInput && !usedWords.includes(userInput)
+    );
+  
+    if (usedWords.includes(userInput)) {
+      setMessage("⚠️ This word has already been used!");
+      setGameStatus("fail");
       setTimeout(() => setGameStatus(null), 5000);
-
-    } else {
+      return;
+    }
+  
+    if (match && userInput.startsWith(lastLetter)) {
+        const updatedUsedWords = [...usedWords, userInput];
+      
+        setMessage("😏 Success!");
+        setGameStatus("success");
+        setHistory((prev) => [...prev, { word: userInput, source: "user" }]);
+        setLastCorrectWord(userInput); // ✅ 이 라인을 추가하세요
+      
+        // 점수 증가 + 승리 체크
+        setScore((prevScore) => {
+          const newScore = prevScore + 1;
+          if (newScore >= 10) {
+            setMessage("🎉 You reached 10 points! You win!");
+            setGameStatus("win");
+          }
+          return newScore;
+        });
+      
+        // 시스템 다음 단어
+        const possibleNextWords = wordList.filter(
+          (w) =>
+            w.term.startsWith(userInput.slice(-1)) &&
+            !updatedUsedWords.includes(w.term)
+        );
+        if (possibleNextWords.length > 0) {
+          const systemNext =
+            possibleNextWords[Math.floor(Math.random() * possibleNextWords.length)];
+          setTimeout(() => {
+            setSystemWord(systemNext.term);
+            setHistory((prev) => [
+              ...prev,
+              { word: systemNext.term, source: "system" },
+            ]);
+          }, 500);
+        }
+      
+        setUserInput("");
+        setHints([]);
+        setTimeout(() => setGameStatus(null), 5000);
+      }
+       else {
       setMessage("👿 HAHAHAHAHAHA Try again or use a hint...");
       setGameStatus("fail");
       setTimeout(() => setGameStatus(null), 5000);
     }
   };
+  
 
   const handleHint = () => {
     if (hintCount >= 3) {
@@ -208,6 +239,35 @@ export default function GameBoard() {
               </div>
             </div>
           )}
+          {gameStatus === "win" && (
+  <div className="rounded-md bg-green-100 p-4 mt-4 border border-green-300">
+    <div className="flex items-center">
+      <CheckCircleIcon className="size-5 text-green-600 mr-2" aria-hidden="true" />
+      <div className="flex-1">
+        <p className="text-sm font-bold text-green-800">
+          🎊 Congratulations! You reached 10 points and defeated the Reaper!
+        </p>
+        <p className="text-sm italic text-green-700 mt-1">
+          Try again if you dare... 🔁
+        </p>
+      </div>
+      <button
+        onClick={() => {
+          setGameStatus(null);
+          setScore(3);
+          setHintCount(0);
+          const newWord = wordList[Math.floor(Math.random() * wordList.length)].term;
+          setSystemWord(newWord);
+          setHistory([{ word: newWord, source: "system" }]);
+        }}
+        className="ml-4 rounded-md bg-white px-3 py-1.5 text-sm font-semibold text-green-700 hover:bg-green-200 shadow-sm"
+      >
+        Restart
+      </button>
+    </div>
+  </div>
+)}
+
 
           <HintList hints={hints} lastLetter={lastLetter} />
           <ScorePanel score={score} hintLeft={3 - hintCount} onGiveUp={handleGiveUp} />
