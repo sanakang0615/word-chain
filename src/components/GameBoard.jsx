@@ -4,6 +4,7 @@ import HintList from "./HintList";
 import WordHistory from "./WordHistory";
 import ScorePanel from "./ScorePanel";
 import wordList from "../data/wordList.json";
+import RuleDialog from './RuleDialog';
 import { CheckCircleIcon, XMarkIcon, XCircleIcon } from '@heroicons/react/20/solid';
 
 const getHintWords = (startLetter, usedWords) => {
@@ -134,6 +135,8 @@ export default function GameBoard() {
   };
 
   return (
+    <>
+    <RuleDialog />
     <div className="max-w-[90vw] min-h-[90vh] mx-auto my-10 bg-[#f5efe6] text-[#2c2c2c] border-[#d2c4ae] font-serif border rounded-xl shadow-xl p-6">
       <div className="flex items-center justify-between mb-4 border-b pb-2 border-[#cab89f]">
         <div className="text-3xl font-black flex items-center gap-2">
@@ -274,5 +277,6 @@ export default function GameBoard() {
         </div>
       </div>
     </div>
+    </>
   );
 }
