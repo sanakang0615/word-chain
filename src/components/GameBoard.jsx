@@ -56,7 +56,7 @@ export default function GameBoard() {
         // 점수 증가 + 승리 체크
         setScore((prevScore) => {
           const newScore = prevScore + 1;
-          if (newScore >= 10) {
+          if (newScore >= 70) {
             setMessage("🎉 You reached 10 points! You win!");
             setGameStatus("win");
           }

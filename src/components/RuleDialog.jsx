@@ -34,7 +34,7 @@ export default function RuleDialog() {
         <li>Start each word with the last letter of the previous word.</li>
         <li>You only get 3 hints. Each costs 0.5 points.</li>
         <li>Each correct answer gives you +1 point.</li>
-        <li>Earn 10 points to defeat the Reaper!</li>
+        <li>Earn 70 points to defeat the Reaper!</li>
       </ul>
       <p className=" text-red-600 text-3xl italic font-jacquard" style={{marginTop: "28px"}}>
         Are you ready..?
