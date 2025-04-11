@@ -28,7 +28,7 @@ export default function RuleDialog() {
                 </DialogTitle>
                 <div className="mt-3 text-sm text-gray-700 space-y-2">
                   <p>You are being chased by the Grim Reaper...</p>
-                  <p>To escape death, you must play a word chain using GRE vocabulary. (핵단어) </p>
+                  <p>To escape death, you must play a word chain using GRE vocabulary. (거만어) </p>
                   <ul className="list-disc pl-5">
                     <li>Start each word with the last letter of the previous word.</li>
                     <li>You only get <strong>3 hints</strong>. Each costs <strong>0.5 points</strong>.</li>
