@@ -1,0 +1,8002 @@
+[
+    {
+        "term": "abacus",
+        "definition": "주판"
+    },
+    {
+        "term": "abandon",
+        "definition": "(감정,충동에) 사로잡히다, 방종"
+    },
+    {
+        "term": "abase",
+        "definition": "(품위, 지위) 강등시키다"
+    },
+    {
+        "term": "abash",
+        "definition": "당황하게 하다, 부끄럽게 하다"
+    },
+    {
+        "term": "abate",
+        "definition": "(정도,세기,수량 등) 줄이다,감소시키다"
+    },
+    {
+        "term": "abbreviate",
+        "definition": "(단어,문장,글의) 길이를 줄이다"
+    },
+    {
+        "term": "aberrant",
+        "definition": "정도를 벗어난,비정상의,변종의"
+    },
+    {
+        "term": "abet",
+        "definition": "부추기다; 돕다, 지원하다"
+    },
+    {
+        "term": "abject",
+        "definition": "(생활,상태,태도,기분) 비참한"
+    },
+    {
+        "term": "abnormal",
+        "definition": "비정상적인"
+    },
+    {
+        "term": "abound",
+        "definition": "풍부하다"
+    },
+    {
+        "term": "abrade",
+        "definition": "마모시키다"
+    },
+    {
+        "term": "abridge",
+        "definition": "요약하다,축약하다"
+    },
+    {
+        "term": "abscond",
+        "definition": "몰래 떠나다, 종적을 감추다"
+    },
+    {
+        "term": "absolve",
+        "definition": "(비난,유죄성,책임에서) 벗어나게 해주다"
+    },
+    {
+        "term": "absorb",
+        "definition": "흡수하다; 열중케 하다"
+    },
+    {
+        "term": "abstemious",
+        "definition": "(음식,음주) 삼가는,절제하는"
+    },
+    {
+        "term": "abstract",
+        "definition": "요약하다,주의를 딴 곳으로 돌리다 ,(설명이) 구체적이지 않은,난해한"
+    },
+    {
+        "term": "abstruse",
+        "definition": "난해한,심오한"
+    },
+    {
+        "term": "absurd",
+        "definition": "비상식적인, 터무니없는"
+    },
+    {
+        "term": "accede",
+        "definition": "동의하다"
+    },
+    {
+        "term": "accelerate",
+        "definition": "가속하다, 촉진시키다"
+    },
+    {
+        "term": "accidental",
+        "definition": "우연의, 뜻밖의; 불변의"
+    },
+    {
+        "term": "acclaim",
+        "definition": "칭송하다,환호를 보내다"
+    },
+    {
+        "term": "acclimate",
+        "definition": "( 새로운 환경에) 적응시키다,적응하다"
+    },
+    {
+        "term": "accolade",
+        "definition": "영예,영광,찬양"
+    },
+    {
+        "term": "accost",
+        "definition": "다가가서 ( 당돌하게,공격적으로) 말 걸다"
+    },
+    {
+        "term": "accrete",
+        "definition": "점진적으로 증가하다"
+    },
+    {
+        "term": "accrue",
+        "definition": "(증가,첨가에 의해서) 생기다"
+    },
+    {
+        "term": "acerbic",
+        "definition": "(태도,말) 신랄한; (맛) 신,쓴"
+    },
+    {
+        "term": "achromatic",
+        "definition": "무색의"
+    },
+    {
+        "term": "acme",
+        "definition": "최정상"
+    },
+    {
+        "term": "acolyte",
+        "definition": "(로마가톨릭 예배의식) 시제,복사"
+    },
+    {
+        "term": "acoustic",
+        "definition": "음향의,소리의,청각의"
+    },
+    {
+        "term": "acquiesce",
+        "definition": "묵묵히 받아들이다"
+    },
+    {
+        "term": "acrid",
+        "definition": "(냄새와 맛)매운,신;(말,어조) 신랄한"
+    },
+    {
+        "term": "acumen",
+        "definition": "명민,판단력,분별력"
+    },
+    {
+        "term": "acute",
+        "definition": "날카로운, 통찰력 있는, 민감한, 급성의"
+    },
+    {
+        "term": "ad-lib",
+        "definition": "즉흥 연설(연기 등)"
+    },
+    {
+        "term": "adamant",
+        "definition": "단호한"
+    },
+    {
+        "term": "adapted",
+        "definition": "적절히 변경된"
+    },
+    {
+        "term": "adept",
+        "definition": "솜씨 좋은"
+    },
+    {
+        "term": "adherent",
+        "definition": "지지자,추종자"
+    },
+    {
+        "term": "adhesive",
+        "definition": "접착성의,끈적끈적한"
+    },
+    {
+        "term": "adjunct",
+        "definition": "부가물, 첨가물"
+    },
+    {
+        "term": "admonish",
+        "definition": "경고하다,훈계하다"
+    },
+    {
+        "term": "adorn",
+        "definition": "장식하다"
+    },
+    {
+        "term": "adroit",
+        "definition": "솜씨 좋은,능숙한"
+    },
+    {
+        "term": "adulate",
+        "definition": "심하게 아부하다"
+    },
+    {
+        "term": "adulterate",
+        "definition": "불순물을 섞다,(불순물을 섞어)순도/품질을 떨어뜨리다"
+    },
+    {
+        "term": "adumbrate",
+        "definition": "어렴풋이 예시하다,희미한 모습을 그리다"
+    },
+    {
+        "term": "advent",
+        "definition": "출현,도래"
+    },
+    {
+        "term": "adversary",
+        "definition": "적,원수"
+    },
+    {
+        "term": "advocate",
+        "definition": "지지하다,옹호하다"
+    },
+    {
+        "term": "aerate",
+        "definition": "통풍시키다"
+    },
+    {
+        "term": "aerial",
+        "definition": "공기의,공기 중에서 발생하는"
+    },
+    {
+        "term": "aesthete",
+        "definition": "심미안이 있는 사람"
+    },
+    {
+        "term": "affable",
+        "definition": "사귀기 쉬운,붙임성 있는,상냥한"
+    },
+    {
+        "term": "affectation",
+        "definition": "가장,꾸미는 태도,허세 부림"
+    },
+    {
+        "term": "affected",
+        "definition": "인위적인,꾸민"
+    },
+    {
+        "term": "affinity",
+        "definition": "좋아함,유사성"
+    },
+    {
+        "term": "affix",
+        "definition": "첨부하다,고정시키다"
+    },
+    {
+        "term": "affront",
+        "definition": "(면전에서) 모욕(하다)"
+    },
+    {
+        "term": "agape",
+        "definition": "(입) 벌어진"
+    },
+    {
+        "term": "agglutinated",
+        "definition": "접착된,응집된"
+    },
+    {
+        "term": "aggrandize",
+        "definition": "(권력,힘,지위,재산,명성 등) 증대시키다"
+    },
+    {
+        "term": "aggravate",
+        "definition": "악화시키다,화나게 하다"
+    },
+    {
+        "term": "aggregate",
+        "definition": "모으다;결합된,총계의;집단,총계"
+    },
+    {
+        "term": "aggrieve",
+        "definition": "괴롭히다,고통을 주다"
+    },
+    {
+        "term": "aghast",
+        "definition": "아연한, 대경실색한"
+    },
+    {
+        "term": "agile",
+        "definition": "민첩한"
+    },
+    {
+        "term": "agitation",
+        "definition": "불안,초조;선동;(용액) 휘 젖기"
+    },
+    {
+        "term": "agog",
+        "definition": "(~하고 싶어) 못 견디는,흥분한"
+    },
+    {
+        "term": "agonize",
+        "definition": "(심적으로) 괴로워하다,번민하다;괴롭히다"
+    },
+    {
+        "term": "agreeable",
+        "definition": "상쾌한,기분을 좋게 해주는;동의하는"
+    },
+    {
+        "term": "aid",
+        "definition": "돕다,지원하다"
+    },
+    {
+        "term": "ailing",
+        "definition": "아픈"
+    },
+    {
+        "term": "aimless",
+        "definition": "목적 없이 노력하지 않는"
+    },
+    {
+        "term": "airproof",
+        "definition": "공기가 통하지 않는"
+    },
+    {
+        "term": "alacrity",
+        "definition": "민첩함,민활함;선뜻 ~함"
+    },
+    {
+        "term": "albino",
+        "definition": "백화병환자"
+    },
+    {
+        "term": "alibi",
+        "definition": "부재증명"
+    },
+    {
+        "term": "alienate",
+        "definition": "멀리하다,사귀지 않다,소외시키다;양도하다"
+    },
+    {
+        "term": "align",
+        "definition": "제휴하다,연합하다;일직선으로 맞추다;가지런히 두다"
+    },
+    {
+        "term": "allay",
+        "definition": "(두려움,의심,염려) 가라앉히다,(고통) 완화시키다"
+    },
+    {
+        "term": "alleviate",
+        "definition": "경감하다"
+    },
+    {
+        "term": "alloy",
+        "definition": "합금하다,혼합하다"
+    },
+    {
+        "term": "allude",
+        "definition": "넌지시 말하다,암시하다"
+    },
+    {
+        "term": "aloof",
+        "definition": "쌀쌀맞은,무관심한,초연한"
+    },
+    {
+        "term": "amalgamate",
+        "definition": "혼합시키다,융합시키다"
+    },
+    {
+        "term": "ambiguous",
+        "definition": "여러가지로 해석가능한, 모호한"
+    },
+    {
+        "term": "ambivalent",
+        "definition": "상반된 마음이나 생각을 동시에 가진;마음이 오락가락하는"
+    },
+    {
+        "term": "amble",
+        "definition": "천천히 걷다"
+    },
+    {
+        "term": "ambrosial",
+        "definition": "맛있는,향기로운"
+    },
+    {
+        "term": "ameliorate",
+        "definition": "개선하다,개량하다"
+    },
+    {
+        "term": "amenable",
+        "definition": "잘 따르는,순종적인"
+    },
+    {
+        "term": "amenity",
+        "definition": "편의시설,쾌적함,예의"
+    },
+    {
+        "term": "amnesia",
+        "definition": "건망증"
+    },
+    {
+        "term": "amorphous",
+        "definition": "(형태,정의가) 불명확한"
+    },
+    {
+        "term": "anachronistic",
+        "definition": "연대기적 오류가 있는;구시대적인"
+    },
+    {
+        "term": "anaerobic",
+        "definition": "혐기성의(산소를 싫어하는)"
+    },
+    {
+        "term": "analgesic",
+        "definition": "통증을 없애주는;진통제"
+    },
+    {
+        "term": "anarchist",
+        "definition": "무정부주의자;폭력혁명가"
+    },
+    {
+        "term": "anathema",
+        "definition": "저주, 증오; (가톨릭) 파문, 이단배척"
+    },
+    {
+        "term": "ancillary",
+        "definition": "부속의,보조의"
+    },
+    {
+        "term": "anecdote",
+        "definition": "일화"
+    },
+    {
+        "term": "annotate",
+        "definition": "주석(주해)를 달다"
+    },
+    {
+        "term": "annul",
+        "definition": "무효로 하다, 취소하다,폐지하다"
+    },
+    {
+        "term": "anodyne",
+        "definition": "진통제,진정제"
+    },
+    {
+        "term": "anomalous",
+        "definition": "변칙적인,비정상의,특이한"
+    },
+    {
+        "term": "anonymous",
+        "definition": "무명의,익명의"
+    },
+    {
+        "term": "answerable",
+        "definition": "책임져야 하는,책임이 있는"
+    },
+    {
+        "term": "anterior",
+        "definition": "이전의"
+    },
+    {
+        "term": "antic",
+        "definition": "익살스러운,장난끼 있는"
+    },
+    {
+        "term": "antidote",
+        "definition": "해독제"
+    },
+    {
+        "term": "antipathy",
+        "definition": "반감,혐오"
+    },
+    {
+        "term": "antithetical",
+        "definition": "대조법의,정반대의"
+    },
+    {
+        "term": "apathetic",
+        "definition": "무감각한,무정한,무관심한"
+    },
+    {
+        "term": "apex",
+        "definition": "최고점"
+    },
+    {
+        "term": "aphid",
+        "definition": "진딧물"
+    },
+    {
+        "term": "aphorism",
+        "definition": "금언,격언"
+    },
+    {
+        "term": "apiary",
+        "definition": "양봉장"
+    },
+    {
+        "term": "apocalyptic",
+        "definition": "궁극적인,결정적인,매우 중요한;종말론적인 파괴를 예언하는, 끔찍한"
+    },
+    {
+        "term": "apocryphal",
+        "definition": "저작자가 의심스런,가짜의"
+    },
+    {
+        "term": "apologist",
+        "definition": "변증론자,변론자"
+    },
+    {
+        "term": "apoplectic",
+        "definition": "성난,화난,뇌졸중에 걸린"
+    },
+    {
+        "term": "apostate",
+        "definition": "변절자;변절하는"
+    },
+    {
+        "term": "appeal",
+        "definition": "상소,항고"
+    },
+    {
+        "term": "appease",
+        "definition": "달래다,진정시키다,양보하다"
+    },
+    {
+        "term": "applaud",
+        "definition": "박수갈채를 보내다"
+    },
+    {
+        "term": "appreciable",
+        "definition": "상당한,쉽게 알아볼수있는"
+    },
+    {
+        "term": "apprehensible",
+        "definition": "이해하기 쉬운"
+    },
+    {
+        "term": "apprehensive",
+        "definition": "걱정하는,겁내는"
+    },
+    {
+        "term": "apprise",
+        "definition": "정보를 주다,알려주다"
+    },
+    {
+        "term": "approachable",
+        "definition": "친근한,말걸기쉬운"
+    },
+    {
+        "term": "approbation",
+        "definition": "승인,칭찬"
+    },
+    {
+        "term": "apropos",
+        "definition": "적절한,알맞은,시기 적절한"
+    },
+    {
+        "term": "aquatic",
+        "definition": "물의,수생의"
+    },
+    {
+        "term": "aqueous",
+        "definition": "물의,수성의,물을 함유한"
+    },
+    {
+        "term": "aquifer",
+        "definition": "대수층,지하수를 내장한 침투성 지층"
+    },
+    {
+        "term": "arbiter",
+        "definition": "중재자;판정권자"
+    },
+    {
+        "term": "arboreal",
+        "definition": "수목의, (동물) 나무위에 사는"
+    },
+    {
+        "term": "arboretum",
+        "definition": "수목원"
+    },
+    {
+        "term": "arcane",
+        "definition": "불가사의한,신비한"
+    },
+    {
+        "term": "archaic",
+        "definition": "고대의,고풍스러운,구식의"
+    },
+    {
+        "term": "archipelago",
+        "definition": "군도"
+    },
+    {
+        "term": "archive",
+        "definition": "기록모음,기록보관소"
+    },
+    {
+        "term": "ardent",
+        "definition": "열정적인"
+    },
+    {
+        "term": "argot",
+        "definition": "은어"
+    },
+    {
+        "term": "aridness",
+        "definition": "건조함"
+    },
+    {
+        "term": "arrest",
+        "definition": "진행을 막다;눈길을 끌다"
+    },
+    {
+        "term": "arrhythemic",
+        "definition": "리듬이 없는, 규칙성이나 반복이 없는"
+    },
+    {
+        "term": "arrogance",
+        "definition": "오만함"
+    },
+    {
+        "term": "articulate",
+        "definition": "말을 유창하고 조리 있게 하는"
+    },
+    {
+        "term": "artisan",
+        "definition": "기능공,숙련공,장인"
+    },
+    {
+        "term": "artless",
+        "definition": "꾸밈없는,솔직한;자연스러운;솜씨 없는,기교 없는"
+    },
+    {
+        "term": "ascendancy",
+        "definition": "영향력,우세함"
+    },
+    {
+        "term": "ascendant",
+        "definition": "상승하는,올라가는;(힘과 영향력)"
+    },
+    {
+        "term": "ascetic",
+        "definition": "금욕주의자"
+    },
+    {
+        "term": "ash",
+        "definition": "재"
+    },
+    {
+        "term": "aside",
+        "definition": "여담"
+    },
+    {
+        "term": "askew",
+        "definition": "휘어진"
+    },
+    {
+        "term": "aspersion",
+        "definition": "비방"
+    },
+    {
+        "term": "assembly",
+        "definition": "모임"
+    },
+    {
+        "term": "assiduous",
+        "definition": "끈기 있고 부지런한,꾸준한"
+    },
+    {
+        "term": "assuage",
+        "definition": "달래다,만족시키다"
+    },
+    {
+        "term": "assume",
+        "definition": "가정하다;(권력,의무)떠맡다;가장하다"
+    },
+    {
+        "term": "astringent",
+        "definition": "수렴제;신랄한,(맛,냄새)신,떫은"
+    },
+    {
+        "term": "asunder",
+        "definition": "분리된;나누어진"
+    },
+    {
+        "term": "asylum",
+        "definition": "(정치범,난민,정신병자 등의)보호시설, 피난처"
+    },
+    {
+        "term": "atrocious",
+        "definition": "극악무도한,아주 나쁜,매우 잔인한"
+    },
+    {
+        "term": "atrophy",
+        "definition": "신체 구성조직의 퇴화;약화,감소"
+    },
+    {
+        "term": "attentive",
+        "definition": "주의 깊은;상냥한,친절한"
+    },
+    {
+        "term": "attenuate",
+        "definition": "가늘게 하다,약화시키다"
+    },
+    {
+        "term": "attest",
+        "definition": "증명하다,증언하다,입증하다"
+    },
+    {
+        "term": "audacious",
+        "definition": "대담한,호기로운,무모한"
+    },
+    {
+        "term": "audit",
+        "definition": "(회계,장부)감사/검사하다"
+    },
+    {
+        "term": "augment",
+        "definition": "증가/증대시키다;증가하다"
+    },
+    {
+        "term": "auspicious",
+        "definition": "길조의,유리한"
+    },
+    {
+        "term": "autonomy",
+        "definition": "자율성,자치권,자립"
+    },
+    {
+        "term": "avarice",
+        "definition": "탐욕"
+    },
+    {
+        "term": "aversion",
+        "definition": "혐오감"
+    },
+    {
+        "term": "aviary",
+        "definition": "(큰)새장"
+    },
+    {
+        "term": "avid",
+        "definition": "몹시 탐내는;열심인,열광적인,열정적인"
+    },
+    {
+        "term": "awning",
+        "definition": "차양"
+    },
+    {
+        "term": "awry",
+        "definition": "휘어진"
+    },
+    {
+        "term": "babble",
+        "definition": "재잘거리다;옹알거리다"
+    },
+    {
+        "term": "badger",
+        "definition": "계속 괴롭히다;계속 졸라대다"
+    },
+    {
+        "term": "badinage",
+        "definition": "가벼운 농담"
+    },
+    {
+        "term": "baffle",
+        "definition": "당황하게 하다,어리둥절하게 하다"
+    },
+    {
+        "term": "bale",
+        "definition": "재앙;불운,고통,불행"
+    },
+    {
+        "term": "balk",
+        "definition": "주저하다,갑자기 서서 나아가지 않다;방해하다,막다,좌절시키다"
+    },
+    {
+        "term": "balky",
+        "definition": "고집 센,말을 안 듣는"
+    },
+    {
+        "term": "ballad",
+        "definition": "담시,노래"
+    },
+    {
+        "term": "ballast",
+        "definition": "배의 무게중심"
+    },
+    {
+        "term": "balm",
+        "definition": "향유,(피부,마음)진정제"
+    },
+    {
+        "term": "banal",
+        "definition": "진부한"
+    },
+    {
+        "term": "bane",
+        "definition": "고통의 근원;맹독"
+    },
+    {
+        "term": "banister",
+        "definition": "(계단 옆)난간"
+    },
+    {
+        "term": "barb",
+        "definition": "신랄한 비난"
+    },
+    {
+        "term": "barefaced",
+        "definition": "뻔뻔스런;숨김없는"
+    },
+    {
+        "term": "bark",
+        "definition": "나무껍질"
+    },
+    {
+        "term": "baroque",
+        "definition": "지나치게 장식적은,화려한"
+    },
+    {
+        "term": "barracks",
+        "definition": "군인들의 막사,병영,숙사"
+    },
+    {
+        "term": "barrel",
+        "definition": "쏜살같이 움직이다,질주하다"
+    },
+    {
+        "term": "barren",
+        "definition": "열매 맺지 않는,수확이 없는"
+    },
+    {
+        "term": "base",
+        "definition": "(도덕적으로)상스러운,천한,비열한"
+    },
+    {
+        "term": "batch",
+        "definition": "(과자) 한번 구워내는 양, 한다발, 한무리"
+    },
+    {
+        "term": "bauble",
+        "definition": "겉만 번지르르한 싸구려; 시시한 것"
+    },
+    {
+        "term": "bawdy",
+        "definition": "외설스런, 음탕한"
+    },
+    {
+        "term": "beacon",
+        "definition": "등대, 봉홧불"
+    },
+    {
+        "term": "beatific",
+        "definition": "축복을 주는, 행복을 주는"
+    },
+    {
+        "term": "bedecked",
+        "definition": "치장된, 장식된"
+    },
+    {
+        "term": "bedlam",
+        "definition": "소란스러운 곳; 대소동, 혼란"
+    },
+    {
+        "term": "befitting",
+        "definition": "안성맞춤의, 적합한"
+    },
+    {
+        "term": "befriend",
+        "definition": "친구가 되다"
+    },
+    {
+        "term": "befuddle",
+        "definition": "혼란스럽게 하다"
+    },
+    {
+        "term": "beguile",
+        "definition": "매혹시키다, 속이다, 기만하다"
+    },
+    {
+        "term": "beleaguer",
+        "definition": "괴롭히다; 포위 공격하다"
+    },
+    {
+        "term": "belie",
+        "definition": "잘못 드러내다, 모순되다"
+    },
+    {
+        "term": "bellicose",
+        "definition": "호전적인, 싸우기 좋아하는"
+    },
+    {
+        "term": "belligerent",
+        "definition": "호전적인, 전쟁 중에 있는"
+    },
+    {
+        "term": "bellwether",
+        "definition": "지도자, 선도자"
+    },
+    {
+        "term": "benediction",
+        "definition": "축복, 축도"
+    },
+    {
+        "term": "beneficence",
+        "definition": "선행, 자비"
+    },
+    {
+        "term": "benevolent",
+        "definition": "자비심 많은, 자선을 행하는"
+    },
+    {
+        "term": "benignant",
+        "definition": "친절한, 다정한, 유익한"
+    },
+    {
+        "term": "benumbed",
+        "definition": "무감해진"
+    },
+    {
+        "term": "berate",
+        "definition": "호되게 꾸짖다"
+    },
+    {
+        "term": "betray",
+        "definition": "배신하다, 배반하다; 은연중에 드러내다"
+    },
+    {
+        "term": "better",
+        "definition": "향상시키다; 더 나은"
+    },
+    {
+        "term": "bevy",
+        "definition": "무리, 떼"
+    },
+    {
+        "term": "bewitch",
+        "definition": "마술 걸다, 매혹시키다"
+    },
+    {
+        "term": "bibliography",
+        "definition": "도서목록, 문헌 목록"
+    },
+    {
+        "term": "bibliophile",
+        "definition": "애서가"
+    },
+    {
+        "term": "bifurcate",
+        "definition": "두 갈래로 가르다, 분기하다"
+    },
+    {
+        "term": "bigot",
+        "definition": "마음이 편협한 사람; 나와 생각, 종교, 사상 등이 다른 사람을 배척하는 사람"
+    },
+    {
+        "term": "bilious",
+        "definition": "극도로 불쾌한, 성미 까다로운"
+    },
+    {
+        "term": "bilk",
+        "definition": "(돈)사취하다, 속이다; 피하다; 좌절시키다, 막다"
+    },
+    {
+        "term": "biting",
+        "definition": "신랄한; 통렬한"
+    },
+    {
+        "term": "blandish",
+        "definition": "아부하는 말로 설득하다, 꼬드기다"
+    },
+    {
+        "term": "blanket",
+        "definition": "담요로 덮다, 전면을 덮다"
+    },
+    {
+        "term": "blatant",
+        "definition": "뻔한, 몹시 떠들썩한; 야단 법석의"
+    },
+    {
+        "term": "blazon",
+        "definition": "과시하다, 꾸미다"
+    },
+    {
+        "term": "blemish",
+        "definition": "흠; 도덕적 오점"
+    },
+    {
+        "term": "blight",
+        "definition": "고사시키다, 해를 입히다"
+    },
+    {
+        "term": "bliss",
+        "definition": "더 없는 기쁨, 행복"
+    },
+    {
+        "term": "blithe",
+        "definition": "경솔한, 부주의한;명랑한, 쾌활한"
+    },
+    {
+        "term": "blueprint",
+        "definition": "청사진"
+    },
+    {
+        "term": "blunt",
+        "definition": "직설적인, 무뚝뚝한, 퉁명스런; (칼이나 연필)뭉퉁하고 무딘; 날카롭지 않게 만들다"
+    },
+    {
+        "term": "blurb",
+        "definition": "짧은 광고, 선전문"
+    },
+    {
+        "term": "blurt",
+        "definition": "(말을)불쑥 내뱉다, 무심코 말하다"
+    },
+    {
+        "term": "blustering",
+        "definition": "호통치는"
+    },
+    {
+        "term": "boast",
+        "definition": "자랑하다"
+    },
+    {
+        "term": "boggle",
+        "definition": "깜짝 놀라게 하다, 압도하다;깜짝 놀라다, 움찔하다"
+    },
+    {
+        "term": "bogus",
+        "definition": "가짜의"
+    },
+    {
+        "term": "bolster",
+        "definition": "지탱하다, 지지하다, 강화하다"
+    },
+    {
+        "term": "bombastic",
+        "definition": "허풍 떠는"
+    },
+    {
+        "term": "boor",
+        "definition": "무례한 사람"
+    },
+    {
+        "term": "bootless",
+        "definition": "소용없는, 쓸모 없는"
+    },
+    {
+        "term": "brackish",
+        "definition": "짭짤한; 맛이 없는"
+    },
+    {
+        "term": "brake",
+        "definition": "제동장치"
+    },
+    {
+        "term": "brassy",
+        "definition": "뻔뻔스런, 철면피의"
+    },
+    {
+        "term": "brazen",
+        "definition": "파렴치한, 철면피의"
+    },
+    {
+        "term": "breezeway",
+        "definition": "(집과 차고 등을 연결하는) 지붕과 기둥만 있는 통로"
+    },
+    {
+        "term": "brevity",
+        "definition": "간결함"
+    },
+    {
+        "term": "bribe",
+        "definition": "뇌물 주다, 매수하다"
+    },
+    {
+        "term": "bristle",
+        "definition": "분연하게 성내다, 성나서 털이 쭈볏 서다"
+    },
+    {
+        "term": "broaden",
+        "definition": "확장시키다, 확장되다"
+    },
+    {
+        "term": "bromide",
+        "definition": "진부하고 상투적인 말"
+    },
+    {
+        "term": "brute",
+        "definition": "짐승 같은 사람, 망나니"
+    },
+    {
+        "term": "bucolic",
+        "definition": "전원적인"
+    },
+    {
+        "term": "budge",
+        "definition": "살짝 움직이다; 의견을 바꾸다"
+    },
+    {
+        "term": "bugle",
+        "definition": "군대 나팔"
+    },
+    {
+        "term": "bulge",
+        "definition": "돌출, 불룩함"
+    },
+    {
+        "term": "bully",
+        "definition": "불량배; 약한 자를 괴롭히는 사람"
+    },
+    {
+        "term": "bumptious",
+        "definition": "거만한, 오만한, 지나치게 자기주장이 강한"
+    },
+    {
+        "term": "bungalow",
+        "definition": "방갈로"
+    },
+    {
+        "term": "bungle",
+        "definition": "어설픈짓하다, 실수하다"
+    },
+    {
+        "term": "buoy",
+        "definition": "띄우다, 뜨다; 받치다; 기운을 북돋우다"
+    },
+    {
+        "term": "buoyant",
+        "definition": "부력이 있는, 기운찬, 명랑한"
+    },
+    {
+        "term": "burgeon",
+        "definition": "급성장하다"
+    },
+    {
+        "term": "burlesque",
+        "definition": "풍자극"
+    },
+    {
+        "term": "burly",
+        "definition": "건강한, 튼튼한"
+    },
+    {
+        "term": "burnish",
+        "definition": "닦아서 광내다"
+    },
+    {
+        "term": "bustle",
+        "definition": "활기, 붐빔, 소란스러움"
+    },
+    {
+        "term": "buttress",
+        "definition": "부벽; 지탱하다"
+    },
+    {
+        "term": "byline",
+        "definition": "(기사)필자란"
+    },
+    {
+        "term": "cabal",
+        "definition": "정치적 음모단, 비밀결사, 파벌"
+    },
+    {
+        "term": "cackle",
+        "definition": "(닭, 오리)꼬꼬댁 울다; 낄낄대며 웃다, 목소리 찢어지게 웃다"
+    },
+    {
+        "term": "cacophony",
+        "definition": "불협화음"
+    },
+    {
+        "term": "cagey",
+        "definition": "신중한"
+    },
+    {
+        "term": "cajole",
+        "definition": "감언으로 꼬셔서~하게 하다"
+    },
+    {
+        "term": "calamitous",
+        "definition": "재앙의, 불행한, 비참한"
+    },
+    {
+        "term": "calcify",
+        "definition": "석회화하다, 굳어지다"
+    },
+    {
+        "term": "calibrate",
+        "definition": "눈금을 매기다, 눈금을 정확히 조정하다"
+    },
+    {
+        "term": "callous",
+        "definition": "냉담한, 무감각한"
+    },
+    {
+        "term": "callow",
+        "definition": "미성숙한, 경험이 없는"
+    },
+    {
+        "term": "calumny",
+        "definition": "중상, 비방"
+    },
+    {
+        "term": "camaraderie",
+        "definition": "우정, 동지애"
+    },
+    {
+        "term": "cameo",
+        "definition": "(유명배우)우정출연; (보석) 카메오조각(양각)"
+    },
+    {
+        "term": "camouflage",
+        "definition": "위장, 속임"
+    },
+    {
+        "term": "canard",
+        "definition": "헛 소문, 지어낸 이야기"
+    },
+    {
+        "term": "candid",
+        "definition": "솔직한"
+    },
+    {
+        "term": "cane",
+        "definition": "사탕수수 나무줄기, 지팡이, 회초리"
+    },
+    {
+        "term": "canonical",
+        "definition": "권위로 인정된, 정통의"
+    },
+    {
+        "term": "canonize",
+        "definition": "권위 있는 것으로 인정하다, 찬양하다"
+    },
+    {
+        "term": "canopy",
+        "definition": "차양"
+    },
+    {
+        "term": "capitulate",
+        "definition": "복종하다, 항복하다"
+    },
+    {
+        "term": "capricious",
+        "definition": "변덕스러운"
+    },
+    {
+        "term": "captious",
+        "definition": "트집잡는, 반대하는"
+    },
+    {
+        "term": "captivate",
+        "definition": "매료시키다"
+    },
+    {
+        "term": "captor",
+        "definition": "포획자, 획득자"
+    },
+    {
+        "term": "carefree",
+        "definition": "걱정근심 없는, 속편한"
+    },
+    {
+        "term": "caretaker",
+        "definition": "임시로 직무를 맡은 (사람)"
+    },
+    {
+        "term": "careworn",
+        "definition": "걱정(고생)으로 초췌한"
+    },
+    {
+        "term": "carnal",
+        "definition": "육체적인"
+    },
+    {
+        "term": "carouse",
+        "definition": "흥청대며 마시다"
+    },
+    {
+        "term": "carpentry",
+        "definition": "목수일"
+    },
+    {
+        "term": "cartographer",
+        "definition": "지도제작자"
+    },
+    {
+        "term": "cascade",
+        "definition": "폭포처럼 떨어지다, 작은 폭포"
+    },
+    {
+        "term": "cast",
+        "definition": "출연배우들"
+    },
+    {
+        "term": "castigate",
+        "definition": "심하게 꾸짖다, 비난하다, 징계하다"
+    },
+    {
+        "term": "catalyze",
+        "definition": "촉매작용하다, 촉진시키다"
+    },
+    {
+        "term": "categorical",
+        "definition": "절대적인"
+    },
+    {
+        "term": "catholic",
+        "definition": "(취향이)폭넓은, 보편적인"
+    },
+    {
+        "term": "caustic",
+        "definition": "신랄한"
+    },
+    {
+        "term": "cavalier",
+        "definition": "건방진, 거만한"
+    },
+    {
+        "term": "cavil",
+        "definition": "트집잡다"
+    },
+    {
+        "term": "cavort",
+        "definition": "흥청거리며 탐닉하다, 뛰어다니다"
+    },
+    {
+        "term": "cede",
+        "definition": "포기하다, 양도하다, 할양하다"
+    },
+    {
+        "term": "celebrity",
+        "definition": "유명세, 유명인"
+    },
+    {
+        "term": "celerity",
+        "definition": "신속함"
+    },
+    {
+        "term": "cement",
+        "definition": "시멘트로 결합시키다, 접합시키다"
+    },
+    {
+        "term": "censure",
+        "definition": "비난하다"
+    },
+    {
+        "term": "central",
+        "definition": "중심의, 중요한, 필수의"
+    },
+    {
+        "term": "cessation",
+        "definition": "끝, 중지"
+    },
+    {
+        "term": "chagrin",
+        "definition": "원통함, 분함"
+    },
+    {
+        "term": "champion",
+        "definition": "옹호하다, 지지하다"
+    },
+    {
+        "term": "chaperone",
+        "definition": "사교계에 나오는 미혼 여성을 따라다니며 돌봐주는 부인"
+    },
+    {
+        "term": "charade",
+        "definition": "뻔한 거짓, 제스처게임"
+    },
+    {
+        "term": "charismatic",
+        "definition": "카리스마 있는"
+    },
+    {
+        "term": "charitable",
+        "definition": "자선을 베푸는, 관대한"
+    },
+    {
+        "term": "charlatan",
+        "definition": "허풍선이, 돌팔이, 사기꾼"
+    },
+    {
+        "term": "chary",
+        "definition": "조심하는; (금전관련) 신중한"
+    },
+    {
+        "term": "chasten",
+        "definition": "훈육하다, (마음을)정화시키다, 겸손하게 하다, 억제하다"
+    },
+    {
+        "term": "chateau",
+        "definition": "(프랑스)성"
+    },
+    {
+        "term": "chauvinism",
+        "definition": "맹목적인 애국심, 충성심"
+    },
+    {
+        "term": "cheeky",
+        "definition": "(사람, 언행) 건방진, 뻔뻔한"
+    },
+    {
+        "term": "chicanery",
+        "definition": "속임수"
+    },
+    {
+        "term": "chide",
+        "definition": "꾸짖다"
+    },
+    {
+        "term": "chimera",
+        "definition": "가공의 괴물, 가상"
+    },
+    {
+        "term": "chip",
+        "definition": "깨진 (돌, 나무)조각"
+    },
+    {
+        "term": "choir",
+        "definition": "합창단"
+    },
+    {
+        "term": "choleric",
+        "definition": "담즙질의, 화를 잘 내는"
+    },
+    {
+        "term": "chord",
+        "definition": "코드, 화음"
+    },
+    {
+        "term": "choreographer",
+        "definition": "안무가"
+    },
+    {
+        "term": "chuckle",
+        "definition": "킬킬 웃다, 소리 없이 웃다"
+    },
+    {
+        "term": "churl",
+        "definition": "무례한 사람, 구두쇠"
+    },
+    {
+        "term": "cipher",
+        "definition": "암호문"
+    },
+    {
+        "term": "circuity",
+        "definition": "우회, 돌아가기"
+    },
+    {
+        "term": "circumlocution",
+        "definition": "에둘러대기, 완곡어법, 다변"
+    },
+    {
+        "term": "circumscribe",
+        "definition": "제한하다"
+    },
+    {
+        "term": "circumspect",
+        "definition": "신중한, 주의 깊은, 깊이 생각하는, 용의주도한"
+    },
+    {
+        "term": "circumvent",
+        "definition": "피하다"
+    },
+    {
+        "term": "cistern",
+        "definition": "물탱크"
+    },
+    {
+        "term": "clairvoyant",
+        "definition": "천리안이 있는, 통찰력이 있는"
+    },
+    {
+        "term": "clandestine",
+        "definition": "비밀의, 은밀한"
+    },
+    {
+        "term": "clarion",
+        "definition": "(소리가) 크고 명료한"
+    },
+    {
+        "term": "clause",
+        "definition": "문장의 절"
+    },
+    {
+        "term": "clemency",
+        "definition": "자비, 관대함"
+    },
+    {
+        "term": "clich?",
+        "definition": "진부한 표현"
+    },
+    {
+        "term": "clinch",
+        "definition": "(못, 나사)고정시키다, 결말을 내다, 성사시키다"
+    },
+    {
+        "term": "clog",
+        "definition": "(움직임, 흐름)막다, (활동) 방해하다"
+    },
+    {
+        "term": "clout",
+        "definition": "영향력, 힘"
+    },
+    {
+        "term": "coagulant",
+        "definition": "(혈액 등) 응고제"
+    },
+    {
+        "term": "coalesce",
+        "definition": "합쳐지다, 하나가 되다"
+    },
+    {
+        "term": "coddle",
+        "definition": "관대하게 하다, 너그럽게 대하다"
+    },
+    {
+        "term": "cogent",
+        "definition": "설득력 있는"
+    },
+    {
+        "term": "cognizant",
+        "definition": "인식한, 알고 있는"
+    },
+    {
+        "term": "coherent",
+        "definition": "일관성 있는, 논리적인"
+    },
+    {
+        "term": "collapse",
+        "definition": "붕괴하다, 붕괴시키다"
+    },
+    {
+        "term": "colleague",
+        "definition": "동료"
+    },
+    {
+        "term": "collude",
+        "definition": "결탁, 공모하다"
+    },
+    {
+        "term": "commensurate",
+        "definition": "동등한, 같은 크기의, 균형 잡힌, 비례된"
+    },
+    {
+        "term": "commodious",
+        "definition": "넓은, 널찍한"
+    },
+    {
+        "term": "commonplace",
+        "definition": "진부한, 진부한 문구"
+    },
+    {
+        "term": "compendious",
+        "definition": "요점을 잘 잡은, 간결한"
+    },
+    {
+        "term": "competence",
+        "definition": "능력, 재능"
+    },
+    {
+        "term": "complacence",
+        "definition": "자기만족"
+    },
+    {
+        "term": "complaisant",
+        "definition": "기쁘게 해주려하는, 친절한, 정중한"
+    },
+    {
+        "term": "complement",
+        "definition": "보완하다, 보충"
+    },
+    {
+        "term": "comprehend",
+        "definition": "이해하다"
+    },
+    {
+        "term": "compromise",
+        "definition": "(명예,신용) 위태롭게 하다, 훼손하다"
+    },
+    {
+        "term": "compunction",
+        "definition": "양심의 가책"
+    },
+    {
+        "term": "concerted",
+        "definition": "협동/협의에 의한"
+    },
+    {
+        "term": "concession",
+        "definition": "시인, 양보"
+    },
+    {
+        "term": "conciliate",
+        "definition": "화해시키다, 중재하다, 조화시키다, 일치하다"
+    },
+    {
+        "term": "concord",
+        "definition": "일치, 조화, 화합"
+    },
+    {
+        "term": "concur",
+        "definition": "동의하다, 동시에 발생하다"
+    },
+    {
+        "term": "condensed",
+        "definition": "요약된"
+    },
+    {
+        "term": "condescend",
+        "definition": "생색내다, 오만하게 행동하다"
+    },
+    {
+        "term": "condolence",
+        "definition": "위로, 조의"
+    },
+    {
+        "term": "conducive",
+        "definition": "공헌하는, 도움이 되는"
+    },
+    {
+        "term": "confident",
+        "definition": "확신하는"
+    },
+    {
+        "term": "confine",
+        "definition": "제한하다, 가두다"
+    },
+    {
+        "term": "confluence",
+        "definition": "합류, 집합, 모임"
+    },
+    {
+        "term": "conform",
+        "definition": "(규칙, 관습) 따르다, 순응하다, 지키다"
+    },
+    {
+        "term": "confound",
+        "definition": "혼돈하다, 당황케 하다"
+    },
+    {
+        "term": "congeal",
+        "definition": "응결시키다, 경직시키다"
+    },
+    {
+        "term": "congenial",
+        "definition": "마음이 맞는, 같은 성질의, 상냥한"
+    },
+    {
+        "term": "congenital",
+        "definition": "선천성의"
+    },
+    {
+        "term": "congregate",
+        "definition": "모이다"
+    },
+    {
+        "term": "congruence",
+        "definition": "적합, 일치, 합동"
+    },
+    {
+        "term": "connive",
+        "definition": "공모하다"
+    },
+    {
+        "term": "connoisseur",
+        "definition": "미술품 전문가, 권위자"
+    },
+    {
+        "term": "consensus",
+        "definition": "합의, 동의"
+    },
+    {
+        "term": "console",
+        "definition": "위로하다"
+    },
+    {
+        "term": "consolidate",
+        "definition": "굳건하게 하다"
+    },
+    {
+        "term": "consonance",
+        "definition": "일치, 조화, 화음"
+    },
+    {
+        "term": "conspire",
+        "definition": "공모하다"
+    },
+    {
+        "term": "constellation",
+        "definition": "성단, 별자리"
+    },
+    {
+        "term": "consuming",
+        "definition": "(느낌) 절실히 느껴지는"
+    },
+    {
+        "term": "consummate",
+        "definition": "(기술,실력) 완전한, 완벽한"
+    },
+    {
+        "term": "contempt",
+        "definition": "경멸, 멸시"
+    },
+    {
+        "term": "contention",
+        "definition": "다툼 논쟁"
+    },
+    {
+        "term": "continuum",
+        "definition": "연속(체)"
+    },
+    {
+        "term": "contort",
+        "definition": "(몸이)휘다, 비틀어지다"
+    },
+    {
+        "term": "contravene",
+        "definition": "위반하다 모순되다 반박하다"
+    },
+    {
+        "term": "contretemps",
+        "definition": "뜻밖의 불운한 사건"
+    },
+    {
+        "term": "contrite",
+        "definition": "뉘우치는"
+    },
+    {
+        "term": "contrived",
+        "definition": "계획된, 의도된"
+    },
+    {
+        "term": "controvert",
+        "definition": "부인하다, 반박하다"
+    },
+    {
+        "term": "contumacious",
+        "definition": "고집 센"
+    },
+    {
+        "term": "conundrum",
+        "definition": "난제, 수수께끼"
+    },
+    {
+        "term": "convene",
+        "definition": "소집하다"
+    },
+    {
+        "term": "conventional",
+        "definition": "틀에박힌, 진부한, 평범한; 전통적인"
+    },
+    {
+        "term": "convergence",
+        "definition": "합침, 집함, 집중"
+    },
+    {
+        "term": "conversant",
+        "definition": "정통한"
+    },
+    {
+        "term": "convert",
+        "definition": "변형시키다, 바꾸다, 개종시키다"
+    },
+    {
+        "term": "convivial",
+        "definition": "연회를 좋아하는, 명랑한,"
+    },
+    {
+        "term": "convoke",
+        "definition": "소집하다"
+    },
+    {
+        "term": "convoluted",
+        "definition": "복잡한, 난해한"
+    },
+    {
+        "term": "coolheaded",
+        "definition": "냉정한, 침착한"
+    },
+    {
+        "term": "copious",
+        "definition": "풍부한, 많은"
+    },
+    {
+        "term": "cornucopia",
+        "definition": "풍부함(의 상징)"
+    },
+    {
+        "term": "coronation",
+        "definition": "대관식"
+    },
+    {
+        "term": "corporeal",
+        "definition": "육체적인, 물질적인"
+    },
+    {
+        "term": "corpulent",
+        "definition": "살찐, 뚱뚱한"
+    },
+    {
+        "term": "corrective",
+        "definition": "교정하는, 올바르게 하는"
+    },
+    {
+        "term": "correspond",
+        "definition": "부합하다. 상응하다."
+    },
+    {
+        "term": "corroborate",
+        "definition": "증명하다, 확증하다"
+    },
+    {
+        "term": "coruscate",
+        "definition": "반짝반짝 빛나다"
+    },
+    {
+        "term": "cosset",
+        "definition": "응석을 받아주다"
+    },
+    {
+        "term": "coterie",
+        "definition": "배타적인 집단"
+    },
+    {
+        "term": "countenance",
+        "definition": "찬성하다, 지지하다"
+    },
+    {
+        "term": "countless",
+        "definition": "무수히 많은"
+    },
+    {
+        "term": "court",
+        "definition": "호의를 얻으려 하다, 구애하다"
+    },
+    {
+        "term": "covetous",
+        "definition": "탐내는, 갈망하는"
+    },
+    {
+        "term": "cow",
+        "definition": "위협하다"
+    },
+    {
+        "term": "cower",
+        "definition": "두려워 움츠리다"
+    },
+    {
+        "term": "coy",
+        "definition": "부끄러운척하는"
+    },
+    {
+        "term": "cramped",
+        "definition": "답답한, 비좁고 갑갑한"
+    },
+    {
+        "term": "craven",
+        "definition": "비겁한, 비겁한 사람"
+    },
+    {
+        "term": "craving",
+        "definition": "갈망, 열망"
+    },
+    {
+        "term": "credence",
+        "definition": "신용, 신임"
+    },
+    {
+        "term": "credible",
+        "definition": "믿을만한"
+    },
+    {
+        "term": "credulous",
+        "definition": "잘 믿는 잘 속는"
+    },
+    {
+        "term": "creek",
+        "definition": "시내, 지류"
+    },
+    {
+        "term": "creep",
+        "definition": "살금살금 걷다"
+    },
+    {
+        "term": "crest",
+        "definition": "닭볏:(산 파도 등의) 최정상"
+    },
+    {
+        "term": "crestfallen",
+        "definition": "풀 죽은"
+    },
+    {
+        "term": "croon",
+        "definition": "낮은 목소리로 부드럽게 노래하다"
+    },
+    {
+        "term": "crotchety",
+        "definition": "화잘내는, 까다로운"
+    },
+    {
+        "term": "crouch",
+        "definition": "웅크리다"
+    },
+    {
+        "term": "crumb",
+        "definition": "빵 부스러기"
+    },
+    {
+        "term": "crumble",
+        "definition": "부숴지다, 가루가 되다"
+    },
+    {
+        "term": "crump",
+        "definition": "오독오독 씹다"
+    },
+    {
+        "term": "crust",
+        "definition": "빵 껍질"
+    },
+    {
+        "term": "crutch",
+        "definition": "목발"
+    },
+    {
+        "term": "crux",
+        "definition": "가장 중요한 점"
+    },
+    {
+        "term": "culpable",
+        "definition": "과실이 있는, 비난 받을만한"
+    },
+    {
+        "term": "cultivate",
+        "definition": "재배하다."
+    },
+    {
+        "term": "cunning",
+        "definition": "교활한, 교묘한"
+    },
+    {
+        "term": "curb",
+        "definition": "억제하다"
+    },
+    {
+        "term": "curmudgeon",
+        "definition": "심술궂은 사람"
+    },
+    {
+        "term": "curt",
+        "definition": "(말)퉁명스런"
+    },
+    {
+        "term": "curtail",
+        "definition": "단축하다, 줄이다;(비용) 절감하다"
+    },
+    {
+        "term": "dab",
+        "definition": "가볍게 살짝 바르다"
+    },
+    {
+        "term": "dabbler",
+        "definition": "취미로 하는 사람"
+    },
+    {
+        "term": "daft",
+        "definition": "어리석은, 미친"
+    },
+    {
+        "term": "dally",
+        "definition": "시간 낭비하다;가지고 놀다, 희롱하다"
+    },
+    {
+        "term": "damn",
+        "definition": "비난하다"
+    },
+    {
+        "term": "dampen",
+        "definition": "약화시키다, 찬물을 끼얹다"
+    },
+    {
+        "term": "dandy",
+        "definition": "지나치게 멋 부리는 남자"
+    },
+    {
+        "term": "dank",
+        "definition": "(불쾌하게)축축한"
+    },
+    {
+        "term": "dapper",
+        "definition": "말끔한"
+    },
+    {
+        "term": "dart",
+        "definition": "돌진하다"
+    },
+    {
+        "term": "dash",
+        "definition": "돌진하다: 활기, 원기"
+    },
+    {
+        "term": "dated",
+        "definition": "구식의, 오래된"
+    },
+    {
+        "term": "daunt",
+        "definition": "위협하다"
+    },
+    {
+        "term": "dauntless",
+        "definition": "겁 없는"
+    },
+    {
+        "term": "dawdler",
+        "definition": "게으름뱅이"
+    },
+    {
+        "term": "deadpan",
+        "definition": "무표정한"
+    },
+    {
+        "term": "debark",
+        "definition": "(비행기나 선박에서)내리다"
+    },
+    {
+        "term": "debase",
+        "definition": "(질, 가치) 저하시키다."
+    },
+    {
+        "term": "debauchery",
+        "definition": "방탕, 환락생활"
+    },
+    {
+        "term": "debilitate",
+        "definition": "쇠약하게 만들다"
+    },
+    {
+        "term": "debunk",
+        "definition": "(허구임을) 드러내다"
+    },
+    {
+        "term": "debut",
+        "definition": "(경력의)처음시작,"
+    },
+    {
+        "term": "decant",
+        "definition": "(포도주 등) 조심스럽게/가만히 따르다"
+    },
+    {
+        "term": "deceleration",
+        "definition": "감속"
+    },
+    {
+        "term": "decorum",
+        "definition": "단정함, 예의 바름"
+    },
+    {
+        "term": "decrepit",
+        "definition": "나이 들어 쇠약해진"
+    },
+    {
+        "term": "decry",
+        "definition": "공개적으로 비난하다"
+    },
+    {
+        "term": "defame",
+        "definition": "명예를 훼손하다"
+    },
+    {
+        "term": "defeasible",
+        "definition": "무효화할 수 있는"
+    },
+    {
+        "term": "deferential",
+        "definition": "공손한"
+    },
+    {
+        "term": "deferrable",
+        "definition": "미룰 수 있는"
+    },
+    {
+        "term": "deficiency",
+        "definition": "부족; 결점"
+    },
+    {
+        "term": "define",
+        "definition": "분명하게 묘사하다, 정의를 내리다"
+    },
+    {
+        "term": "definitive",
+        "definition": "명확한; 최종적인; 결론적인; 권위 있고 완전한"
+    },
+    {
+        "term": "deflate",
+        "definition": "수축시키다; 풀 죽게 하다"
+    },
+    {
+        "term": "defray",
+        "definition": "(비용 등을) 부담하다"
+    },
+    {
+        "term": "deft",
+        "definition": "솜씨 좋은, 민첩한"
+    },
+    {
+        "term": "defuse",
+        "definition": "뇌관을 제거하다; (긴장 등을) 완화시키다"
+    },
+    {
+        "term": "defy",
+        "definition": "(공공연하게) 저항/도전하다, 불복종하다"
+    },
+    {
+        "term": "dehydrate",
+        "definition": "건조시키다, 탈수시키다"
+    },
+    {
+        "term": "deification",
+        "definition": "신성화, 신격화"
+    },
+    {
+        "term": "deject",
+        "definition": "낙담시키다"
+    },
+    {
+        "term": "delectable",
+        "definition": "맛있는"
+    },
+    {
+        "term": "delegate",
+        "definition": "위임하다; (회의) 대표로 파견하다"
+    },
+    {
+        "term": "deleterious",
+        "definition": "해로운"
+    },
+    {
+        "term": "deliberation",
+        "definition": "심사숙고, 합의, 토의"
+    },
+    {
+        "term": "delineate",
+        "definition": "정확하게 묘사하다"
+    },
+    {
+        "term": "delude",
+        "definition": "속이다"
+    },
+    {
+        "term": "demography",
+        "definition": "인구학, 인구구성"
+    },
+    {
+        "term": "demolish",
+        "definition": "파괴하다"
+    },
+    {
+        "term": "demoralize",
+        "definition": "사기를 꺾다"
+    },
+    {
+        "term": "demote",
+        "definition": "강등시키다"
+    },
+    {
+        "term": "demur",
+        "definition": "반대하다"
+    },
+    {
+        "term": "demure",
+        "definition": "얌전한, 조신한"
+    },
+    {
+        "term": "demurrable",
+        "definition": "이의를 주장할 수 있는"
+    },
+    {
+        "term": "demystify",
+        "definition": "명확하게 설명하다"
+    },
+    {
+        "term": "denounce",
+        "definition": "공공연히 비난하다; (조약) 폐기를 선언하다"
+    },
+    {
+        "term": "denseness",
+        "definition": "조밀함"
+    },
+    {
+        "term": "denture",
+        "definition": "의치(한 벌)"
+    },
+    {
+        "term": "denude",
+        "definition": "벌거벗기다"
+    },
+    {
+        "term": "denunciate",
+        "definition": "공공연히 비난하다"
+    },
+    {
+        "term": "deplete",
+        "definition": "고갈시키다"
+    },
+    {
+        "term": "deplore",
+        "definition": "비난하다; 개탄하다"
+    },
+    {
+        "term": "deprecate",
+        "definition": "비난하다; 반대하다"
+    },
+    {
+        "term": "depreciate",
+        "definition": "평가절하하다; (가치) 떨어뜨리다"
+    },
+    {
+        "term": "deracinate",
+        "definition": "뿌리째 뽑아버리다; 근절하다"
+    },
+    {
+        "term": "derelict",
+        "definition": "태만한, 나태한; (건물) 방치된, 버려진"
+    },
+    {
+        "term": "derogate",
+        "definition": "비하하다, 격하시키다"
+    },
+    {
+        "term": "desecrate",
+        "definition": "신성을 모독하다"
+    },
+    {
+        "term": "desiccate",
+        "definition": "건조시키다"
+    },
+    {
+        "term": "desist",
+        "definition": "멈추다; 삼가다"
+    },
+    {
+        "term": "despicable",
+        "definition": "경멸스러운, 비열한, 야비한"
+    },
+    {
+        "term": "despise",
+        "definition": "경멸하다"
+    },
+    {
+        "term": "despondent",
+        "definition": "낙심한, 풀죽은"
+    },
+    {
+        "term": "desultory",
+        "definition": "계획 없는, 목적 없는"
+    },
+    {
+        "term": "detain",
+        "definition": "붙들다, 지체시키다; 구류하다"
+    },
+    {
+        "term": "deteriorate",
+        "definition": "악화시키다, 손상시키다"
+    },
+    {
+        "term": "determinative",
+        "definition": "결정적인"
+    },
+    {
+        "term": "deterministic",
+        "definition": "결정론의, 결정론적인"
+    },
+    {
+        "term": "deterrence",
+        "definition": "단념시키는 것"
+    },
+    {
+        "term": "detour",
+        "definition": "우회하다"
+    },
+    {
+        "term": "deviate",
+        "definition": "이탈하다, 일탈하다"
+    },
+    {
+        "term": "devious",
+        "definition": "부정한 방법을 쓰는; 돌아가는, 우회하는"
+    },
+    {
+        "term": "devitalize",
+        "definition": "활력을 빼앗다, 약화시키다"
+    },
+    {
+        "term": "dexterous",
+        "definition": "솜씨 좋은, 능숙한"
+    },
+    {
+        "term": "diabolic",
+        "definition": "악마 같은"
+    },
+    {
+        "term": "diagnose",
+        "definition": "진단하다"
+    },
+    {
+        "term": "diaphanous",
+        "definition": "(천이) 얇은, 비치는; (생각) 확실하지 않은, (가능성) 희박한"
+    },
+    {
+        "term": "diatribe",
+        "definition": "통렬한 비난, 혹평"
+    },
+    {
+        "term": "dicey",
+        "definition": "예측할 수 없는, 잠재적으로 위험한"
+    },
+    {
+        "term": "didactic",
+        "definition": "가르치기 위한, 교훈적인, 설교적인"
+    },
+    {
+        "term": "diehard",
+        "definition": "완강하게 저항하는; 완고한 보수주의자"
+    },
+    {
+        "term": "diffident",
+        "definition": "자신 없는, 기가 죽은, 수줍어하는"
+    },
+    {
+        "term": "diffuse",
+        "definition": "퍼뜨리다, 확산시키다"
+    },
+    {
+        "term": "digit",
+        "definition": "손가락 또는 발가락"
+    },
+    {
+        "term": "digress",
+        "definition": "(주제에서) 벗어나다"
+    },
+    {
+        "term": "dike",
+        "definition": "제방"
+    },
+    {
+        "term": "dilapidated",
+        "definition": "낡은"
+    },
+    {
+        "term": "dilate",
+        "definition": "확장되다; 장황하게 말하다"
+    },
+    {
+        "term": "dilatory",
+        "definition": "행동이 느린, 늑장부리는"
+    },
+    {
+        "term": "dilettante",
+        "definition": "아마추어 (예술가)"
+    },
+    {
+        "term": "dilute",
+        "definition": "묽게 하다, 약화시키다"
+    },
+    {
+        "term": "diminution",
+        "definition": "축소, 감소"
+    },
+    {
+        "term": "din",
+        "definition": "소음"
+    },
+    {
+        "term": "diplomatic",
+        "definition": "(사람 다루는 데에) 능숙한, 능란한"
+    },
+    {
+        "term": "dire",
+        "definition": "끔찍한, 불길한"
+    },
+    {
+        "term": "dirge",
+        "definition": "만가, 비가"
+    },
+    {
+        "term": "disabuse",
+        "definition": "(그릇된 생각) 바로잡다, (오해) 풀어주다"
+    },
+    {
+        "term": "disaffect",
+        "definition": "정떨어지게 하다; 불만을 품게 하다"
+    },
+    {
+        "term": "disarm",
+        "definition": "적개심을 제거하다; 무장해제시키다"
+    },
+    {
+        "term": "disavow",
+        "definition": "부인하다, 거부하다, 의절하다"
+    },
+    {
+        "term": "discern",
+        "definition": "알아보다, 이해하다, 분별하다"
+    },
+    {
+        "term": "discernment",
+        "definition": "인식력, 분별력, 판단력"
+    },
+    {
+        "term": "disclosure",
+        "definition": "폭로"
+    },
+    {
+        "term": "discombobulate",
+        "definition": "혼란스럽게 하다"
+    },
+    {
+        "term": "discomfit",
+        "definition": "당황하게 하다"
+    },
+    {
+        "term": "discommode",
+        "definition": "폐를 끼치다"
+    },
+    {
+        "term": "discompose",
+        "definition": "마음을 불안케 하다, 마음의 평정을 빼앗다"
+    },
+    {
+        "term": "disconcerted",
+        "definition": "마음이 혼란스런"
+    },
+    {
+        "term": "discordant",
+        "definition": "불협화음의, 조화를 이루지 못하는"
+    },
+    {
+        "term": "discreditable",
+        "definition": "불명예스러운, 비난 받을만한"
+    },
+    {
+        "term": "discreet",
+        "definition": "신중한, 조심스러운"
+    },
+    {
+        "term": "discrepancy",
+        "definition": "불일치, 차이, 어긋남"
+    },
+    {
+        "term": "discretionary",
+        "definition": "재량껏 할 수 있는"
+    },
+    {
+        "term": "discursive",
+        "definition": "산만한, 종작없는"
+    },
+    {
+        "term": "disembarrass",
+        "definition": "(짐, 장애, 걱정 등에서) 해방하다"
+    },
+    {
+        "term": "disgruntle(d)",
+        "definition": "화난, 불만족한"
+    },
+    {
+        "term": "disguise",
+        "definition": "위장하다"
+    },
+    {
+        "term": "disillusion",
+        "definition": "몽상이나 잘못된 믿음에서 깨어나게 하다"
+    },
+    {
+        "term": "disinclined",
+        "definition": "하기 싫은, 내키지 않는"
+    },
+    {
+        "term": "disinfect",
+        "definition": "살균 소독하다"
+    },
+    {
+        "term": "disingenuous",
+        "definition": "솔직하지 않은, 부정직한"
+    },
+    {
+        "term": "disintegrate",
+        "definition": "해체시키다, 해체하다"
+    },
+    {
+        "term": "disjunctive",
+        "definition": "연관성이 결여된, 분리하는, 분리성의"
+    },
+    {
+        "term": "dislocate",
+        "definition": "(관절)탈구시키다;위치를 바꾸다,뒤죽박죽으로 만들다, 교란시키다"
+    },
+    {
+        "term": "dismay",
+        "definition": "쩔쩔매게 하다, 용기(열정)를 잃게하다; 놀라게 하다"
+    },
+    {
+        "term": "dismount",
+        "definition": "(말 등에서) 내리다"
+    },
+    {
+        "term": "disparage",
+        "definition": "깎아내리다, 깔보다, 비난하다"
+    },
+    {
+        "term": "disparate",
+        "definition": "본직적으로 다른"
+    },
+    {
+        "term": "dispassionate",
+        "definition": "감정에 휘둘리지 않는, 냉정한;편견 없는, 공평한"
+    },
+    {
+        "term": "dispirit",
+        "definition": "(열정, 사기, 희망 등을)잃게 하다"
+    },
+    {
+        "term": "displace",
+        "definition": "(위치)옮기다, 바꾸다; 강제 이주시키다"
+    },
+    {
+        "term": "displeasant",
+        "definition": "불쾌감을 주는"
+    },
+    {
+        "term": "disposition",
+        "definition": "기질"
+    },
+    {
+        "term": "disputable",
+        "definition": "논쟁의 여지가 있는"
+    },
+    {
+        "term": "dissect",
+        "definition": "(표본)해부하다"
+    },
+    {
+        "term": "dissemble",
+        "definition": "가장하다"
+    },
+    {
+        "term": "dissent",
+        "definition": "의견을 달리하다, 동의하지 않다"
+    },
+    {
+        "term": "dissipate",
+        "definition": "흩어지게 하다"
+    },
+    {
+        "term": "dissuade",
+        "definition": "하지 않도록 설득하다"
+    },
+    {
+        "term": "distend",
+        "definition": "부풀게 하다"
+    },
+    {
+        "term": "distill",
+        "definition": "증류하다"
+    },
+    {
+        "term": "distract",
+        "definition": "집중하지 못하게 하다"
+    },
+    {
+        "term": "ditch",
+        "definition": "수로, 도랑, 배수구"
+    },
+    {
+        "term": "dither",
+        "definition": "마음이 오락가락하다, 불안, 초조"
+    },
+    {
+        "term": "divulge",
+        "definition": "누설하다, 폭로하다"
+    },
+    {
+        "term": "doctrine",
+        "definition": "정설, 원칙"
+    },
+    {
+        "term": "dodder",
+        "definition": "(나이 들어서)비틀거리다, 비틀거리며 걷다"
+    },
+    {
+        "term": "dodge",
+        "definition": "피하다"
+    },
+    {
+        "term": "dogged",
+        "definition": "끈질긴, 끈덕진"
+    },
+    {
+        "term": "doggerel",
+        "definition": "엉터리 시"
+    },
+    {
+        "term": "dolorous",
+        "definition": "슬픈, 고통스러운"
+    },
+    {
+        "term": "domicile",
+        "definition": "거주지, 집"
+    },
+    {
+        "term": "domineering",
+        "definition": "오만한, 폭군적인"
+    },
+    {
+        "term": "dormant",
+        "definition": "활동이 없는;동면 기에 있는;잠재적인"
+    },
+    {
+        "term": "dose",
+        "definition": "일회복용량"
+    },
+    {
+        "term": "douse",
+        "definition": "(물)끼얹다/불을 끄다"
+    },
+    {
+        "term": "downgrade",
+        "definition": "강등시키다"
+    },
+    {
+        "term": "downplay",
+        "definition": "얕보다, 중시하지 않다"
+    },
+    {
+        "term": "doze",
+        "definition": "선잠 들다"
+    },
+    {
+        "term": "draconian",
+        "definition": "가혹한, 아주 엄격한"
+    },
+    {
+        "term": "drain",
+        "definition": "서서히 배출하다, 물기 없애다"
+    },
+    {
+        "term": "dramatic",
+        "definition": "극적인, 인상적인,"
+    },
+    {
+        "term": "drawl",
+        "definition": "모음을 늘여서 천천히 말하다"
+    },
+    {
+        "term": "dredge",
+        "definition": "물바닥등을 긁어내다, 준설하다"
+    },
+    {
+        "term": "drench",
+        "definition": "흠뻑 적시다"
+    },
+    {
+        "term": "drivel",
+        "definition": "허튼 소리"
+    },
+    {
+        "term": "droll",
+        "definition": "까부는, 우스꽝스런"
+    },
+    {
+        "term": "drone",
+        "definition": "단조롭게 말하다"
+    },
+    {
+        "term": "drop cloth",
+        "definition": "(페인트칠을 할 때)방을막이천"
+    },
+    {
+        "term": "dross",
+        "definition": "녹은 금속의 찌꺼기;납동, 물때;가치 없는 것"
+    },
+    {
+        "term": "drudgery",
+        "definition": "허드렛일"
+    },
+    {
+        "term": "dubious",
+        "definition": "의심하는, 의심스러운"
+    },
+    {
+        "term": "ductile",
+        "definition": "순종적인;(금속)두드려 변형시킬 수 있는, 가소성의"
+    },
+    {
+        "term": "dulcet",
+        "definition": "(소리가)감미로운"
+    },
+    {
+        "term": "duly",
+        "definition": "적절하게, 적당하게"
+    },
+    {
+        "term": "dupe",
+        "definition": "속이다"
+    },
+    {
+        "term": "duplicity",
+        "definition": "속이는 행위, 표리부동"
+    },
+    {
+        "term": "dynamo",
+        "definition": "에너지가 넘치는 사람, 정력가"
+    },
+    {
+        "term": "earmark",
+        "definition": "(자금, 물건 등을)특정용도로 지정하다"
+    },
+    {
+        "term": "earthly",
+        "definition": "세속적인, 지상의"
+    },
+    {
+        "term": "eatable",
+        "definition": "(음식)먹을 수 있는"
+    },
+    {
+        "term": "eavesdrop",
+        "definition": "몰래 엿듣다"
+    },
+    {
+        "term": "ebullient",
+        "definition": "쾌활한, 활력 있는;비등하는"
+    },
+    {
+        "term": "eccentric",
+        "definition": "별난, 엉뚱한"
+    },
+    {
+        "term": "echelon",
+        "definition": "위계질서;계층, 명령체계"
+    },
+    {
+        "term": "eclipse",
+        "definition": "일식;명예, 권위 등을 실추시키다;명성의 상실, 권위의 추락"
+    },
+    {
+        "term": "ecumenical",
+        "definition": "보편적인, 전반적인"
+    },
+    {
+        "term": "edit",
+        "definition": "편집하다"
+    },
+    {
+        "term": "efface",
+        "definition": "삭제하다, 지워 없애다;눈에 띄지 않게 행동하다"
+    },
+    {
+        "term": "effervescence",
+        "definition": "쾌활함, 활기, 기운이 넘침"
+    },
+    {
+        "term": "effete",
+        "definition": "활력 없는"
+    },
+    {
+        "term": "effusive",
+        "definition": "(감정)넘쳐흐르는, 토로하는"
+    },
+    {
+        "term": "egoism",
+        "definition": "이기주의"
+    },
+    {
+        "term": "eidetic",
+        "definition": "선명한, 생생한"
+    },
+    {
+        "term": "elaborate",
+        "definition": "복잡한, 정교한"
+    },
+    {
+        "term": "elastic",
+        "definition": "탄력 있는"
+    },
+    {
+        "term": "elated",
+        "definition": "아주 즐거워하는, 기뻐하는"
+    },
+    {
+        "term": "elective",
+        "definition": "선출의;선출권이 있는;선택적인"
+    },
+    {
+        "term": "electricity",
+        "definition": "강한 흥분, 격한 감정"
+    },
+    {
+        "term": "elegy",
+        "definition": "애시,애가"
+    },
+    {
+        "term": "elemental",
+        "definition": "기본적인"
+    },
+    {
+        "term": "elevation",
+        "definition": "상승, 높아짐"
+    },
+    {
+        "term": "eliminate",
+        "definition": "제거하다"
+    },
+    {
+        "term": "elliptical",
+        "definition": "생략적인;(의미)지나치게 생략된, 모호한"
+    },
+    {
+        "term": "elongate",
+        "definition": "(길이)늘이다, 연장하다"
+    },
+    {
+        "term": "elucidate",
+        "definition": "(명확히)설명하다"
+    },
+    {
+        "term": "elusive",
+        "definition": "(이해, 정의) 힘든, 피하는, 잡히지 않는"
+    },
+    {
+        "term": "emaciated",
+        "definition": "쇠약해진, 수척한"
+    },
+    {
+        "term": "emanate",
+        "definition": "발산하다"
+    },
+    {
+        "term": "embezzle",
+        "definition": "횡령하다"
+    },
+    {
+        "term": "embolden",
+        "definition": "대담하게 하다"
+    },
+    {
+        "term": "embrace",
+        "definition": "포용하다, (생각, 의견)채택하다"
+    },
+    {
+        "term": "emergence",
+        "definition": "출현, 부상, 발생"
+    },
+    {
+        "term": "eminent",
+        "definition": "저명한, 유명한"
+    },
+    {
+        "term": "emollient",
+        "definition": "피부연화제, 완화제"
+    },
+    {
+        "term": "empathetic",
+        "definition": "감정이입의"
+    },
+    {
+        "term": "empirical",
+        "definition": "경험적인"
+    },
+    {
+        "term": "emporium",
+        "definition": "큰 상점;상업중심지, 시장"
+    },
+    {
+        "term": "emulation",
+        "definition": "경쟁의식, 모범으로 삼음;흉내내기"
+    },
+    {
+        "term": "enchant",
+        "definition": "황홀하게 하다, 매혹시키다"
+    },
+    {
+        "term": "encoded",
+        "definition": "암호화된"
+    },
+    {
+        "term": "encomiast",
+        "definition": "칭송하는 자"
+    },
+    {
+        "term": "encomium",
+        "definition": "찬사, 칭찬하는 말"
+    },
+    {
+        "term": "encompass",
+        "definition": "둘러싸다, 포위하다, 포함하다"
+    },
+    {
+        "term": "encumber",
+        "definition": "짐 지우다;막다, 방해하다"
+    },
+    {
+        "term": "encyclopedic",
+        "definition": "포괄적인, 백과사전식인, 해박한"
+    },
+    {
+        "term": "endeavor",
+        "definition": "노력"
+    },
+    {
+        "term": "endorse",
+        "definition": "승인하다, 지지하다, 보증하다, 배서하다"
+    },
+    {
+        "term": "endow",
+        "definition": "기부하다;주다, 부여하다"
+    },
+    {
+        "term": "enduring",
+        "definition": "지속적인"
+    },
+    {
+        "term": "energetic",
+        "definition": "활력 있는"
+    },
+    {
+        "term": "enervate",
+        "definition": "약화시키다"
+    },
+    {
+        "term": "enfeeble",
+        "definition": "약화시키다"
+    },
+    {
+        "term": "enfranchise",
+        "definition": "투표권을 주다;자유롭게 해주다"
+    },
+    {
+        "term": "engrossed",
+        "definition": "몰두한"
+    },
+    {
+        "term": "enhearten",
+        "definition": "용기를 북돋우다"
+    },
+    {
+        "term": "enigmatic",
+        "definition": "난해한"
+    },
+    {
+        "term": "enmity",
+        "definition": "적대감"
+    },
+    {
+        "term": "ennui",
+        "definition": "권태"
+    },
+    {
+        "term": "enraptured",
+        "definition": "기뻐서 어쩔 줄 모르는"
+    },
+    {
+        "term": "enrich",
+        "definition": "부유하게 만들다; 향상시키다"
+    },
+    {
+        "term": "ensconce",
+        "definition": "안전한 곳에 두다, 감추다, 숨기다 ;편히 앉히다"
+    },
+    {
+        "term": "ensue",
+        "definition": "뒤따라 발생하다"
+    },
+    {
+        "term": "entangle",
+        "definition": "뒤엉키게 하다, 복잡하게 만들다"
+    },
+    {
+        "term": "enthrall",
+        "definition": "마음을 사로잡다; 노예로 만들다"
+    },
+    {
+        "term": "entice",
+        "definition": "유혹하다"
+    },
+    {
+        "term": "entrammel",
+        "definition": "얽히게 하다, 구속하다, 방해하다"
+    },
+    {
+        "term": "entrance",
+        "definition": "매료시키다"
+    },
+    {
+        "term": "entrenched",
+        "definition": "굳어진"
+    },
+    {
+        "term": "enunciate",
+        "definition": "명확히 표현/설명/발음하다"
+    },
+    {
+        "term": "envy",
+        "definition": "부러워하다, 탐내다"
+    },
+    {
+        "term": "ephemeral",
+        "definition": "일시적인, 덧없는"
+    },
+    {
+        "term": "epic",
+        "definition": "서사시; 서사시적인, 웅장한, 대규모의"
+    },
+    {
+        "term": "epicenter",
+        "definition": "(지진) 진앙, 진원지 ; 중심점"
+    },
+    {
+        "term": "epilogue",
+        "definition": "끝맺음말, 에필로그"
+    },
+    {
+        "term": "epistemology",
+        "definition": "인식론"
+    },
+    {
+        "term": "epitomize",
+        "definition": "요약하다; 완벽한 예가 된다"
+    },
+    {
+        "term": "eponymous",
+        "definition": "#NAME?"
+    },
+    {
+        "term": "equable",
+        "definition": "침착한, 차분한; 한결같은, 안정된"
+    },
+    {
+        "term": "equitable",
+        "definition": "공정한, 공평한"
+    },
+    {
+        "term": "equivocal",
+        "definition": "애매한"
+    },
+    {
+        "term": "equivocate",
+        "definition": "애매하게 둘러대다"
+    },
+    {
+        "term": "era",
+        "definition": "시대, 시기, 연대"
+    },
+    {
+        "term": "erratic",
+        "definition": "변덕스런, 일정하지 않은;비정상적인"
+    },
+    {
+        "term": "erudite",
+        "definition": "박식한"
+    },
+    {
+        "term": "escalate",
+        "definition": "증대시키다, 고조되다"
+    },
+    {
+        "term": "eschew",
+        "definition": "피하다"
+    },
+    {
+        "term": "esoteric",
+        "definition": "난해한, 소수만 아는"
+    },
+    {
+        "term": "esteem",
+        "definition": "존경, 존중, 호의적 평가"
+    },
+    {
+        "term": "estimable",
+        "definition": "존경 받을 만한"
+    },
+    {
+        "term": "estrange",
+        "definition": "(관계) 소원하게 하다"
+    },
+    {
+        "term": "ethereal",
+        "definition": "천상의, 영적인; 가볍고 섬세한"
+    },
+    {
+        "term": "etymology",
+        "definition": "어원, 어원 학"
+    },
+    {
+        "term": "eulogy",
+        "definition": "칭송, 찬양, 송덕문"
+    },
+    {
+        "term": "euphemism",
+        "definition": "완곡어법"
+    },
+    {
+        "term": "euphoria",
+        "definition": "(강한)행복감"
+    },
+    {
+        "term": "evanescent",
+        "definition": "사라지는"
+    },
+    {
+        "term": "evasive",
+        "definition": "회피하는, 솔직하지 않은"
+    },
+    {
+        "term": "even-handed",
+        "definition": "공정한, 공평한"
+    },
+    {
+        "term": "everlasting",
+        "definition": "영원히, 영속적인"
+    },
+    {
+        "term": "everyday",
+        "definition": "일상적인"
+    },
+    {
+        "term": "evict",
+        "definition": "퇴거시키다, 내쫓다"
+    },
+    {
+        "term": "evince",
+        "definition": "분명히 나타내다, 명시하다"
+    },
+    {
+        "term": "evoke",
+        "definition": "(감정) 불러일으키다; (반응) 이끌어내다"
+    },
+    {
+        "term": "exacerbate",
+        "definition": "악화시키다"
+    },
+    {
+        "term": "exacting",
+        "definition": "정확한;엄격한"
+    },
+    {
+        "term": "exalt",
+        "definition": "칭송하다, 높이다; 고상하게 하다"
+    },
+    {
+        "term": "excise",
+        "definition": "잘라내다, 삭제하다"
+    },
+    {
+        "term": "excoriate",
+        "definition": "심하게 비난하다"
+    },
+    {
+        "term": "excruciate",
+        "definition": "심한 고통을 주다, 괴롭히다"
+    },
+    {
+        "term": "exculpate",
+        "definition": "협의를 벗겨주다, 무죄로 하다"
+    },
+    {
+        "term": "execrable",
+        "definition": "혐오스러운, 형편없는"
+    },
+    {
+        "term": "execrate",
+        "definition": "혐오하다, 비난하다"
+    },
+    {
+        "term": "exemplar",
+        "definition": "전형, 모범"
+    },
+    {
+        "term": "exemption",
+        "definition": "면제"
+    },
+    {
+        "term": "exhaust",
+        "definition": "기진맥진하게 하다"
+    },
+    {
+        "term": "exhaustive",
+        "definition": "포괄적인; 철저한"
+    },
+    {
+        "term": "exhort",
+        "definition": "강요하다, 강권하다"
+    },
+    {
+        "term": "exodus",
+        "definition": "대 탈출"
+    },
+    {
+        "term": "exonerate",
+        "definition": "용서하다, 면제하다"
+    },
+    {
+        "term": "expedient",
+        "definition": "편의주의적인; 신속한"
+    },
+    {
+        "term": "expedite",
+        "definition": "촉진시키다, 추진하다, 신속히 처리하다"
+    },
+    {
+        "term": "expeditious",
+        "definition": "신속한"
+    },
+    {
+        "term": "exploit",
+        "definition": "위업, 업적; 이용하다, 착취하다"
+    },
+    {
+        "term": "exponent",
+        "definition": "지지자"
+    },
+    {
+        "term": "extant",
+        "definition": "현존하는"
+    },
+    {
+        "term": "extemporaneous",
+        "definition": "즉흥적인, 계획 없이 이루어진"
+    },
+    {
+        "term": "extend",
+        "definition": "확장하다, (범위, 정도) 넓히다"
+    },
+    {
+        "term": "extenuate",
+        "definition": "(죄, 과실) 경감시키다, 가볍게 하다; 야위게 하다"
+    },
+    {
+        "term": "extinguish",
+        "definition": "불을 끄다"
+    },
+    {
+        "term": "extol",
+        "definition": "극찬하다"
+    },
+    {
+        "term": "extraneous",
+        "definition": "관련 없는"
+    },
+    {
+        "term": "extricate",
+        "definition": "(위험, 곤란에서) 벗어나게 하다, 구해내다, 빼내주다"
+    },
+    {
+        "term": "extrinsic",
+        "definition": "비본질적인, 외래의, 외부의"
+    },
+    {
+        "term": "exuberant",
+        "definition": "열의에 찬, 열광적인, 원기 왕성한, 활력적인"
+    },
+    {
+        "term": "exude",
+        "definition": "스며 나오게 하다, 발산시키다"
+    },
+    {
+        "term": "exultant",
+        "definition": "뛸 뜻이 기뻐하는"
+    },
+    {
+        "term": "fabricate",
+        "definition": "만들어내다, 꾸며내다; 제조하다, 조립하다"
+    },
+    {
+        "term": "facet",
+        "definition": "사물의 한 면상, 특성; (보석 등) 마면, 평면"
+    },
+    {
+        "term": "facetious",
+        "definition": "익살스런, 웃기는; 가벼운"
+    },
+    {
+        "term": "facile",
+        "definition": "피상적인; 손쉬운, 용이한"
+    },
+    {
+        "term": "facilitate",
+        "definition": "용이하게 하다"
+    },
+    {
+        "term": "factious",
+        "definition": "당파싸움을 좋아하는, 당파의"
+    },
+    {
+        "term": "fail-safe",
+        "definition": "(고장에 대비하여) 안전장치를 갖춘"
+    },
+    {
+        "term": "fallacy",
+        "definition": "잘못된 생각, 그릇된 논리, 궤변"
+    },
+    {
+        "term": "falter",
+        "definition": "주저하다, 비틀거리다"
+    },
+    {
+        "term": "fanatic",
+        "definition": "열성적인"
+    },
+    {
+        "term": "fantastic",
+        "definition": "비현실적인"
+    },
+    {
+        "term": "farcical",
+        "definition": "우스꽝스런"
+    },
+    {
+        "term": "fascinate",
+        "definition": "매료시키다"
+    },
+    {
+        "term": "fast",
+        "definition": "확고한, 고정된; 금식하다; 금식"
+    },
+    {
+        "term": "fastidious",
+        "definition": "꼼꼼한, 까다로운"
+    },
+    {
+        "term": "fastness",
+        "definition": "요새, 안전한 곳; 고정; 신속"
+    },
+    {
+        "term": "fathom",
+        "definition": "헤아리다; 수심을 재다"
+    },
+    {
+        "term": "fatigue",
+        "definition": "극도의 피로"
+    },
+    {
+        "term": "fatuous",
+        "definition": "어리석은, 바보 같은"
+    },
+    {
+        "term": "faultfinding",
+        "definition": "트집잡기"
+    },
+    {
+        "term": "favor",
+        "definition": "편애하다, 지지하다, 유리하다"
+    },
+    {
+        "term": "fawn",
+        "definition": "아부하다"
+    },
+    {
+        "term": "fazed",
+        "definition": "당황한"
+    },
+    {
+        "term": "fealty",
+        "definition": "(영주에 대한) 충성"
+    },
+    {
+        "term": "feasible",
+        "definition": "실행 가능한"
+    },
+    {
+        "term": "featureless",
+        "definition": "뚜렷한 특징이 없는"
+    },
+    {
+        "term": "feckless",
+        "definition": "무기력한, 무책임한"
+    },
+    {
+        "term": "fecund",
+        "definition": "비옥한, 생산력이 있는, 풍성한"
+    },
+    {
+        "term": "feisty",
+        "definition": "적극적인, 원기 왕성한"
+    },
+    {
+        "term": "feral",
+        "definition": "야생의, 야생으로 돌아간"
+    },
+    {
+        "term": "ferrous",
+        "definition": "철의, 철을 함유한"
+    },
+    {
+        "term": "fervor",
+        "definition": "열성, 열렬"
+    },
+    {
+        "term": "fetter",
+        "definition": "족쇄를 채우다, 구속하다"
+    },
+    {
+        "term": "fiasco",
+        "definition": "대 실패"
+    },
+    {
+        "term": "fickle",
+        "definition": "변덕스런"
+    },
+    {
+        "term": "fidelity",
+        "definition": "충성, 정조"
+    },
+    {
+        "term": "figurine",
+        "definition": "작은 조각상"
+    },
+    {
+        "term": "filch",
+        "definition": "훔치다"
+    },
+    {
+        "term": "filibuster",
+        "definition": "의사진행방해 (긴 연설 등)"
+    },
+    {
+        "term": "filly",
+        "definition": "어린 암말"
+    },
+    {
+        "term": "filmstrip",
+        "definition": "영사슬라이드"
+    },
+    {
+        "term": "filthy",
+        "definition": "매우 더러운, 추잡한, 난잡한, 비열한"
+    },
+    {
+        "term": "finale",
+        "definition": "공연의 마지막, 대미"
+    },
+    {
+        "term": "finch",
+        "definition": "되새류과의 새"
+    },
+    {
+        "term": "fingerprint",
+        "definition": "지문"
+    },
+    {
+        "term": "fir",
+        "definition": "전나무"
+    },
+    {
+        "term": "firefly",
+        "definition": "반딧불이"
+    },
+    {
+        "term": "firm",
+        "definition": "(태도, 마음) 확고한, 굳은"
+    },
+    {
+        "term": "fiscal",
+        "definition": "재정의, 재무의, 회계의"
+    },
+    {
+        "term": "fissure",
+        "definition": "(땅, 바위) 균열, 불화"
+    },
+    {
+        "term": "fit",
+        "definition": "적당한"
+    },
+    {
+        "term": "fitful",
+        "definition": "불규칙적인, 발작적인"
+    },
+    {
+        "term": "fixed",
+        "definition": "고정된, 견고한, 확고한"
+    },
+    {
+        "term": "flabby",
+        "definition": "살이 축 늘어진, 허약한"
+    },
+    {
+        "term": "flagging",
+        "definition": "(힘, 권한, 결심) 약해지는, 축 늘어지는"
+    },
+    {
+        "term": "flagrant",
+        "definition": "극악한, 악명 높은"
+    },
+    {
+        "term": "flamboyant",
+        "definition": "눈부신, 화려한, 현란한"
+    },
+    {
+        "term": "flannel",
+        "definition": "플란넬, 무명, 면포"
+    },
+    {
+        "term": "flatter",
+        "definition": "추켜세우다, 알랑거리다, (찬사 등으로) 기쁘게 하다"
+    },
+    {
+        "term": "flawed",
+        "definition": "결점이 있는"
+    },
+    {
+        "term": "fledgling",
+        "definition": "풋내기, 애송이"
+    },
+    {
+        "term": "flee",
+        "definition": "도망가다; 빠르게 지나가다, 사라지다"
+    },
+    {
+        "term": "fleeting",
+        "definition": "휙 지나가는, 순식간의, 덧없는"
+    },
+    {
+        "term": "flicker",
+        "definition": "깜빡 거리다"
+    },
+    {
+        "term": "flimsy",
+        "definition": "부서기기 쉬운, 무른, 약한, 설득력이 없는"
+    },
+    {
+        "term": "flippant",
+        "definition": "경박한, 성의 없는, 무례한"
+    },
+    {
+        "term": "flit",
+        "definition": "경쾌하게 움직이다, 빨리 지나가다"
+    },
+    {
+        "term": "float",
+        "definition": "부유하다"
+    },
+    {
+        "term": "flock",
+        "definition": "떼로 모이다, 움직이다."
+    },
+    {
+        "term": "floppy",
+        "definition": "(옷이) 펄럭이는, 늘어진, 느슨한"
+    },
+    {
+        "term": "flounder",
+        "definition": "간신히 나아가다, 버둥거리다, 몸부림치다"
+    },
+    {
+        "term": "flourish",
+        "definition": "번성하다"
+    },
+    {
+        "term": "flout",
+        "definition": "경멸하다, 비웃다, 멸시하다"
+    },
+    {
+        "term": "fluctuate",
+        "definition": "변동하다"
+    },
+    {
+        "term": "fluvial",
+        "definition": "강의"
+    },
+    {
+        "term": "flux",
+        "definition": "흐름, 끝없는 변동"
+    },
+    {
+        "term": "focus",
+        "definition": "중심으로 모이다"
+    },
+    {
+        "term": "foe",
+        "definition": "적, 원수"
+    },
+    {
+        "term": "foil",
+        "definition": "방해하다, 막다"
+    },
+    {
+        "term": "folly",
+        "definition": "어리석음, 우둔"
+    },
+    {
+        "term": "foment",
+        "definition": "선동하다, 자극하다"
+    },
+    {
+        "term": "foot-dragging",
+        "definition": "지체, 더딤, 주저"
+    },
+    {
+        "term": "footloose",
+        "definition": "결부된 것이 없는, 마음대로 할 수 있는, 구속되지 않은"
+    },
+    {
+        "term": "forage",
+        "definition": "(식량) 찾아 헤매다"
+    },
+    {
+        "term": "forbearance",
+        "definition": "인내, 자제"
+    },
+    {
+        "term": "forceful",
+        "definition": "강력한"
+    },
+    {
+        "term": "foreswear",
+        "definition": "포기하다, 위증하다"
+    },
+    {
+        "term": "forlorn",
+        "definition": "버림받은, 절망적인"
+    },
+    {
+        "term": "formidable",
+        "definition": "겁먹게 하는, 위협적인, 경외감을 갖게 하는"
+    },
+    {
+        "term": "formulaic",
+        "definition": "도식적인, 공식에만 따른"
+    },
+    {
+        "term": "forte",
+        "definition": "(칼날 중간과 칼자루 사이) 강한부분"
+    },
+    {
+        "term": "forthcoming",
+        "definition": "다가오는, 임박한, 솔직한"
+    },
+    {
+        "term": "fortuitous",
+        "definition": "우연한"
+    },
+    {
+        "term": "foul",
+        "definition": "불쾌하고 역겨운, (날씨) 사나운, 나쁜"
+    },
+    {
+        "term": "founder",
+        "definition": "침몰하다"
+    },
+    {
+        "term": "fractious",
+        "definition": "쉽게 해내는, 다루기 힘든"
+    },
+    {
+        "term": "fragile",
+        "definition": "약한, 부서지기 쉬운"
+    },
+    {
+        "term": "fragrant",
+        "definition": "향기로운"
+    },
+    {
+        "term": "frail",
+        "definition": "약한, 깨지기 쉬운"
+    },
+    {
+        "term": "frantic",
+        "definition": "광란의, 정신 없는, 미쳐 날뛰는"
+    },
+    {
+        "term": "fraternize",
+        "definition": "사귀다, 친해지다, 형제처럼 지내다"
+    },
+    {
+        "term": "fraught",
+        "definition": "가득한, (정신) 괴로워하는"
+    },
+    {
+        "term": "freckle",
+        "definition": "주근깨, 거미"
+    },
+    {
+        "term": "freeze",
+        "definition": "동결하다"
+    },
+    {
+        "term": "frenetic",
+        "definition": "광란의, 지나치게 열광적인"
+    },
+    {
+        "term": "frenzy",
+        "definition": "광란, 열광"
+    },
+    {
+        "term": "frequent",
+        "definition": "자주 들르다"
+    },
+    {
+        "term": "fretful",
+        "definition": "안달하는, 초조해하는, 화내는, 언짢아하는"
+    },
+    {
+        "term": "fretwork",
+        "definition": "실톱세공"
+    },
+    {
+        "term": "friable",
+        "definition": "쉽게 부서지는"
+    },
+    {
+        "term": "friction",
+        "definition": "마찰"
+    },
+    {
+        "term": "frighten",
+        "definition": "겁나게 하다, 놀라게 하다"
+    },
+    {
+        "term": "frill",
+        "definition": "허식, 장식"
+    },
+    {
+        "term": "frivolous",
+        "definition": "(태도가) 가벼운, 하찮은"
+    },
+    {
+        "term": "frothy",
+        "definition": "거품같은; (태도, 내용) 가벼운, 경박한"
+    },
+    {
+        "term": "froward",
+        "definition": "다루기 힘든, 완고한"
+    },
+    {
+        "term": "frugal",
+        "definition": "검소한, 절약하는"
+    },
+    {
+        "term": "fruition",
+        "definition": "성취, 실현, 달성; 성취의 순간"
+    },
+    {
+        "term": "full-fledged",
+        "definition": "완전한, 성숙한"
+    },
+    {
+        "term": "fulmination",
+        "definition": "심한 비난"
+    },
+    {
+        "term": "fumble",
+        "definition": "서툴게 다루다, 더듬어 찾다, 말을 더듬거리다"
+    },
+    {
+        "term": "fur",
+        "definition": "털가죽, 모피"
+    },
+    {
+        "term": "furor",
+        "definition": "분노"
+    },
+    {
+        "term": "furrow",
+        "definition": "홈을 파다, 골, 밭고랑"
+    },
+    {
+        "term": "furtive",
+        "definition": "은밀한"
+    },
+    {
+        "term": "fussy",
+        "definition": "지나치게 꼼꼼한"
+    },
+    {
+        "term": "fustian",
+        "definition": "과장되고 허풍 떠는 (말이나 글)"
+    },
+    {
+        "term": "futility",
+        "definition": "헛수고, 무익함"
+    },
+    {
+        "term": "gabble",
+        "definition": "왜곡하다,혼동하다"
+    },
+    {
+        "term": "gaffe",
+        "definition": "(사교상)실수, 결례"
+    },
+    {
+        "term": "gainsay",
+        "definition": "반박하다,부인하다,반대하다"
+    },
+    {
+        "term": "gait",
+        "definition": "걸음걸이"
+    },
+    {
+        "term": "galaxy",
+        "definition": "은하,성운"
+    },
+    {
+        "term": "gall",
+        "definition": "화나게 하다"
+    },
+    {
+        "term": "gallant",
+        "definition": "용감한,정중한"
+    },
+    {
+        "term": "galvanize",
+        "definition": "전기자극을 주다,자극하다"
+    },
+    {
+        "term": "gambol",
+        "definition": "뛰놀다"
+    },
+    {
+        "term": "gargantuan",
+        "definition": "거대한"
+    },
+    {
+        "term": "gargoyle",
+        "definition": "사람,동물의 형상을 한 괴물의 조각"
+    },
+    {
+        "term": "garish",
+        "definition": "지나치게 화려한"
+    },
+    {
+        "term": "garnish",
+        "definition": "장식하다"
+    },
+    {
+        "term": "garrulous",
+        "definition": "지나치게 수다스러운"
+    },
+    {
+        "term": "gauche",
+        "definition": "서투른,세련되지 않은,솜씨 없는"
+    },
+    {
+        "term": "gaudy",
+        "definition": "(옷,장식)지나치게 화려한, 야한"
+    },
+    {
+        "term": "gaunt",
+        "definition": "수척해진, 쇠약해진"
+    },
+    {
+        "term": "gavel",
+        "definition": "(의장,판사,경매인의)작은 망치,의사봉"
+    },
+    {
+        "term": "generator",
+        "definition": "발전기"
+    },
+    {
+        "term": "generic",
+        "definition": "일반적인"
+    },
+    {
+        "term": "genial",
+        "definition": "친절하고 쾌활한, 상냥한"
+    },
+    {
+        "term": "germane",
+        "definition": "밀접한 관계가 있는, 적절한"
+    },
+    {
+        "term": "gibberish",
+        "definition": "이해할 수 없는 헛소리, 너무 전문적이어서 난해한 말, 쓸데없이 허황되고 모호한 말"
+    },
+    {
+        "term": "gibe",
+        "definition": "조롱(하다)"
+    },
+    {
+        "term": "giddy",
+        "definition": "경솔한, 진지하지 못한, 현기증 나는"
+    },
+    {
+        "term": "glacial",
+        "definition": "매우 추운, 매우 느린"
+    },
+    {
+        "term": "glacier",
+        "definition": "빙하"
+    },
+    {
+        "term": "glance",
+        "definition": "흘긋 보기, 흘긋 보다"
+    },
+    {
+        "term": "glaring",
+        "definition": "눈부시게 빛나는; (색) 지나치게 야한; 눈에 띄는, 뻔한"
+    },
+    {
+        "term": "glib",
+        "definition": "(깊이 없이)말만 유창한, 입심 좋은"
+    },
+    {
+        "term": "glide",
+        "definition": "미끄러지듯이 움직이다"
+    },
+    {
+        "term": "glut",
+        "definition": "과도,과다"
+    },
+    {
+        "term": "glutton",
+        "definition": "식신, 식탐이 강한 사람"
+    },
+    {
+        "term": "go-getter",
+        "definition": "공격적인 사람, 진취적인 사람"
+    },
+    {
+        "term": "gossamer",
+        "definition": "매우 얇은, 섬세한"
+    },
+    {
+        "term": "gourmand",
+        "definition": "미식가, 대식가"
+    },
+    {
+        "term": "graft",
+        "definition": "접목시키다, 접붙이다"
+    },
+    {
+        "term": "grandiloquent",
+        "definition": "과장된, 허풍떠는"
+    },
+    {
+        "term": "grandiose",
+        "definition": "(겉모습, 외양) 웅장한, 장엄한; (계획) 의욕이 지나친"
+    },
+    {
+        "term": "grandstand",
+        "definition": "(관객,미디어로부터)주목 받으려 하다,(관객을 의식하여)화려한 플레이를 하다"
+    },
+    {
+        "term": "grapevine",
+        "definition": "유언비어,낭설"
+    },
+    {
+        "term": "grassy",
+        "definition": "풀이 덮인, 풀이 무성한"
+    },
+    {
+        "term": "gratify",
+        "definition": "만족시키다"
+    },
+    {
+        "term": "grating",
+        "definition": "삐걱 거리는;(소리가)신경에 거슬리는"
+    },
+    {
+        "term": "gratuitous",
+        "definition": "무료의, 필요 없는, 근거 없는"
+    },
+    {
+        "term": "grave",
+        "definition": "엄숙한, 진지한"
+    },
+    {
+        "term": "gravelly",
+        "definition": "자갈 같은, 자갈소리가나는, 귀에 거슬리는"
+    },
+    {
+        "term": "greed",
+        "definition": "탐욕"
+    },
+    {
+        "term": "green",
+        "definition": "경험이 없는, 미숙한, 초목이 우거진"
+    },
+    {
+        "term": "gregarious",
+        "definition": "사교적인"
+    },
+    {
+        "term": "grievous",
+        "definition": "심각한,중대한,슬픈"
+    },
+    {
+        "term": "grill",
+        "definition": "엄중히 심문하다, 취조하다"
+    },
+    {
+        "term": "grim",
+        "definition": "엄격한,단호한,잔인한,무서운,섬뜩한,무시무시한"
+    },
+    {
+        "term": "grimace",
+        "definition": "찡그림,찡그리다(병,고통 등으로)"
+    },
+    {
+        "term": "gripe",
+        "definition": "(사소한 일에) 불평하다"
+    },
+    {
+        "term": "gritty",
+        "definition": "의지가 굳은, 대담한;모래먼지 투성이의"
+    },
+    {
+        "term": "grouch",
+        "definition": "불평꾼,짜증 잘내는 사람"
+    },
+    {
+        "term": "groundless",
+        "definition": "근거 없는"
+    },
+    {
+        "term": "grove",
+        "definition": "작은 숲, 과수원"
+    },
+    {
+        "term": "groveling",
+        "definition": "비굴한,아첨하는;기는"
+    },
+    {
+        "term": "growl",
+        "definition": "으르렁거리다"
+    },
+    {
+        "term": "grudge",
+        "definition": "원한"
+    },
+    {
+        "term": "grueling",
+        "definition": "몹시 힘든"
+    },
+    {
+        "term": "gruesome",
+        "definition": "소름 끼치는, 오싹하는"
+    },
+    {
+        "term": "gruff",
+        "definition": "퉁명스런, (목소리)거친, 쉰"
+    },
+    {
+        "term": "grumble",
+        "definition": "투덜거리다"
+    },
+    {
+        "term": "guffaw",
+        "definition": "(천한)가가대소;큰소리로(깔깔)웃다"
+    },
+    {
+        "term": "guile",
+        "definition": "속임수, 꾀,술책"
+    },
+    {
+        "term": "gullible",
+        "definition": "쉽게 속는"
+    },
+    {
+        "term": "gully",
+        "definition": "(작은)계곡,협곡"
+    },
+    {
+        "term": "gust",
+        "definition": "(갑자기)획 부는 바람, 돌풍"
+    },
+    {
+        "term": "hacker",
+        "definition": "아마추어 스포츠인"
+    },
+    {
+        "term": "hackneyed",
+        "definition": "진부한"
+    },
+    {
+        "term": "hairbreadth",
+        "definition": "털끝만한 간격"
+    },
+    {
+        "term": "halcyon",
+        "definition": "평온한,평화로운"
+    },
+    {
+        "term": "hale",
+        "definition": "튼튼한"
+    },
+    {
+        "term": "halfhearted",
+        "definition": "열성이 없는, 내키지 않는"
+    },
+    {
+        "term": "hallow",
+        "definition": "거룩히 여기다, 신성하게 하다"
+    },
+    {
+        "term": "hallucination",
+        "definition": "환각"
+    },
+    {
+        "term": "halting",
+        "definition": "(말)더듬거리는;막히는"
+    },
+    {
+        "term": "ham-handed",
+        "definition": "서투른,실수하는"
+    },
+    {
+        "term": "hamper",
+        "definition": "막다,방해하다"
+    },
+    {
+        "term": "hamstring",
+        "definition": "무력화하다,좌절시키다,다리를 절게하다"
+    },
+    {
+        "term": "hangdog",
+        "definition": "처량한, 부끄러워하는"
+    },
+    {
+        "term": "hankering",
+        "definition": "갈망하는, 갈망"
+    },
+    {
+        "term": "haphazard",
+        "definition": "체계적이지 않은"
+    },
+    {
+        "term": "hapless",
+        "definition": "운 없는"
+    },
+    {
+        "term": "happy",
+        "definition": "행복한"
+    },
+    {
+        "term": "harangue",
+        "definition": "장광설;비난,질책;장광설을 늘어놓다;비난하다,질책하다"
+    },
+    {
+        "term": "harass",
+        "definition": "괴롭히다"
+    },
+    {
+        "term": "harbinger",
+        "definition": "예언자,전조"
+    },
+    {
+        "term": "harbor",
+        "definition": "피난처를 제공하다, 숨겨주다"
+    },
+    {
+        "term": "hard-boiled",
+        "definition": "현실적인, 실제적인, 무정한, 감상적이지 않은, 비정한"
+    },
+    {
+        "term": "hardy",
+        "definition": "튼튼한, 억센, 대담한, 용감한"
+    },
+    {
+        "term": "harebrained",
+        "definition": "경솔한, 무모한"
+    },
+    {
+        "term": "harmony",
+        "definition": "화음, 조화"
+    },
+    {
+        "term": "harrow",
+        "definition": "괴롭히다, 못살게 굴다,망치다,침해하다"
+    },
+    {
+        "term": "harry",
+        "definition": "괴롭히다, 못살게 굴다"
+    },
+    {
+        "term": "haste",
+        "definition": "서두름, 신속함"
+    },
+    {
+        "term": "hasten",
+        "definition": "서두르다"
+    },
+    {
+        "term": "haunt",
+        "definition": "자주 가는 장소"
+    },
+    {
+        "term": "haunteur(haughtiness)",
+        "definition": "오만함, 거만함"
+    },
+    {
+        "term": "haven",
+        "definition": "항구; 피난처"
+    },
+    {
+        "term": "havoc",
+        "definition": "대파괴, 황폐, 대혼란"
+    },
+    {
+        "term": "headlong",
+        "definition": "무모한, 성급한"
+    },
+    {
+        "term": "heart-rending",
+        "definition": "마음을 찢어지게 하는, 매우 슬픈"
+    },
+    {
+        "term": "hearten",
+        "definition": "용기를 주다, 확신을 주다"
+    },
+    {
+        "term": "heartsick",
+        "definition": "상심한"
+    },
+    {
+        "term": "heated",
+        "definition": "화난, 격렬한; 열렬한"
+    },
+    {
+        "term": "heckle",
+        "definition": "괴롭히다"
+    },
+    {
+        "term": "hedgerow",
+        "definition": "생울타리, 담장"
+    },
+    {
+        "term": "hedonism",
+        "definition": "쾌락주의"
+    },
+    {
+        "term": "heed",
+        "definition": "주의를 기울이다"
+    },
+    {
+        "term": "heinous",
+        "definition": "(행동) 극악한"
+    },
+    {
+        "term": "helter-skelter",
+        "definition": "허둥지둥"
+    },
+    {
+        "term": "hem",
+        "definition": "둘러대다; 제한하다"
+    },
+    {
+        "term": "heresy",
+        "definition": "이단"
+    },
+    {
+        "term": "heretic",
+        "definition": "(일반적인 믿음)따르지 않는 사람, 이단자"
+    },
+    {
+        "term": "hermitage",
+        "definition": "은둔장소; 세상과 분리되어 살 수 있는 곳"
+    },
+    {
+        "term": "heroic",
+        "definition": "영웅적인, 용감한"
+    },
+    {
+        "term": "heterodox",
+        "definition": "(일반적인 믿음)따르지 않는"
+    },
+    {
+        "term": "heyday",
+        "definition": "전성기"
+    },
+    {
+        "term": "hidebound",
+        "definition": "완고한, 몹시 보수적인"
+    },
+    {
+        "term": "hieroglyph",
+        "definition": "(이집트)상형문자"
+    },
+    {
+        "term": "high-strung",
+        "definition": "신경이 날카로운, 화 잘 내는"
+    },
+    {
+        "term": "hillock",
+        "definition": "작은 언덕"
+    },
+    {
+        "term": "hinder",
+        "definition": "방해하다"
+    },
+    {
+        "term": "hirsute",
+        "definition": "털이 많은"
+    },
+    {
+        "term": "hiss",
+        "definition": "쉬' 소리를 내다;비난하다"
+    },
+    {
+        "term": "histrionic",
+        "definition": "배우의, 연기의; 지나치게 감정적인"
+    },
+    {
+        "term": "hoard",
+        "definition": "보관하다, 저장하다;(몰래) 저장하다"
+    },
+    {
+        "term": "hoarse",
+        "definition": "(목소리가)거친, 쉰 소리가 나는"
+    },
+    {
+        "term": "hoary",
+        "definition": "백발의, 나이든; 오래된, 진부한"
+    },
+    {
+        "term": "hoax",
+        "definition": "짓궂은 속임수; 속이다"
+    },
+    {
+        "term": "hobble",
+        "definition": "절뚝거리다"
+    },
+    {
+        "term": "hodgepodge",
+        "definition": "뒤죽박죽"
+    },
+    {
+        "term": "hoist",
+        "definition": "들어올리다"
+    },
+    {
+        "term": "hollow",
+        "definition": "텅 빈, 내용 없는"
+    },
+    {
+        "term": "homage",
+        "definition": "존경"
+    },
+    {
+        "term": "homily",
+        "definition": "설교;지루한 도덕적 훈계"
+    },
+    {
+        "term": "homogeneous",
+        "definition": "동종의, 균질의, 비슷한"
+    },
+    {
+        "term": "hortative",
+        "definition": "(조언, 연설 등이)격려하는; 충고의"
+    },
+    {
+        "term": "hubris",
+        "definition": "지나친 자신감, 오만함"
+    },
+    {
+        "term": "hue",
+        "definition": "색깔, 색조"
+    },
+    {
+        "term": "hull",
+        "definition": "겉껍질"
+    },
+    {
+        "term": "humble",
+        "definition": "겸손한, 겸허한"
+    },
+    {
+        "term": "humility",
+        "definition": "겸손함"
+    },
+    {
+        "term": "husband",
+        "definition": "아껴 쓰다, 절약하다"
+    },
+    {
+        "term": "husk",
+        "definition": "껍질, 중요하지 않은 부분"
+    },
+    {
+        "term": "husky",
+        "definition": "(소리가)거친; 건장한"
+    },
+    {
+        "term": "hut",
+        "definition": "오두막; 임시로 지은 숙소"
+    },
+    {
+        "term": "hybrid",
+        "definition": "잡종의"
+    },
+    {
+        "term": "hydrogen",
+        "definition": "수소"
+    },
+    {
+        "term": "hygiene",
+        "definition": "위생"
+    },
+    {
+        "term": "hyperbole",
+        "definition": "과장된 말, 과장법"
+    },
+    {
+        "term": "hypnotic",
+        "definition": "최면에 걸리게 하는, 잠이 오게 하는"
+    },
+    {
+        "term": "iconoclast",
+        "definition": "성상파괴자; 인습타파론자"
+    },
+    {
+        "term": "idiosyncrasy",
+        "definition": "특유의 성질"
+    },
+    {
+        "term": "ignite",
+        "definition": "불 붙이다, 자극하다"
+    },
+    {
+        "term": "ignominy",
+        "definition": "불명예, 치욕, 굴욕"
+    },
+    {
+        "term": "ignorance",
+        "definition": "무지, 무식"
+    },
+    {
+        "term": "illegible",
+        "definition": "읽을 수 없는, 해독 불가한"
+    },
+    {
+        "term": "illicit",
+        "definition": "불법적인"
+    },
+    {
+        "term": "illiteracy",
+        "definition": "무학, 문맹, 무교양"
+    },
+    {
+        "term": "illustrate",
+        "definition": "(그림, 차트, 예를 이용해서) 명확히 설명하다"
+    },
+    {
+        "term": "imbibe",
+        "definition": "(술, 물) 마시다, 흡수하다; (지식, 정보) 학습하다"
+    },
+    {
+        "term": "imbue",
+        "definition": "(생각)주입시키다; 스며들게 하다; (색깔)물들이다"
+    },
+    {
+        "term": "immaterial",
+        "definition": "중요하지 않는, 관련 없는; 영적인"
+    },
+    {
+        "term": "immeasurable",
+        "definition": "측정할 수 없는, 무한한"
+    },
+    {
+        "term": "immediate",
+        "definition": "(시간, 장소, 관계)가까운, 즉각적인"
+    },
+    {
+        "term": "immemorial",
+        "definition": "옛날의, 태곳적의"
+    },
+    {
+        "term": "immerse",
+        "definition": "푹 담그다; 열중, 몰두시키다"
+    },
+    {
+        "term": "imminent",
+        "definition": "임박한"
+    },
+    {
+        "term": "immoderate",
+        "definition": "절도를 잃은, 과도한, 극단적인"
+    },
+    {
+        "term": "immortalize",
+        "definition": "불멸로 만들다, 불후의 명성을 주다"
+    },
+    {
+        "term": "immune",
+        "definition": "면역의; 면제된"
+    },
+    {
+        "term": "immutable",
+        "definition": "불변의"
+    },
+    {
+        "term": "impacted",
+        "definition": "(쇄기처럼)박힌, 꽉 끼인"
+    },
+    {
+        "term": "impair",
+        "definition": "약화시키다, 손상시키다"
+    },
+    {
+        "term": "impartial",
+        "definition": "공정한"
+    },
+    {
+        "term": "impassionate",
+        "definition": "열정적인"
+    },
+    {
+        "term": "impassive",
+        "definition": "무정한, 비정한, 무표정한"
+    },
+    {
+        "term": "impeachable",
+        "definition": "탄핵을 받을 만한, 비난 받을 만한"
+    },
+    {
+        "term": "impeccable",
+        "definition": "결함 없는, 완벽한"
+    },
+    {
+        "term": "impecunious",
+        "definition": "무일푼의"
+    },
+    {
+        "term": "impede",
+        "definition": "방해하다, 훼방 놓다"
+    },
+    {
+        "term": "impel",
+        "definition": "강요하다, 강제하다"
+    },
+    {
+        "term": "impenetrable",
+        "definition": "통과할 수 없는, 스며들 수 없는, 이해할 수 없는"
+    },
+    {
+        "term": "impenitent",
+        "definition": "뉘우치지 않는"
+    },
+    {
+        "term": "imperceptible",
+        "definition": "지각/감지할 수 없는, 미세한, 경미한"
+    },
+    {
+        "term": "imperious",
+        "definition": "오만한, 고압적인"
+    },
+    {
+        "term": "impermeable",
+        "definition": "불침투성의"
+    },
+    {
+        "term": "imperturbability",
+        "definition": "침착, 차분, 평정"
+    },
+    {
+        "term": "impervious",
+        "definition": "통과할 수 없는; 영향을 받지 않는, 해를 입지 않는"
+    },
+    {
+        "term": "impetuous",
+        "definition": "충동적인, 성급한"
+    },
+    {
+        "term": "implant",
+        "definition": "심다, 이식하다, 박다, 주입하다"
+    },
+    {
+        "term": "implement",
+        "definition": "이행하다"
+    },
+    {
+        "term": "implicit",
+        "definition": "암시된, 암묵적인"
+    },
+    {
+        "term": "imply",
+        "definition": "암시하다"
+    },
+    {
+        "term": "impolitic",
+        "definition": "지각 없는, 무분별한, 현명치 못한"
+    },
+    {
+        "term": "importune",
+        "definition": "성가시게 졸라대다"
+    },
+    {
+        "term": "impracticable",
+        "definition": "실행 불가능한"
+    },
+    {
+        "term": "impressionable",
+        "definition": "(비판력 부족으로) 쉽게 영향을 받는; 감수성이 예민한"
+    },
+    {
+        "term": "impromptu",
+        "definition": "즉흥적인; 즉흥연주"
+    },
+    {
+        "term": "improvident",
+        "definition": "미래를 대비하지 않는 낭비하는"
+    },
+    {
+        "term": "imprudent",
+        "definition": "신중하지 못한 경솔한 무분별한"
+    },
+    {
+        "term": "impudent",
+        "definition": "무례한 불손한 건방진"
+    },
+    {
+        "term": "impugn",
+        "definition": "의심하다,이의를 제기하다,비난하다,공격하다"
+    },
+    {
+        "term": "inalienable",
+        "definition": "양도할 수 없는"
+    },
+    {
+        "term": "inane",
+        "definition": "무의미한"
+    },
+    {
+        "term": "inanimate",
+        "definition": "살아있지 않은 생명이 없는"
+    },
+    {
+        "term": "inattentive",
+        "definition": "무관심한 부주의한"
+    },
+    {
+        "term": "inaugurate",
+        "definition": "시작하다 취임시키다"
+    },
+    {
+        "term": "inauspicious",
+        "definition": "불길한 불리한 불행한"
+    },
+    {
+        "term": "incantation",
+        "definition": "주술"
+    },
+    {
+        "term": "incarcerate",
+        "definition": "투옥시키다. 감금시키다"
+    },
+    {
+        "term": "incendiary",
+        "definition": "방화범; 선동가"
+    },
+    {
+        "term": "incense",
+        "definition": "몹시 화나게 하다"
+    },
+    {
+        "term": "inception",
+        "definition": "시작 설립"
+    },
+    {
+        "term": "incessant",
+        "definition": "끊임없이 계속 이어지는"
+    },
+    {
+        "term": "inch",
+        "definition": "천천히 움직이다"
+    },
+    {
+        "term": "incipient",
+        "definition": "시작단계의"
+    },
+    {
+        "term": "incite",
+        "definition": "자극하다. 선동하다"
+    },
+    {
+        "term": "inclement",
+        "definition": "혹독한 궂은"
+    },
+    {
+        "term": "incogitant",
+        "definition": "사려 없는 분별없는 경솔한"
+    },
+    {
+        "term": "incognizant",
+        "definition": "모르는 무지한"
+    },
+    {
+        "term": "incoherent",
+        "definition": "(말 글)조리가 없는"
+    },
+    {
+        "term": "incombustible",
+        "definition": "불연성의"
+    },
+    {
+        "term": "incomprehensible",
+        "definition": "이해할 수 없는"
+    },
+    {
+        "term": "inconclusive",
+        "definition": "결정적이지 않은"
+    },
+    {
+        "term": "inconsiderable",
+        "definition": "(양)적은(크기)작은"
+    },
+    {
+        "term": "inconsonant",
+        "definition": "일치하지 않는 조화되지 않는"
+    },
+    {
+        "term": "inconspicuous",
+        "definition": "명확히 보이지 않는"
+    },
+    {
+        "term": "inconstant",
+        "definition": "변하기 쉬운 변덕스러운 일정하지 않은"
+    },
+    {
+        "term": "incontestable",
+        "definition": "논의의 여지가 없는 명백한"
+    },
+    {
+        "term": "incontrovertible",
+        "definition": "(논쟁, 의문) 여지가 없는"
+    },
+    {
+        "term": "incorporeal",
+        "definition": "비물질적인, 비육체적인"
+    },
+    {
+        "term": "incorrigible",
+        "definition": "고집불통의 구제불능의"
+    },
+    {
+        "term": "incredible",
+        "definition": "믿을 수 없는"
+    },
+    {
+        "term": "incredulous",
+        "definition": "잘 안 믿는"
+    },
+    {
+        "term": "incriminate",
+        "definition": "죄를 씌우다. 고소하다"
+    },
+    {
+        "term": "inculpate",
+        "definition": "혐의를 씌우다. 죄를 씌우다"
+    },
+    {
+        "term": "incursion",
+        "definition": "침입"
+    },
+    {
+        "term": "indecipherable",
+        "definition": "판독이 불가능한, 이해할 수 없는"
+    },
+    {
+        "term": "indecorous",
+        "definition": "예의 없는 무례한"
+    },
+    {
+        "term": "indefatigable",
+        "definition": "지치지 않는"
+    },
+    {
+        "term": "indefeasible",
+        "definition": "무효화 할 수 없는"
+    },
+    {
+        "term": "indelible",
+        "definition": "지울 수 없는, 제거 할 수 없는"
+    },
+    {
+        "term": "indemonstrable",
+        "definition": "증명할 수 없는"
+    },
+    {
+        "term": "indict",
+        "definition": "기소하다"
+    },
+    {
+        "term": "indigent",
+        "definition": "궁핍한, (생필품) 결핍된"
+    },
+    {
+        "term": "indiscrimination",
+        "definition": "무분별한 행동, 무차별"
+    },
+    {
+        "term": "indispensable",
+        "definition": "필수불가결의"
+    },
+    {
+        "term": "indomitable",
+        "definition": "불굴의, 꿋꿋한 불복하지 않는"
+    },
+    {
+        "term": "indulge",
+        "definition": "탐닉하다. 관대히 대하다"
+    },
+    {
+        "term": "inedible",
+        "definition": "먹을 수 없는"
+    },
+    {
+        "term": "ineffable",
+        "definition": "말로 표현할 수 없는 형언할 수 없는"
+    },
+    {
+        "term": "ineffaceable",
+        "definition": "지워질 수 없는 잊을 수 없는"
+    },
+    {
+        "term": "ineluctable",
+        "definition": "피할 수 없는"
+    },
+    {
+        "term": "inept",
+        "definition": "서투른"
+    },
+    {
+        "term": "inequity",
+        "definition": "불공정, 불공평"
+    },
+    {
+        "term": "inert",
+        "definition": "움직이지 않는 활력 없는"
+    },
+    {
+        "term": "inevitable",
+        "definition": "피할 수 없는 불가피한"
+    },
+    {
+        "term": "inexorable",
+        "definition": "설득할 수 없는, 막을 수 없는"
+    },
+    {
+        "term": "inexpungible",
+        "definition": "지울 수 없는"
+    },
+    {
+        "term": "infecund",
+        "definition": "생산성이 없는, 아이를 낳을 수 없는"
+    },
+    {
+        "term": "infiltrate",
+        "definition": "잠입하다"
+    },
+    {
+        "term": "infinitesimal",
+        "definition": "극소의 , 매우 작은"
+    },
+    {
+        "term": "infirm",
+        "definition": "허약한 (마음)불확실한"
+    },
+    {
+        "term": "infirmary",
+        "definition": "양호실"
+    },
+    {
+        "term": "inflate",
+        "definition": "부풀게 하다 확장시키다 팽창시키다"
+    },
+    {
+        "term": "inflexible",
+        "definition": "마음을 바꾸지 않는 융통성이 없는"
+    },
+    {
+        "term": "informality",
+        "definition": "비공식성, 격식을 차리지 않음"
+    },
+    {
+        "term": "infraction",
+        "definition": "(법률 약속) 위반"
+    },
+    {
+        "term": "infrangible",
+        "definition": "부서지지 않는 위반해서는 안되는"
+    },
+    {
+        "term": "infuriate",
+        "definition": "몹시 화나게 하다 분노케 하다"
+    },
+    {
+        "term": "infuse",
+        "definition": "가득 채우다 주입하다"
+    },
+    {
+        "term": "ingenious",
+        "definition": "독창적인"
+    },
+    {
+        "term": "ingenuous",
+        "definition": "순진한 솔직한"
+    },
+    {
+        "term": "ingrained",
+        "definition": "(기질 습관) 뿌리깊은 깊이 박힌"
+    },
+    {
+        "term": "ingratiate",
+        "definition": "환심을 사기 위해서 비위를 맞추다"
+    },
+    {
+        "term": "inherent",
+        "definition": "본질적인, 타고난"
+    },
+    {
+        "term": "inhibit",
+        "definition": "(행동, 진행)막다. 제한하다"
+    },
+    {
+        "term": "inimical",
+        "definition": "해로운 적대적인"
+    },
+    {
+        "term": "iniquity",
+        "definition": "부도덕함, 사악함, 극악함"
+    },
+    {
+        "term": "injurious",
+        "definition": "해로운 비방하는 모략하는"
+    },
+    {
+        "term": "inkling",
+        "definition": "어렴풋이 알고 있음"
+    },
+    {
+        "term": "innate",
+        "definition": "타고난 자연스런"
+    },
+    {
+        "term": "innocuous",
+        "definition": "무해한"
+    },
+    {
+        "term": "innovation",
+        "definition": "혁신"
+    },
+    {
+        "term": "insalubrious",
+        "definition": "몸에 해로운"
+    },
+    {
+        "term": "insalvageable",
+        "definition": "구해낼 수 없는"
+    },
+    {
+        "term": "insatiable",
+        "definition": "(식욕, 욕망)만족시킬 수 없는"
+    },
+    {
+        "term": "inscrutable",
+        "definition": "불가사의한 난해한"
+    },
+    {
+        "term": "insensitive",
+        "definition": "(타인에 대해)민감하지 않은 무신경한"
+    },
+    {
+        "term": "insentient",
+        "definition": "무감각한 비정한 생명 없는"
+    },
+    {
+        "term": "insipid",
+        "definition": "맛없는; 재미없는, 생기없는, 지루한"
+    },
+    {
+        "term": "insolent",
+        "definition": "무례한 불손한 건방진"
+    },
+    {
+        "term": "insouciant",
+        "definition": "태평한 근심이 없는"
+    },
+    {
+        "term": "instable",
+        "definition": "불안정한"
+    },
+    {
+        "term": "instill",
+        "definition": "(점차적으로)주입하다"
+    },
+    {
+        "term": "instrumentalist",
+        "definition": "악기 연주자"
+    },
+    {
+        "term": "insubstantial",
+        "definition": "허약한 튼튼하지 않은"
+    },
+    {
+        "term": "insular",
+        "definition": "섬의 고립된 편협한"
+    },
+    {
+        "term": "insurgent",
+        "definition": "반란을 일으킨 사람"
+    },
+    {
+        "term": "intangible",
+        "definition": "만질 수 없는 비물질적인"
+    },
+    {
+        "term": "integral",
+        "definition": "불가결한 필수의"
+    },
+    {
+        "term": "intemperate",
+        "definition": "무절제한, 방탕한"
+    },
+    {
+        "term": "intensify",
+        "definition": "심화시키다; 강화시키다"
+    },
+    {
+        "term": "intentionality",
+        "definition": "의도성"
+    },
+    {
+        "term": "inter",
+        "definition": "매장하다"
+    },
+    {
+        "term": "interim",
+        "definition": "중간의, 임시의"
+    },
+    {
+        "term": "interloper",
+        "definition": "남의 일에 참견하는 사람; (남의 영역, 상황, 활동에) 끼어드는 사람"
+    },
+    {
+        "term": "interminable",
+        "definition": "끝없는"
+    },
+    {
+        "term": "intermittent",
+        "definition": "때때로, 가끔 발생하는"
+    },
+    {
+        "term": "interpose",
+        "definition": "삽입시키다; 양자 사이에 개입하다"
+    },
+    {
+        "term": "intimate",
+        "definition": "넌지시 알려주다, 암시하다"
+    },
+    {
+        "term": "intimidate",
+        "definition": "위협하다"
+    },
+    {
+        "term": "intractable",
+        "definition": "유순하지 않는, 다루기 힘든, 고집 센"
+    },
+    {
+        "term": "intransient",
+        "definition": "금방 사라지지 않는, 영구적인"
+    },
+    {
+        "term": "intransigent",
+        "definition": "비타협적인, 완고한"
+    },
+    {
+        "term": "intrepid",
+        "definition": "겁 없는, 대담한"
+    },
+    {
+        "term": "intricate",
+        "definition": "복잡한, 얽힌"
+    },
+    {
+        "term": "intrinsic",
+        "definition": "본질적인"
+    },
+    {
+        "term": "invective",
+        "definition": "욕설, 모욕적인 말"
+    },
+    {
+        "term": "inventory",
+        "definition": "재고목록, 품목 일람, 재고조사"
+    },
+    {
+        "term": "investigate",
+        "definition": "조사하다"
+    },
+    {
+        "term": "inveterate",
+        "definition": "만성적인"
+    },
+    {
+        "term": "invigorate",
+        "definition": "기운나게하다, 격려하다"
+    },
+    {
+        "term": "invincible",
+        "definition": "이길 수 없는, 무적의"
+    },
+    {
+        "term": "inviolate",
+        "definition": "신성한, 더럽혀지지 않은"
+    },
+    {
+        "term": "irascible",
+        "definition": "화 잘 내는"
+    },
+    {
+        "term": "ire",
+        "definition": "화, 분노; 화나게 하다"
+    },
+    {
+        "term": "iridescent",
+        "definition": "무지개 빛깔의"
+    },
+    {
+        "term": "irk",
+        "definition": "짜증나게 하다; 화나게 하다"
+    },
+    {
+        "term": "irradiance",
+        "definition": "복사 조도; 발광"
+    },
+    {
+        "term": "irrational",
+        "definition": "이성이 없는, 불합리의, 무리한"
+    },
+    {
+        "term": "irrefutable",
+        "definition": "논박할 수 없는"
+    },
+    {
+        "term": "irrelevant",
+        "definition": "관련 없는"
+    },
+    {
+        "term": "irreproachable",
+        "definition": "비난의 여지가 없는, 흠잡을 데 없는"
+    },
+    {
+        "term": "irresolution",
+        "definition": "주저함, 마음의 불확실"
+    },
+    {
+        "term": "irreverent",
+        "definition": "불손한, 불경스런"
+    },
+    {
+        "term": "irrevocable",
+        "definition": "돌이킬 수 없는, 취소할 수 없는"
+    },
+    {
+        "term": "isomorphous",
+        "definition": "동형의"
+    },
+    {
+        "term": "issue",
+        "definition": "나오다, 흘러나오다; 방출하다, 지급하다; 발표하다"
+    },
+    {
+        "term": "isthmus",
+        "definition": "지협; 두 개의 육지를 연결하는 좁고 긴 땅"
+    },
+    {
+        "term": "jaded",
+        "definition": "지친, 지긋지긋한, 싫증난"
+    },
+    {
+        "term": "jaundice",
+        "definition": "편파적으로 대하다"
+    },
+    {
+        "term": "jaunty",
+        "definition": "경쾌한, 활발한"
+    },
+    {
+        "term": "jejune",
+        "definition": "순진한, 피상적인; 재미없는"
+    },
+    {
+        "term": "jest",
+        "definition": "농담, 익살, 희롱; 놀리다, 비웃다"
+    },
+    {
+        "term": "jittery",
+        "definition": "신경질적인, 초조해하는"
+    },
+    {
+        "term": "jocose",
+        "definition": "익살맞은, 웃기는"
+    },
+    {
+        "term": "jocular",
+        "definition": "익살맞은, 떠드는, 까부는"
+    },
+    {
+        "term": "jocund",
+        "definition": "쾌활한"
+    },
+    {
+        "term": "jolt",
+        "definition": "(갑자기, 난폭하게) 흔들다, 마구 흔들다"
+    },
+    {
+        "term": "journal",
+        "definition": "일기, 일지; 신문, 잡지"
+    },
+    {
+        "term": "jubilant",
+        "definition": "환희에 가득 찬, 매우 기뻐하는"
+    },
+    {
+        "term": "judicious",
+        "definition": "현명한"
+    },
+    {
+        "term": "juggernaut",
+        "definition": "엄청난 파괴력, 불가항력"
+    },
+    {
+        "term": "keen",
+        "definition": "열렬한, 예리한, 날카로운"
+    },
+    {
+        "term": "kindred",
+        "definition": "동족의, 관련된"
+    },
+    {
+        "term": "knead",
+        "definition": "반죽하다"
+    },
+    {
+        "term": "knoll",
+        "definition": "작은 언덕"
+    },
+    {
+        "term": "knotty",
+        "definition": "매듭으로 가득한; 풀기 어려운"
+    },
+    {
+        "term": "kudos",
+        "definition": "영광, 명성; 찬양"
+    },
+    {
+        "term": "labyrinth",
+        "definition": "미로"
+    },
+    {
+        "term": "lacerate",
+        "definition": "찢다; 깊은 상처를 주다, 괴롭히다"
+    },
+    {
+        "term": "lachrymose",
+        "definition": "눈물이 가득한; 눈물 나게 하는"
+    },
+    {
+        "term": "laconic",
+        "definition": "간결한, 과묵한, 무뚝뚝한"
+    },
+    {
+        "term": "ladle",
+        "definition": "국자"
+    },
+    {
+        "term": "lag",
+        "definition": "꾸물거리다, 처지다"
+    },
+    {
+        "term": "laggard",
+        "definition": "꾸물거리는, 처지는; 게으름뱅이"
+    },
+    {
+        "term": "lambaste",
+        "definition": "심하게 비난하다"
+    },
+    {
+        "term": "lament",
+        "definition": "한탄하다, 애통해하다"
+    },
+    {
+        "term": "languid",
+        "definition": "늘어진, 나른한, 기력 없는"
+    },
+    {
+        "term": "languish",
+        "definition": "기력을 잃다, 쇠약해지다"
+    },
+    {
+        "term": "languor",
+        "definition": "쇠약; 무기력, 권태; 무관심"
+    },
+    {
+        "term": "lapse",
+        "definition": "일시적인 쇠퇴, 일탈; 잘못, 과실; (시간의) 경과, 기간"
+    },
+    {
+        "term": "larder",
+        "definition": "식료품 저장실"
+    },
+    {
+        "term": "largesse",
+        "definition": "후함"
+    },
+    {
+        "term": "larval",
+        "definition": "유충의, 유충단계에 있는; 미성숙한"
+    },
+    {
+        "term": "lassitude",
+        "definition": "무기력"
+    },
+    {
+        "term": "latent",
+        "definition": "잠재성의"
+    },
+    {
+        "term": "latitude",
+        "definition": "(행동, 사항, 견해) 자유, 허용 정도"
+    },
+    {
+        "term": "laud",
+        "definition": "칭찬하다, 찬양하다"
+    },
+    {
+        "term": "laudable",
+        "definition": "칭찬받을 만한, 훌륭한"
+    },
+    {
+        "term": "lavish",
+        "definition": "사치스런, 아낌없는"
+    },
+    {
+        "term": "lax",
+        "definition": "축 늘어진; 엄하지 않은, 관대한, 부주의한"
+    },
+    {
+        "term": "layover",
+        "definition": "(여행) 일시 중단; 도중하차"
+    },
+    {
+        "term": "layperson",
+        "definition": "문외한"
+    },
+    {
+        "term": "laze",
+        "definition": "빈둥거리다, 게으름 피우다"
+    },
+    {
+        "term": "leaden",
+        "definition": "둔한, 느릿한; 활기 없는"
+    },
+    {
+        "term": "lean",
+        "definition": "마른; 기울어지다, 기대다"
+    },
+    {
+        "term": "leaning",
+        "definition": "기호, 편애"
+    },
+    {
+        "term": "learned",
+        "definition": "유식한"
+    },
+    {
+        "term": "leaven",
+        "definition": "발효시키다, 부풀어 오르게 하다"
+    },
+    {
+        "term": "legend",
+        "definition": "(지도, 도표 등의) 범례, 기호의 설명 표"
+    },
+    {
+        "term": "legendary",
+        "definition": "전설적인, 매우 유명한"
+    },
+    {
+        "term": "legerdemain",
+        "definition": "요술, 마술; 날랜 손재주; 속임수"
+    },
+    {
+        "term": "legible",
+        "definition": "읽을 수/이해할 수 있는"
+    },
+    {
+        "term": "lessen",
+        "definition": "줄이다, 줄어들다"
+    },
+    {
+        "term": "lethargy",
+        "definition": "무기력"
+    },
+    {
+        "term": "lettered",
+        "definition": "박식한, 교육받은"
+    },
+    {
+        "term": "leviathan",
+        "definition": "거대한 바다동물; 거대한 것"
+    },
+    {
+        "term": "levity",
+        "definition": "경솔함, 변덕, 경박함"
+    },
+    {
+        "term": "libel",
+        "definition": "문서에 의한 명예훼손; (문서로) 명예를 훼손하다"
+    },
+    {
+        "term": "liberality",
+        "definition": "후함, 관대함"
+    },
+    {
+        "term": "liberate",
+        "definition": "자유롭게 풀어주다"
+    },
+    {
+        "term": "libertine",
+        "definition": "난봉꾼"
+    },
+    {
+        "term": "license",
+        "definition": "허락, 인가하다"
+    },
+    {
+        "term": "licentious",
+        "definition": "음란한, 문란한"
+    },
+    {
+        "term": "lighthearted",
+        "definition": "걱정이 없는, 쾌활한, 명랑한"
+    },
+    {
+        "term": "like-minded",
+        "definition": "취향이나 의견이 비슷한"
+    },
+    {
+        "term": "liken",
+        "definition": "비유하다, 비견하다"
+    },
+    {
+        "term": "limelight",
+        "definition": "주목을 받게 하다"
+    },
+    {
+        "term": "limerick",
+        "definition": "5행 희시"
+    },
+    {
+        "term": "limp",
+        "definition": "절뚝거리다"
+    },
+    {
+        "term": "limpid",
+        "definition": "(액체)깨끗한, 맑은"
+    },
+    {
+        "term": "lionize",
+        "definition": "명사로 대접해주다, 치켜세우다"
+    },
+    {
+        "term": "lissome",
+        "definition": "유연한, 우아한"
+    },
+    {
+        "term": "lithe",
+        "definition": "유연한, 우아한,"
+    },
+    {
+        "term": "loaf",
+        "definition": "빈둥거리다"
+    },
+    {
+        "term": "loathe",
+        "definition": "혐오하다"
+    },
+    {
+        "term": "loathsome",
+        "definition": "혐오스런"
+    },
+    {
+        "term": "lode",
+        "definition": "광맥; 풍부한 원천"
+    },
+    {
+        "term": "loft",
+        "definition": "위로 차 올리다, 위로 올라가다"
+    },
+    {
+        "term": "lofty",
+        "definition": "숭고한"
+    },
+    {
+        "term": "log",
+        "definition": "여행의 기록;운항일지"
+    },
+    {
+        "term": "longevity",
+        "definition": "장수, 오래 지속됨"
+    },
+    {
+        "term": "loquacious",
+        "definition": "(매우)수다스러운"
+    },
+    {
+        "term": "lubricate",
+        "definition": "기름칠하다, 매끄럽게 하다, 원활하게 하다"
+    },
+    {
+        "term": "lucid",
+        "definition": "명백하여 이해하기 쉬운"
+    },
+    {
+        "term": "lug",
+        "definition": "(짐)힘들여 끌다"
+    },
+    {
+        "term": "lugubrious",
+        "definition": "침울한, 슬픈"
+    },
+    {
+        "term": "lull",
+        "definition": "일시적 잠잠함, 잠시 중단, 소강상태;달래다, 어르다, 재우다"
+    },
+    {
+        "term": "luminary",
+        "definition": "선각자, 권위자, 유명인"
+    },
+    {
+        "term": "lurid",
+        "definition": "무시무시한;(색깔)매우 밝은, 선정적인"
+    },
+    {
+        "term": "lurk",
+        "definition": "잠복하다, 숨어서 기다리다."
+    },
+    {
+        "term": "luster",
+        "definition": "광택"
+    },
+    {
+        "term": "luxuriant",
+        "definition": "무성한, 비옥한, 풍성한"
+    },
+    {
+        "term": "luxurious",
+        "definition": "사치스런;호사스런"
+    },
+    {
+        "term": "macabre",
+        "definition": "으스스한, 소름 끼치는"
+    },
+    {
+        "term": "maculate",
+        "definition": "반점이 있는, 더러워진;반점을 찍다, 더럽히다"
+    },
+    {
+        "term": "madcap",
+        "definition": "무모한, 황급한, 미친"
+    },
+    {
+        "term": "magnanimity",
+        "definition": "도량, 관대함"
+    },
+    {
+        "term": "magniloquent",
+        "definition": "호언 장담하는"
+    },
+    {
+        "term": "majestic",
+        "definition": "위엄한, 당당한, 장엄한"
+    },
+    {
+        "term": "maladroit",
+        "definition": "솜씨 없는, 서투른"
+    },
+    {
+        "term": "malady",
+        "definition": "질병, 병폐"
+    },
+    {
+        "term": "malaise",
+        "definition": "초조, 불안, 불편, 불쾌"
+    },
+    {
+        "term": "malevolent",
+        "definition": "악의적인, 사악한"
+    },
+    {
+        "term": "malicious",
+        "definition": "악의(적의)있는, 심술궂은"
+    },
+    {
+        "term": "malinger",
+        "definition": "꾀병을 부리다, (의무)회피하다"
+    },
+    {
+        "term": "malleable",
+        "definition": "(금속)변형이 잘 되는"
+    },
+    {
+        "term": "malodorous",
+        "definition": "악취가 나는"
+    },
+    {
+        "term": "maniac",
+        "definition": "광적으로 열중하는 사람"
+    },
+    {
+        "term": "manifest",
+        "definition": "뚜렷한, 명백한,"
+    },
+    {
+        "term": "manumit",
+        "definition": "해방(석방)하다"
+    },
+    {
+        "term": "mar",
+        "definition": "망치다, 손상하다"
+    },
+    {
+        "term": "marbled",
+        "definition": "대리석 무늬의"
+    },
+    {
+        "term": "marginal",
+        "definition": "사소한, 중요하지 않은"
+    },
+    {
+        "term": "marshy",
+        "definition": "질퍽한;습지의"
+    },
+    {
+        "term": "marsupial",
+        "definition": "유대목"
+    },
+    {
+        "term": "martial",
+        "definition": "호전적인"
+    },
+    {
+        "term": "martinet",
+        "definition": "엄격한 규율가, 엄격한 교관"
+    },
+    {
+        "term": "marvel",
+        "definition": "놀라운 것"
+    },
+    {
+        "term": "mask",
+        "definition": "가면;숨기다, 가리다"
+    },
+    {
+        "term": "masterful",
+        "definition": "명인 솜씨의, 대가의, 훌륭한"
+    },
+    {
+        "term": "masticate",
+        "definition": "씹다"
+    },
+    {
+        "term": "matchless",
+        "definition": "적수가 없는, 대단한"
+    },
+    {
+        "term": "matter-of-fact",
+        "definition": "현실적인, 실질적인,"
+    },
+    {
+        "term": "maudlin",
+        "definition": "지나치게 감상적인, 취하면 우는"
+    },
+    {
+        "term": "maven",
+        "definition": "전문가"
+    },
+    {
+        "term": "maverick",
+        "definition": "독불장군"
+    },
+    {
+        "term": "mawkish",
+        "definition": "매우 감상적인"
+    },
+    {
+        "term": "meager",
+        "definition": "부족한, 빈약한"
+    },
+    {
+        "term": "mean",
+        "definition": "질이 떨어지는, 가치가 없는, 양이 적은, 시시한"
+    },
+    {
+        "term": "meander",
+        "definition": "정처 없이 거닐다, (강)굽이굽이 흐르다"
+    },
+    {
+        "term": "measly",
+        "definition": "(양)아주 조금인"
+    },
+    {
+        "term": "measure",
+        "definition": "악보한마디;측정하다"
+    },
+    {
+        "term": "measured",
+        "definition": "정확히 측정한;신중한"
+    },
+    {
+        "term": "meddle",
+        "definition": "참견하다"
+    },
+    {
+        "term": "meek",
+        "definition": "온순한, 유순한"
+    },
+    {
+        "term": "meet",
+        "definition": "적절한"
+    },
+    {
+        "term": "melancholy",
+        "definition": "우울한"
+    },
+    {
+        "term": "meld",
+        "definition": "(골고루) 잘 섞다"
+    },
+    {
+        "term": "mellifluous",
+        "definition": "(소리, 말)감미로운"
+    },
+    {
+        "term": "melodious",
+        "definition": "듣기 좋은"
+    },
+    {
+        "term": "menace",
+        "definition": "위협하는 사람;위협하다"
+    },
+    {
+        "term": "mend",
+        "definition": "고치다, 수선하다"
+    },
+    {
+        "term": "mendacious",
+        "definition": "거짓말하는"
+    },
+    {
+        "term": "mendicant",
+        "definition": "구걸하는;거지"
+    },
+    {
+        "term": "menial",
+        "definition": "하인의, 비천한"
+    },
+    {
+        "term": "mensurable",
+        "definition": "측정 가능한,"
+    },
+    {
+        "term": "mentor",
+        "definition": "조언자"
+    },
+    {
+        "term": "mercurial",
+        "definition": "변덕스런"
+    },
+    {
+        "term": "metamorphose",
+        "definition": "변형하다"
+    },
+    {
+        "term": "metaphoric(al)",
+        "definition": "은유의, 은유적인"
+    },
+    {
+        "term": "meteoric",
+        "definition": "유성같이 빠른"
+    },
+    {
+        "term": "meticulous",
+        "definition": "지나치게 꼼꼼한, 주의 깊은, 정확한"
+    },
+    {
+        "term": "mettle",
+        "definition": "용기, 원기, 기개"
+    },
+    {
+        "term": "minatory",
+        "definition": "위협하는 사람;위협하다"
+    },
+    {
+        "term": "mind",
+        "definition": "꺼리다;복종하다"
+    },
+    {
+        "term": "mindful",
+        "definition": "인식하는, 알고 있는"
+    },
+    {
+        "term": "mine",
+        "definition": "탄광;채굴하다"
+    },
+    {
+        "term": "mineshaft",
+        "definition": "탄광의 갱도"
+    },
+    {
+        "term": "mint",
+        "definition": "대량, 다량; 화폐주조 소, 조폐국"
+    },
+    {
+        "term": "minute",
+        "definition": "(요리)즉석으로 만든;미세한, 상세한"
+    },
+    {
+        "term": "minutia",
+        "definition": "작고 사소한 세부사항"
+    },
+    {
+        "term": "mire",
+        "definition": "습지, 늪;곤경;(어려운 상황에)얽히게 하다"
+    },
+    {
+        "term": "mirth",
+        "definition": "환희, 유쾌함, 웃음"
+    },
+    {
+        "term": "miscellaneous",
+        "definition": "갖가지 잡다한;잡동사니의"
+    },
+    {
+        "term": "misconstruction",
+        "definition": "곡해;오해"
+    },
+    {
+        "term": "miscreant",
+        "definition": "범법자"
+    },
+    {
+        "term": "misdemean",
+        "definition": "나쁜 행동을 하다"
+    },
+    {
+        "term": "misfortune",
+        "definition": "불운;불행한 일"
+    },
+    {
+        "term": "mishap",
+        "definition": "불행한 일"
+    },
+    {
+        "term": "mislead",
+        "definition": "속이다, 오도하다"
+    },
+    {
+        "term": "mite",
+        "definition": "작은 동물, 어린이; 작지만 정성어린 기부금"
+    },
+    {
+        "term": "mitigate",
+        "definition": "완화시키다"
+    },
+    {
+        "term": "mnemonic",
+        "definition": "기억을 돕는 장치"
+    },
+    {
+        "term": "moderate",
+        "definition": "적절하게 하다, 완화시키다"
+    },
+    {
+        "term": "modicum",
+        "definition": "소량"
+    },
+    {
+        "term": "mold",
+        "definition": "모양을 바꾸다;변형시키다"
+    },
+    {
+        "term": "mollify",
+        "definition": "달래다"
+    },
+    {
+        "term": "moment",
+        "definition": "중요성"
+    },
+    {
+        "term": "monarch",
+        "definition": "군주"
+    },
+    {
+        "term": "monopolize",
+        "definition": "독점하다"
+    },
+    {
+        "term": "morbid",
+        "definition": "병의,병적인"
+    },
+    {
+        "term": "mordant",
+        "definition": "신랄한"
+    },
+    {
+        "term": "moribund",
+        "definition": "다 죽어가는;기력 없는"
+    },
+    {
+        "term": "moroseness",
+        "definition": "시무룩하고 언짢은 상태"
+    },
+    {
+        "term": "mortar",
+        "definition": "막자 사발"
+    },
+    {
+        "term": "motley",
+        "definition": "잡동사니의,잡색의"
+    },
+    {
+        "term": "mottle",
+        "definition": "점,얼룩을 묻히다"
+    },
+    {
+        "term": "muffle",
+        "definition": "소음(消音)시키다"
+    },
+    {
+        "term": "mulish",
+        "definition": "고집스런"
+    },
+    {
+        "term": "mundane",
+        "definition": "평범한,흔한;세속적인"
+    },
+    {
+        "term": "munificent",
+        "definition": "돈을 후하게 쓰는"
+    },
+    {
+        "term": "murky",
+        "definition": "어둑어둑한, 안개가자욱한, 모호한, 애매한"
+    },
+    {
+        "term": "musician",
+        "definition": "음악가;악기연주자"
+    },
+    {
+        "term": "mutability",
+        "definition": "변화성"
+    },
+    {
+        "term": "mutate",
+        "definition": "변화하다,변화시키다"
+    },
+    {
+        "term": "mute",
+        "definition": "소리 없는"
+    },
+    {
+        "term": "myopia",
+        "definition": "근시안"
+    },
+    {
+        "term": "myriad",
+        "definition": "수많은,다수"
+    },
+    {
+        "term": "nadir",
+        "definition": "천저,밑바닥,절망상태"
+    },
+    {
+        "term": "naive",
+        "definition": "순진한,순박한,경험이 없는"
+    },
+    {
+        "term": "nascent",
+        "definition": "지금 막 생겨난"
+    },
+    {
+        "term": "natty",
+        "definition": "말끔한"
+    },
+    {
+        "term": "nebulous",
+        "definition": "흐린,구름 같은,뚜렷하지 않은"
+    },
+    {
+        "term": "nefarious",
+        "definition": "사악한,범법의"
+    },
+    {
+        "term": "negligent",
+        "definition": "태만한;적절한 주의를 기울이지 못하는"
+    },
+    {
+        "term": "negligible",
+        "definition": "하찮은"
+    },
+    {
+        "term": "negotiate",
+        "definition": "협상하다"
+    },
+    {
+        "term": "nemesis",
+        "definition": "복수의 화신;강적"
+    },
+    {
+        "term": "nepotism",
+        "definition": "친족주의"
+    },
+    {
+        "term": "nervy",
+        "definition": "건방진,뻔뻔스런"
+    },
+    {
+        "term": "nether",
+        "definition": "아래의,밑의"
+    },
+    {
+        "term": "nettle",
+        "definition": "화나게 하다,안절부절못하게 하다;쐐기풀"
+    },
+    {
+        "term": "nibble",
+        "definition": "조금씩 물어뜯다,잠식하다"
+    },
+    {
+        "term": "nice",
+        "definition": "철저한,꼼꼼한,정확한"
+    },
+    {
+        "term": "nimble",
+        "definition": "민첩한,영리한"
+    },
+    {
+        "term": "nitpick",
+        "definition": "트집잡다"
+    },
+    {
+        "term": "nitrogen",
+        "definition": "질소"
+    },
+    {
+        "term": "nocturnal",
+        "definition": "밤의,야행성의"
+    },
+    {
+        "term": "noisome",
+        "definition": "불쾌한,해로운,악취가 나는"
+    },
+    {
+        "term": "nonchalant",
+        "definition": "태연한,무관심한"
+    },
+    {
+        "term": "noncommittal",
+        "definition": "분명한 의견을 표명하지 않은,애매한,확실하지 않은"
+    },
+    {
+        "term": "nonconformity",
+        "definition": "(표준,전통,규칙,법률 등)따르지 않음,불순응,불일치"
+    },
+    {
+        "term": "nondescript",
+        "definition": "뚜렷한 특징이 없는"
+    },
+    {
+        "term": "nonentity",
+        "definition": "있으나 마나한 인간(사물)"
+    },
+    {
+        "term": "nonplus",
+        "definition": "혼란스럽게 하다,놀라게 하다"
+    },
+    {
+        "term": "notoriety",
+        "definition": "(악명으로)유명함"
+    },
+    {
+        "term": "noxious",
+        "definition": "해로운,불쾌한"
+    },
+    {
+        "term": "nuance",
+        "definition": "미묘한 차이,음영"
+    },
+    {
+        "term": "nugatory",
+        "definition": "증요하지 않은,하찮은"
+    },
+    {
+        "term": "nuisance",
+        "definition": "귀찮은 것,성가신 것,폐"
+    },
+    {
+        "term": "nullify",
+        "definition": "무효화하다"
+    },
+    {
+        "term": "numb",
+        "definition": "마비된; 마비시키다"
+    },
+    {
+        "term": "numberless",
+        "definition": "셀 수 없이 많은"
+    },
+    {
+        "term": "nurture",
+        "definition": "양육하다,돌보다"
+    },
+    {
+        "term": "oaf",
+        "definition": "바보,멍청이,기형아"
+    },
+    {
+        "term": "obdurate",
+        "definition": "고집 센"
+    },
+    {
+        "term": "obedient",
+        "definition": "순종적인,복종을 잘하는"
+    },
+    {
+        "term": "obeisant",
+        "definition": "정중한"
+    },
+    {
+        "term": "obfuscate",
+        "definition": "애매하게 하다,어리둥절하게 하다"
+    },
+    {
+        "term": "oblique",
+        "definition": "기울어진,비스듬한,완곡한,모호한;부정한,잘못된"
+    },
+    {
+        "term": "obliterate",
+        "definition": "완전 제거하다,지우다"
+    },
+    {
+        "term": "oblivious",
+        "definition": "알아채지 못한,염두에 없는,망각한"
+    },
+    {
+        "term": "obscenity",
+        "definition": "저속한 행동,말"
+    },
+    {
+        "term": "obscure",
+        "definition": "불명료하게 하다;불명료한;유명하지 않은"
+    },
+    {
+        "term": "obsequious",
+        "definition": "아부하는"
+    },
+    {
+        "term": "observable",
+        "definition": "관찰할 수 있는,주목할 만한"
+    },
+    {
+        "term": "obsolescence",
+        "definition": "쇠퇴함,퇴행"
+    },
+    {
+        "term": "obsolete",
+        "definition": "구식의,못쓰게 된"
+    },
+    {
+        "term": "obstacle",
+        "definition": "방해물,장애물"
+    },
+    {
+        "term": "obstinate",
+        "definition": "완고한,완강한"
+    },
+    {
+        "term": "obstreperous",
+        "definition": "통제가 안되는,시끄러운,떠들썩한"
+    },
+    {
+        "term": "obtrusive",
+        "definition": "눈에 거슬리는"
+    },
+    {
+        "term": "obtuse",
+        "definition": "둔한,이해가 매우 느린;뭉텅한,둔한"
+    },
+    {
+        "term": "obviate",
+        "definition": "불필요하게 하다;예방하다,제거하다"
+    },
+    {
+        "term": "obvious",
+        "definition": "명백한"
+    },
+    {
+        "term": "occlude",
+        "definition": "닫다,가두다,막다"
+    },
+    {
+        "term": "occult",
+        "definition": "숨겨진,눈에 보이지 않는,난해한"
+    },
+    {
+        "term": "odious",
+        "definition": "몹시 불쾌한,혐오스런"
+    },
+    {
+        "term": "odium",
+        "definition": "증오,미움;비난,악평"
+    },
+    {
+        "term": "offbeat",
+        "definition": "색다른"
+    },
+    {
+        "term": "officious",
+        "definition": "참견이 심한"
+    },
+    {
+        "term": "omnipotent",
+        "definition": "전능한"
+    },
+    {
+        "term": "onerous",
+        "definition": "힘든,성가신,귀찮은"
+    },
+    {
+        "term": "onset",
+        "definition": "시작"
+    },
+    {
+        "term": "opacity",
+        "definition": "불투명 성"
+    },
+    {
+        "term": "opportune",
+        "definition": "(시기, 시간) 적절한"
+    },
+    {
+        "term": "opprobrium",
+        "definition": "불명예, 비난"
+    },
+    {
+        "term": "opulent",
+        "definition": "부유한,풍성한"
+    },
+    {
+        "term": "orator",
+        "definition": "웅변가,대중연설 가"
+    },
+    {
+        "term": "oscillate",
+        "definition": "진동하다,주저하다,흔들리다"
+    },
+    {
+        "term": "ossify",
+        "definition": "골화(骨化)되다;보수화되다"
+    },
+    {
+        "term": "ostensible",
+        "definition": "표면상의,겉보기만의;명백한,명료한"
+    },
+    {
+        "term": "ostentatious",
+        "definition": "자랑/과시하는,허세부리는"
+    },
+    {
+        "term": "ostracize",
+        "definition": "추방하다"
+    },
+    {
+        "term": "oust",
+        "definition": "(지위,장소에서)내쫓다,축출하다"
+    },
+    {
+        "term": "outlandish",
+        "definition": "별난,기이한,희한한;이국적인"
+    },
+    {
+        "term": "outlaw",
+        "definition": "범법자,무법자"
+    },
+    {
+        "term": "outmoded",
+        "definition": "구식의,못쓰게 된"
+    },
+    {
+        "term": "outstanding",
+        "definition": "뛰어난"
+    },
+    {
+        "term": "overbearing",
+        "definition": "횡포한,고압적인,거만한;압도적인"
+    },
+    {
+        "term": "overhaul",
+        "definition": "정밀 점검하다;전면 개 보수하다"
+    },
+    {
+        "term": "overlook",
+        "definition": "간과하다;무시하다"
+    },
+    {
+        "term": "overt",
+        "definition": "공공연한,명백한,숨김없는"
+    },
+    {
+        "term": "overture",
+        "definition": "(오페라,오라트리오)서곡"
+    },
+    {
+        "term": "pacify",
+        "definition": "달래다,진정시키다"
+    },
+    {
+        "term": "padding",
+        "definition": "(완충이나 소음 예방 목적의)속,심"
+    },
+    {
+        "term": "paean",
+        "definition": "찬가,승전가"
+    },
+    {
+        "term": "painstaking",
+        "definition": "애쓰는,수고를 아끼지 않는,면밀한,철저한"
+    },
+    {
+        "term": "palatable",
+        "definition": "맛있는"
+    },
+    {
+        "term": "palatial",
+        "definition": "궁전같이 웅장하고 멋진"
+    },
+    {
+        "term": "palliate",
+        "definition": "(증상)완화시키다"
+    },
+    {
+        "term": "pallid",
+        "definition": "(얼굴) 창백한"
+    },
+    {
+        "term": "pallor",
+        "definition": "창백함"
+    },
+    {
+        "term": "palpable",
+        "definition": "촉각으로 느낄 수 있는;명백한,뚜렷한"
+    },
+    {
+        "term": "palpitate",
+        "definition": "(심장)빠르게 뛰다"
+    },
+    {
+        "term": "palter",
+        "definition": "둘러대다,얼버무리다,속이다"
+    },
+    {
+        "term": "paltry",
+        "definition": "시시한,양이 적어서 하찮은"
+    },
+    {
+        "term": "pan",
+        "definition": "심하게 비난하다"
+    },
+    {
+        "term": "panache",
+        "definition": "당당한 태도,품격,기백,과시"
+    },
+    {
+        "term": "pandemic",
+        "definition": "(병이) 전국이나 전세계적으로 퍼지는;그런 전염병"
+    },
+    {
+        "term": "panegyric",
+        "definition": "칭송,찬양"
+    },
+    {
+        "term": "panorama",
+        "definition": "전경"
+    },
+    {
+        "term": "pantry",
+        "definition": "(식료품,식기) 보관실"
+    },
+    {
+        "term": "paradigmatic",
+        "definition": "전형적인"
+    },
+    {
+        "term": "paragon",
+        "definition": "완벽한 예가 되는 사람이나 사물,모범,전형"
+    },
+    {
+        "term": "paralyze",
+        "definition": "마비[활동 못하게]시키다"
+    },
+    {
+        "term": "paramount",
+        "definition": "가장 중요한,최고의"
+    },
+    {
+        "term": "pariah",
+        "definition": "사회적으로 경멸 받고 따돌림 당하는 사람,추방자"
+    },
+    {
+        "term": "parity",
+        "definition": "동등,동격,동량"
+    },
+    {
+        "term": "parlance",
+        "definition": "화술"
+    },
+    {
+        "term": "parody",
+        "definition": "패러디,풍자적 모방(희화화)"
+    },
+    {
+        "term": "paroxysm",
+        "definition": "갑작스런 발작,감정의 폭발"
+    },
+    {
+        "term": "parrot",
+        "definition": "기계적으로 떠라 하다,기계적으로 반복해서 말하다"
+    },
+    {
+        "term": "parry",
+        "definition": "공격을 피하다;대답을 회피하다"
+    },
+    {
+        "term": "parse",
+        "definition": "문장을 분석하다"
+    },
+    {
+        "term": "parsimonious",
+        "definition": "인색한"
+    },
+    {
+        "term": "pastoral",
+        "definition": "전원적인"
+    },
+    {
+        "term": "pat",
+        "definition": "적절한,능숙한;연습한 것처럼/외운 것처럼 딱 맞는"
+    },
+    {
+        "term": "patent",
+        "definition": "명백한,눈에 띄는"
+    },
+    {
+        "term": "patronize",
+        "definition": "후원하다;우월하게 행동하다,생색내다"
+    },
+    {
+        "term": "paucity",
+        "definition": "소량,결핍,부족"
+    },
+    {
+        "term": "peaceableness",
+        "definition": "온건함,평화로움"
+    },
+    {
+        "term": "peck",
+        "definition": "부리로 쪼다;가볍게 키스하다"
+    },
+    {
+        "term": "pedagogue",
+        "definition": "선생님;교육자"
+    },
+    {
+        "term": "pedantic",
+        "definition": "현학적인;규정,작은 것에 너무 매달리는"
+    },
+    {
+        "term": "pedestrian",
+        "definition": "평범한,진부한"
+    },
+    {
+        "term": "peel",
+        "definition": "껍질"
+    },
+    {
+        "term": "peep",
+        "definition": "(새 새끼,쥐)짧고,부드럽고,높은 음(을 내다)"
+    },
+    {
+        "term": "peerless",
+        "definition": "최고의,적수가 없는"
+    },
+    {
+        "term": "peeve",
+        "definition": "화나게 하다"
+    },
+    {
+        "term": "pejorative",
+        "definition": "경멸적인,비난적인"
+    },
+    {
+        "term": "pelf",
+        "definition": "돈,부유함"
+    },
+    {
+        "term": "pell-mell",
+        "definition": "뒤죽박죽,황급한"
+    },
+    {
+        "term": "penchant",
+        "definition": "강한 기호,경향,좋아함"
+    },
+    {
+        "term": "pendulum",
+        "definition": "시계추"
+    },
+    {
+        "term": "penetrate",
+        "definition": "관통하다, 꿰뚫다; (사실, 진리) 간파하다, 통찰하다, 이해하다"
+    },
+    {
+        "term": "penetrating",
+        "definition": "직관력이 있는,통찰력 있는, 현명한"
+    },
+    {
+        "term": "penitent",
+        "definition": "참회하는,뉘우치는,회개한"
+    },
+    {
+        "term": "penurious",
+        "definition": "몹시 가난한;인색한"
+    },
+    {
+        "term": "pep",
+        "definition": "활기,원기,활력"
+    },
+    {
+        "term": "perceive",
+        "definition": "인식하다,이해하다"
+    },
+    {
+        "term": "percipient",
+        "definition": "지각하는,감지하는,통찰력 있는"
+    },
+    {
+        "term": "peregrination",
+        "definition": "방랑"
+    },
+    {
+        "term": "peremptory",
+        "definition": "단호한,지엄한;위압적인,독단적인"
+    },
+    {
+        "term": "perennial",
+        "definition": "지속적인,영구적인"
+    },
+    {
+        "term": "perfidy",
+        "definition": "배신,속임"
+    },
+    {
+        "term": "perforate",
+        "definition": "구멍 뚫다"
+    },
+    {
+        "term": "perfunctory",
+        "definition": "성의 없이 되어진"
+    },
+    {
+        "term": "peripatetic",
+        "definition": "순회하는,돌아다니는"
+    },
+    {
+        "term": "peripheral",
+        "definition": "주변부의,중요하지 않은"
+    },
+    {
+        "term": "permanent",
+        "definition": "영구적인,불변하는"
+    },
+    {
+        "term": "permissiveness",
+        "definition": "관대함,허용적인"
+    },
+    {
+        "term": "permute",
+        "definition": "변경하다,순서를 바꾸다"
+    },
+    {
+        "term": "pernicious",
+        "definition": "해로운"
+    },
+    {
+        "term": "peroration",
+        "definition": "끝맺는 말,(연설) 결어"
+    },
+    {
+        "term": "perpetrate",
+        "definition": "(범죄,과실,실책) 범하다,저지르다"
+    },
+    {
+        "term": "perpetual",
+        "definition": "영원한"
+    },
+    {
+        "term": "perplex",
+        "definition": "혼란스럽게 하다,놀라게 하다"
+    },
+    {
+        "term": "persevere",
+        "definition": "인내하다,견디다"
+    },
+    {
+        "term": "persiflage",
+        "definition": "농담,희롱,익살;경박함"
+    },
+    {
+        "term": "persimmon",
+        "definition": "감(오렌지색 과일)"
+    },
+    {
+        "term": "persistence",
+        "definition": "고집,집요,지속"
+    },
+    {
+        "term": "perspicacious",
+        "definition": "통찰력 있는,명민한"
+    },
+    {
+        "term": "perspicuous",
+        "definition": "명확한,명료한"
+    },
+    {
+        "term": "pertinacious",
+        "definition": "완고한"
+    },
+    {
+        "term": "pertinent",
+        "definition": "관련된,적절한"
+    },
+    {
+        "term": "perturb",
+        "definition": "마음을 불안하고 초조하게 만들다,동요시키다"
+    },
+    {
+        "term": "pervade",
+        "definition": "퍼지다,온통 가득하다"
+    },
+    {
+        "term": "pervasive",
+        "definition": "널리 퍼져있는"
+    },
+    {
+        "term": "petty",
+        "definition": "안 중요한,덜 중요한,사소한,하찮은"
+    },
+    {
+        "term": "phantom",
+        "definition": "유령(같은)"
+    },
+    {
+        "term": "phenomenal",
+        "definition": "대단한,비범한"
+    },
+    {
+        "term": "philanthropist",
+        "definition": "박애주의자,자선가"
+    },
+    {
+        "term": "phlegmatic",
+        "definition": "점액질의,침착한;무감정의,느린"
+    },
+    {
+        "term": "piety",
+        "definition": "경건함"
+    },
+    {
+        "term": "pilfer",
+        "definition": "훔치다"
+    },
+    {
+        "term": "pillory",
+        "definition": "공개적으로 웃음거리로 만들다"
+    },
+    {
+        "term": "pinion",
+        "definition": "손발을 묶다,구속/속박하다"
+    },
+    {
+        "term": "pinnacle",
+        "definition": "절정,전성기,정상"
+    },
+    {
+        "term": "piquant",
+        "definition": "자극적이고 맛있는;(분위기,태도) 자극적 이로 적극적인"
+    },
+    {
+        "term": "pique",
+        "definition": "화나게 하다,자극하다"
+    },
+    {
+        "term": "pitfall",
+        "definition": "함정,도사린 위험"
+    },
+    {
+        "term": "pithy",
+        "definition": "간결한;힘찬 명쾌한,뜻이 깊은"
+    },
+    {
+        "term": "pittance",
+        "definition": "아주 적은 용돈, 수당, 보상"
+    },
+    {
+        "term": "placate",
+        "definition": "달래다"
+    },
+    {
+        "term": "placebo",
+        "definition": "위약"
+    },
+    {
+        "term": "plagiarism",
+        "definition": "표절"
+    },
+    {
+        "term": "plague",
+        "definition": "괴롭히다"
+    },
+    {
+        "term": "plaintive",
+        "definition": "슬픈, 불쌍한, 애처로운"
+    },
+    {
+        "term": "plangent",
+        "definition": "(소리) 울려 퍼지는"
+    },
+    {
+        "term": "platitude",
+        "definition": "진부한 말, 진부함"
+    },
+    {
+        "term": "plaudit",
+        "definition": "박수, 갈채, 찬양"
+    },
+    {
+        "term": "plausible",
+        "definition": "그럴듯한"
+    },
+    {
+        "term": "playbill",
+        "definition": "(배역이 소개된) 연극프로그램"
+    },
+    {
+        "term": "pleat",
+        "definition": "(치마, 바지) 주름; 주름잡다"
+    },
+    {
+        "term": "plethora",
+        "definition": "초과, 과다"
+    },
+    {
+        "term": "pliable",
+        "definition": "모양이 잘 휘는; 고분고분한"
+    },
+    {
+        "term": "pliant",
+        "definition": "유연한, 고분고분한"
+    },
+    {
+        "term": "plot",
+        "definition": "음모; (극, 이야기) 구성, 플롯"
+    },
+    {
+        "term": "pluck",
+        "definition": "용기"
+    },
+    {
+        "term": "plumage",
+        "definition": "(집합 명사)새의 깃털"
+    },
+    {
+        "term": "plumb",
+        "definition": "면밀히 조사하다"
+    },
+    {
+        "term": "plummet",
+        "definition": "수직으로 떨어지다"
+    },
+    {
+        "term": "poach",
+        "definition": "끓는 물로 요리하다; 밀렵하다"
+    },
+    {
+        "term": "podium",
+        "definition": "연단, 지휘단"
+    },
+    {
+        "term": "polarity",
+        "definition": "양극성"
+    },
+    {
+        "term": "polarize",
+        "definition": "양극화하다; 분열시키다"
+    },
+    {
+        "term": "polemical",
+        "definition": "논쟁을 일으키는"
+    },
+    {
+        "term": "politic",
+        "definition": "현명한, 분별력 있는"
+    },
+    {
+        "term": "polymorphous",
+        "definition": "여러 형태의, 다양한"
+    },
+    {
+        "term": "pomp",
+        "definition": "장환, 화려; 위엄의 과시, 거만한 행동"
+    },
+    {
+        "term": "pompous",
+        "definition": "(태도, 말) 오만한, 거만한, 과장된"
+    },
+    {
+        "term": "ponder",
+        "definition": "심사 숙고하다"
+    },
+    {
+        "term": "ponderous",
+        "definition": "무거운, 육중한; 지루한"
+    },
+    {
+        "term": "pontificate",
+        "definition": "오만하고 독단적으로 말하다"
+    },
+    {
+        "term": "porous",
+        "definition": "다공성의, (기체, 액체) 쉽게 통과하는; 침투하기 쉬운"
+    },
+    {
+        "term": "portentous",
+        "definition": "심각한, 중요한, 불길한, 놀라운"
+    },
+    {
+        "term": "portrait",
+        "definition": "초상화"
+    },
+    {
+        "term": "poseur",
+        "definition": "젠체하는 사람"
+    },
+    {
+        "term": "postulate",
+        "definition": "가정하다; 당연한 것으로 여기다"
+    },
+    {
+        "term": "posture",
+        "definition": "과장되고 부자연스런 포즈를 취하다"
+    },
+    {
+        "term": "potable",
+        "definition": "마시기에 적당한"
+    },
+    {
+        "term": "potentate",
+        "definition": "권세가, 강대한 힘의 소유자"
+    },
+    {
+        "term": "prate",
+        "definition": "재잘재잘 지껄이다"
+    },
+    {
+        "term": "precarious",
+        "definition": "위태로운, 불확실한"
+    },
+    {
+        "term": "precedent",
+        "definition": "선례"
+    },
+    {
+        "term": "precipice",
+        "definition": "절벽, 벼랑"
+    },
+    {
+        "term": "precipitate",
+        "definition": "재촉하다, 갑자기 생기게 하다; 성급한"
+    },
+    {
+        "term": "precipitous",
+        "definition": "벼랑 같은, 급경사의, 황급한, 허둥대는"
+    },
+    {
+        "term": "preclude",
+        "definition": "배제하다, 방해하다"
+    },
+    {
+        "term": "precursor",
+        "definition": "선구자, 선행하는 것"
+    },
+    {
+        "term": "predecessor",
+        "definition": "선구자, 선행하는 것"
+    },
+    {
+        "term": "preeminence",
+        "definition": "가장 뛰어남, 탁월함"
+    },
+    {
+        "term": "preempt",
+        "definition": "선제적으로 막다; 선취하다, 선점하다"
+    },
+    {
+        "term": "preen",
+        "definition": "치장하다, 자기만족을 드러내다"
+    },
+    {
+        "term": "preface",
+        "definition": "서론, 머리말"
+    },
+    {
+        "term": "preference",
+        "definition": "애호, 좋아함"
+    },
+    {
+        "term": "premeditated",
+        "definition": "미리 생각한, 계획된"
+    },
+    {
+        "term": "preponderant",
+        "definition": "우세한, 압도적인, 능가하는"
+    },
+    {
+        "term": "prescience",
+        "definition": "예지력; 통찰력"
+    },
+    {
+        "term": "principled",
+        "definition": "윤리적인, 규율이 있는"
+    },
+    {
+        "term": "pristine",
+        "definition": "원래 그대로의, 오염되지 않은, 깨끗한"
+    },
+    {
+        "term": "probity",
+        "definition": "정직, 청렴"
+    },
+    {
+        "term": "proclivity",
+        "definition": "성향, 경향"
+    },
+    {
+        "term": "prodigal",
+        "definition": "낭비하는"
+    },
+    {
+        "term": "profane",
+        "definition": "불경스러운, 세속적인; 거룩하지 않은, 더러운"
+    },
+    {
+        "term": "profligate",
+        "definition": "탕진하는, 낭비하는"
+    },
+    {
+        "term": "prohibitive",
+        "definition": "(가격) 지나치게 비싼; 금지하는, 제한하는"
+    },
+    {
+        "term": "prolix",
+        "definition": "장황한, 지루하게 긴"
+    },
+    {
+        "term": "proofread",
+        "definition": "교정하다"
+    },
+    {
+        "term": "propensity",
+        "definition": "강한 기호, 경향"
+    },
+    {
+        "term": "prosaic",
+        "definition": "진부한; 산문형식의"
+    },
+    {
+        "term": "proscribe",
+        "definition": "법으로 금지하다"
+    },
+    {
+        "term": "prostrate",
+        "definition": "엎드리(게 하)다, 굴복시키다, 굴복하다, 쇠약하게 하다;엎드린,굴복한,기진맥진한"
+    },
+    {
+        "term": "protract",
+        "definition": "연장하다"
+    },
+    {
+        "term": "protuberance",
+        "definition": "돌출, 돌기, 융기"
+    },
+    {
+        "term": "puckish",
+        "definition": "짓궂은, 장난기 있는"
+    },
+    {
+        "term": "puerile",
+        "definition": "유치한"
+    },
+    {
+        "term": "pulchritude",
+        "definition": "아름다움"
+    },
+    {
+        "term": "pundit",
+        "definition": "권위자, (미디어에 출연해서 의견을 말하는) 전문가"
+    },
+    {
+        "term": "pusillanimous",
+        "definition": "소심한, 심약한"
+    },
+    {
+        "term": "qualm",
+        "definition": "불안, 걱정, 불편한 마음; 양심의 가책"
+    },
+    {
+        "term": "quandary",
+        "definition": "난처함, 궁지"
+    },
+    {
+        "term": "quatrain",
+        "definition": "4행으로 이루어진 연"
+    },
+    {
+        "term": "quell",
+        "definition": "진압하다"
+    },
+    {
+        "term": "querulous",
+        "definition": "징징거리며 불평하는, 불만이 많은"
+    },
+    {
+        "term": "query",
+        "definition": "질문하다"
+    },
+    {
+        "term": "quibble",
+        "definition": "사소한 반대, 트집잡기; 사소한 문제에 트집잡다, 논의의 주제를 회피하다"
+    },
+    {
+        "term": "quixotic",
+        "definition": "지나치게 이상적인; 비현실적인"
+    },
+    {
+        "term": "quotidian",
+        "definition": "일상적인, 매일매일의, 평범한"
+    },
+    {
+        "term": "rabid",
+        "definition": "과격한, 광신적인, 맹렬한"
+    },
+    {
+        "term": "rabies",
+        "definition": "공수병, 광견병"
+    },
+    {
+        "term": "radical",
+        "definition": "근본적인; 급진적인"
+    },
+    {
+        "term": "raft",
+        "definition": "부대; 뗏목"
+    },
+    {
+        "term": "ragged",
+        "definition": "(옷이) 낡고 헤진; (표면이) 울퉁불퉁한"
+    },
+    {
+        "term": "rakish",
+        "definition": "방탕아의; 멋진, 경쾌한, 세련된"
+    },
+    {
+        "term": "rally",
+        "definition": "세를 규합하다; 집회로 모이다; (사기) 진작시키다; (건강,기세) 회복시키다"
+    },
+    {
+        "term": "rancor",
+        "definition": "원한, 악의"
+    },
+    {
+        "term": "rash",
+        "definition": "무모한, 서두르는, 성급한"
+    },
+    {
+        "term": "raucous",
+        "definition": "(소리) 거슬리는, 불쾌한"
+    },
+    {
+        "term": "ream",
+        "definition": "연(종이의 거래단위), 종이체적단위"
+    },
+    {
+        "term": "rebel",
+        "definition": "반항하다, 반란을 일으키다"
+    },
+    {
+        "term": "rebuff",
+        "definition": "퉁명스럽게 거부하다, 거절하다"
+    },
+    {
+        "term": "recalcitrant",
+        "definition": "권위에 저항하는, 다루기 힘든"
+    },
+    {
+        "term": "recant",
+        "definition": "(주장)철회하다;(믿음)부정하다"
+    },
+    {
+        "term": "recidivism",
+        "definition": "상습적 범행"
+    },
+    {
+        "term": "recluse",
+        "definition": "은둔자"
+    },
+    {
+        "term": "recondite",
+        "definition": "난해한"
+    },
+    {
+        "term": "rectitude",
+        "definition": "(행동)정의로움, 옮음, 정직"
+    },
+    {
+        "term": "refuse",
+        "definition": "쓰레기"
+    },
+    {
+        "term": "regression",
+        "definition": "회귀, 복귀"
+    },
+    {
+        "term": "relentless",
+        "definition": "엄격한, 가혹한, 무자비한"
+    },
+    {
+        "term": "reliable",
+        "definition": "믿을만한"
+    },
+    {
+        "term": "relinquish",
+        "definition": "포기하다, 양보하다, 양도하다"
+    },
+    {
+        "term": "reminisce",
+        "definition": "회상하다"
+    },
+    {
+        "term": "remiss",
+        "definition": "태만한, 성의 없는, 소홀한"
+    },
+    {
+        "term": "remold",
+        "definition": "(모양, 구조, 특징)바꾸다"
+    },
+    {
+        "term": "remorseless",
+        "definition": "(행동) 가혹한, 무자비한, 뉘우치지않는"
+    },
+    {
+        "term": "repellent",
+        "definition": "불쾌감을 주는"
+    },
+    {
+        "term": "replete",
+        "definition": "충분한, 가득한"
+    },
+    {
+        "term": "repose",
+        "definition": "휴식"
+    },
+    {
+        "term": "repress",
+        "definition": "억압하다, 억제하다"
+    },
+    {
+        "term": "reproachable",
+        "definition": "비난할만한,"
+    },
+    {
+        "term": "reprobate",
+        "definition": "나쁜 놈;비난하다"
+    },
+    {
+        "term": "rescind",
+        "definition": "폐지, 폐기, 철회하다"
+    },
+    {
+        "term": "reservoir",
+        "definition": "저수지;수조"
+    },
+    {
+        "term": "resignation",
+        "definition": "사퇴;체념, 포기, 단념"
+    },
+    {
+        "term": "resilience",
+        "definition": "탄력, 회복력"
+    },
+    {
+        "term": "resolute",
+        "definition": "마음이 확고한"
+    },
+    {
+        "term": "resonant",
+        "definition": "낭랑하게 울리는, 공명하는"
+    },
+    {
+        "term": "respect",
+        "definition": "존경"
+    },
+    {
+        "term": "resplendent",
+        "definition": "화려한, 눈부신"
+    },
+    {
+        "term": "restive",
+        "definition": "안절부절 못하는"
+    },
+    {
+        "term": "retention",
+        "definition": "보존, 보유, 유지;기억력"
+    },
+    {
+        "term": "reticent",
+        "definition": "과묵한"
+    },
+    {
+        "term": "retort",
+        "definition": "(말)(빠르고 재치 있게, 신랄하게)되받아 치다, 응수하다"
+    },
+    {
+        "term": "retrench",
+        "definition": "삭감하다"
+    },
+    {
+        "term": "revel",
+        "definition": "매우 기뻐하다, 즐거워하다, 마시고 흥청거리다"
+    },
+    {
+        "term": "revere",
+        "definition": "깊이 존경하다"
+    },
+    {
+        "term": "rite",
+        "definition": "의식,절차"
+    },
+    {
+        "term": "robust",
+        "definition": "건강한, 건장한"
+    },
+    {
+        "term": "rotund",
+        "definition": "둥근, 퉁퉁하게 살찐"
+    },
+    {
+        "term": "rowdy",
+        "definition": "소란스러운, 난폭한"
+    },
+    {
+        "term": "rude",
+        "definition": "미개한, 교양 없는;건장한;거친,가공하지 않은, 조잡한"
+    },
+    {
+        "term": "rue",
+        "definition": "뉘우치다,후회하다, 유감으로 여기다"
+    },
+    {
+        "term": "ruse",
+        "definition": "계략,음모, 책략"
+    },
+    {
+        "term": "sacrilegious",
+        "definition": "신성을 더럽히는"
+    },
+    {
+        "term": "sacrosanct",
+        "definition": "신성불가침의"
+    },
+    {
+        "term": "sadist",
+        "definition": "가학적인;잔혹함을 즐기는 사람"
+    },
+    {
+        "term": "saga",
+        "definition": "무용담, 영웅이야기"
+    },
+    {
+        "term": "sagacious",
+        "definition": "현명한, 기민한"
+    },
+    {
+        "term": "sally",
+        "definition": "반격,돌격(하다)"
+    },
+    {
+        "term": "salubrious",
+        "definition": "건강에 좋은, 유익한;건강한"
+    },
+    {
+        "term": "salve",
+        "definition": "연고"
+    },
+    {
+        "term": "sangfroid",
+        "definition": "침착, 냉정"
+    },
+    {
+        "term": "sate",
+        "definition": "충분히 만족시키다"
+    },
+    {
+        "term": "satirical",
+        "definition": "풍자의"
+    },
+    {
+        "term": "saturated",
+        "definition": "흠뻑 젖은, 포화상태의"
+    },
+    {
+        "term": "schism",
+        "definition": "(교회) 분열, 분파"
+    },
+    {
+        "term": "scission",
+        "definition": "절단, 분리, 분열"
+    },
+    {
+        "term": "scrutiny",
+        "definition": "정밀조사"
+    },
+    {
+        "term": "scurrilous",
+        "definition": "(입) 상스런, 저속한, 욕하는"
+    },
+    {
+        "term": "secretive",
+        "definition": "비밀의, 숨기려 하는"
+    },
+    {
+        "term": "secular",
+        "definition": "세속적인"
+    },
+    {
+        "term": "seethe",
+        "definition": "(마음속이) 분노로 부글부글 끓다; 분노로 끓어오르는 상태"
+    },
+    {
+        "term": "shackle",
+        "definition": "족쇄를 채우다"
+    },
+    {
+        "term": "shadowy",
+        "definition": "그림자 드리워진, 희미한, 애매한"
+    },
+    {
+        "term": "sham",
+        "definition": "가짜의, 모조의; 모조품, 가짜"
+    },
+    {
+        "term": "shard",
+        "definition": "(도자기, 유리, 바위) 파편조각"
+    },
+    {
+        "term": "shiftiness",
+        "definition": "교활함, 속임수, 간사함"
+    },
+    {
+        "term": "shirk",
+        "definition": "회피하다"
+    },
+    {
+        "term": "simulation",
+        "definition": "모조품, 가짜; ~인체하기"
+    },
+    {
+        "term": "sinewy",
+        "definition": "힘찬, 활발한, 건장한"
+    },
+    {
+        "term": "skittish",
+        "definition": "변덕스런, 장난스런, 활발한"
+    },
+    {
+        "term": "skulk",
+        "definition": "살금살금 움직이다"
+    },
+    {
+        "term": "slake",
+        "definition": "갈증을 해소하다, 만족시키다"
+    },
+    {
+        "term": "slight",
+        "definition": "사소한, 대수롭지 않은; 무시하다, 경시하다"
+    },
+    {
+        "term": "slovenly",
+        "definition": "지저분한, 단정치 못한; 되는대로 하는, 날림의"
+    },
+    {
+        "term": "slur",
+        "definition": "중상하다, 비방하다"
+    },
+    {
+        "term": "sly",
+        "definition": "교활한, 간사한, 음흉한"
+    },
+    {
+        "term": "snarl",
+        "definition": "뒤엉키게 하다, 방해하다"
+    },
+    {
+        "term": "solicitous",
+        "definition": "걱정하는"
+    },
+    {
+        "term": "solvent",
+        "definition": "지급 능력이 있는; 녹이는, 용해력있는"
+    },
+    {
+        "term": "sop",
+        "definition": "달래려고 준 것; 뇌물"
+    },
+    {
+        "term": "sophism",
+        "definition": "궤변, 잘못된 이론"
+    },
+    {
+        "term": "sophisticated",
+        "definition": "세련된; 순진하지 않은, 세상 물정에 익숙한; 정교한"
+    },
+    {
+        "term": "spartan",
+        "definition": "엄격한, 간소한, 사치부리지 않는"
+    },
+    {
+        "term": "spent",
+        "definition": "(힘, 에너지) 소진된"
+    },
+    {
+        "term": "spurn",
+        "definition": "경멸하다, 딱 거절하다"
+    },
+    {
+        "term": "squander",
+        "definition": "탕진하다, 낭비하다"
+    },
+    {
+        "term": "stagnant",
+        "definition": "(물이) 흐르지 않고 고여있는"
+    },
+    {
+        "term": "stalwart",
+        "definition": "충성된, 튼튼한, 건장한; 충성된 사람, 튼튼한/건장한 사람"
+    },
+    {
+        "term": "stark",
+        "definition": "장식이 없는, 간소한; 뚜렷한, 분명한; 완전한; 강한, 굳센"
+    },
+    {
+        "term": "stasis",
+        "definition": "정지상태, 균형상태"
+    },
+    {
+        "term": "stentorian",
+        "definition": "(소리) 우렁찬, 울리는"
+    },
+    {
+        "term": "stoic",
+        "definition": "고통을 참고 내색하지 않는; 감정을 드러내지 않는"
+    },
+    {
+        "term": "striate",
+        "definition": "홈을 파다"
+    },
+    {
+        "term": "stultify",
+        "definition": "활력을 없애다, 바보로 만들다; 무효로 하다"
+    },
+    {
+        "term": "sublime",
+        "definition": "숭고한"
+    },
+    {
+        "term": "submerge",
+        "definition": "물에 푹 빠뜨리다, 잠수시키다"
+    },
+    {
+        "term": "subterfuge",
+        "definition": "핑계, 구설, 속임수"
+    },
+    {
+        "term": "subvert",
+        "definition": "전복시키다"
+    },
+    {
+        "term": "succinct",
+        "definition": "간결한"
+    },
+    {
+        "term": "succor",
+        "definition": "원조하다"
+    },
+    {
+        "term": "succulent",
+        "definition": "과즙이 많은, 맛있는"
+    },
+    {
+        "term": "sully",
+        "definition": "더럽히다"
+    },
+    {
+        "term": "sunder",
+        "definition": "분리하다 절단하다"
+    },
+    {
+        "term": "supercilious",
+        "definition": "거만한 건방진"
+    },
+    {
+        "term": "superfluous",
+        "definition": "잉여의, 불필요한"
+    },
+    {
+        "term": "surfeit",
+        "definition": "과다"
+    },
+    {
+        "term": "surreptitious",
+        "definition": "은밀한"
+    },
+    {
+        "term": "suspend",
+        "definition": "매달다"
+    },
+    {
+        "term": "svelte",
+        "definition": "날씬한 세련된"
+    },
+    {
+        "term": "sybarite",
+        "definition": "쾌락주의자"
+    },
+    {
+        "term": "sycophant",
+        "definition": "아첨꾼"
+    },
+    {
+        "term": "symbiosis",
+        "definition": "공생"
+    },
+    {
+        "term": "taciturn",
+        "definition": "과묵한"
+    },
+    {
+        "term": "tainted",
+        "definition": "더럽혀진"
+    },
+    {
+        "term": "tangential",
+        "definition": "주변의"
+    },
+    {
+        "term": "tantalize",
+        "definition": "감질나게 하다. 자극하다"
+    },
+    {
+        "term": "tantamount",
+        "definition": "비슷한 동등한"
+    },
+    {
+        "term": "tarnish",
+        "definition": "광택을 잃다, 더럽히다"
+    },
+    {
+        "term": "tarpaulin",
+        "definition": "방수시트"
+    },
+    {
+        "term": "tasty",
+        "definition": "맛있는 매력적인"
+    },
+    {
+        "term": "tatty",
+        "definition": "낡고 초라한"
+    },
+    {
+        "term": "taut",
+        "definition": "팽팽한"
+    },
+    {
+        "term": "tear",
+        "definition": "찢다. 분리하다"
+    },
+    {
+        "term": "tedious",
+        "definition": "지루한, 재미없는"
+    },
+    {
+        "term": "teem",
+        "definition": "가득하다"
+    },
+    {
+        "term": "telling",
+        "definition": "효과적인 의미 있는"
+    },
+    {
+        "term": "temerity",
+        "definition": "지나친 자신감"
+    },
+    {
+        "term": "temper",
+        "definition": "누그러뜨리다"
+    },
+    {
+        "term": "temperance",
+        "definition": "자제, 절제"
+    },
+    {
+        "term": "tenable",
+        "definition": "(반대,공격)방어할 수 있는"
+    },
+    {
+        "term": "tender",
+        "definition": "제공하다 입찰하다"
+    },
+    {
+        "term": "terminology",
+        "definition": "특정분야의 기술적 용어들"
+    },
+    {
+        "term": "terse",
+        "definition": "간결한"
+    },
+    {
+        "term": "testimonial",
+        "definition": "추천서 감사장"
+    },
+    {
+        "term": "testy",
+        "definition": "조급한 쉽게 화내는"
+    },
+    {
+        "term": "therapeutic",
+        "definition": "치유하는"
+    },
+    {
+        "term": "thorny",
+        "definition": "가시가 많은"
+    },
+    {
+        "term": "thunderous",
+        "definition": "우레 같은, 열렬한"
+    },
+    {
+        "term": "thwart",
+        "definition": "막다 좌절시키다"
+    },
+    {
+        "term": "timeless",
+        "definition": "영원한"
+    },
+    {
+        "term": "timid",
+        "definition": "겁먹은 소심함"
+    },
+    {
+        "term": "tincture",
+        "definition": "염료"
+    },
+    {
+        "term": "tine",
+        "definition": "(포크의)날카로운 갈래"
+    },
+    {
+        "term": "tirade",
+        "definition": "장광설 신랄한 공격"
+    },
+    {
+        "term": "tongue-tied",
+        "definition": "(당황하여)말문이 막힌"
+    },
+    {
+        "term": "tonic",
+        "definition": "힘을 주는, 원기왕성 하게하는"
+    },
+    {
+        "term": "topical",
+        "definition": "시사문제를 다루는"
+    },
+    {
+        "term": "topple",
+        "definition": "앞으로 꼬꾸라지다"
+    },
+    {
+        "term": "torpor",
+        "definition": "무기력"
+    },
+    {
+        "term": "torrid",
+        "definition": "매우 더운 열정적인"
+    },
+    {
+        "term": "tortuous",
+        "definition": "구불구불한 솔직하지 못한"
+    },
+    {
+        "term": "tourniquet",
+        "definition": "지혈장치"
+    },
+    {
+        "term": "trace",
+        "definition": "소량"
+    },
+    {
+        "term": "tractable",
+        "definition": "고분고분한"
+    },
+    {
+        "term": "trademark",
+        "definition": "등록상표"
+    },
+    {
+        "term": "tranquility",
+        "definition": "고요 평안"
+    },
+    {
+        "term": "transient",
+        "definition": "일시적인"
+    },
+    {
+        "term": "transitory",
+        "definition": "영원하지 않은 일시적인"
+    },
+    {
+        "term": "travail",
+        "definition": "힘들게 일하다"
+    },
+    {
+        "term": "treasure",
+        "definition": "보물"
+    },
+    {
+        "term": "trenchant",
+        "definition": "(표현이)신랄한"
+    },
+    {
+        "term": "trite",
+        "definition": "진부한"
+    },
+    {
+        "term": "truculent",
+        "definition": "싸우기 좋아하는"
+    },
+    {
+        "term": "tumultuous",
+        "definition": "요동하는"
+    },
+    {
+        "term": "ubiquitous",
+        "definition": "어디에나 있는"
+    },
+    {
+        "term": "unassailable",
+        "definition": "공격할 수 없는"
+    },
+    {
+        "term": "unassuming",
+        "definition": "겸손한"
+    },
+    {
+        "term": "uncanny",
+        "definition": "신비, 이상한 보통 아닌"
+    },
+    {
+        "term": "underscore",
+        "definition": "밑줄 그어 강조하다"
+    },
+    {
+        "term": "undeterred",
+        "definition": "풀 죽지 않은, 단념하지 않은"
+    },
+    {
+        "term": "unexceptionable",
+        "definition": "반대의 여지가 없는"
+    },
+    {
+        "term": "ungovernable",
+        "definition": "통제나 지배가 불가능한"
+    },
+    {
+        "term": "unplumbed",
+        "definition": "(깊이 등이) 완전히 측정되지 않은"
+    },
+    {
+        "term": "unprepossessing",
+        "definition": "호감주지 못하는, 매력 없는"
+    },
+    {
+        "term": "unsubstantiated",
+        "definition": "증거로 증명되지 않은"
+    },
+    {
+        "term": "unswerving",
+        "definition": "굳은, 변함없는"
+    },
+    {
+        "term": "untold",
+        "definition": "셀 수 없을 만큼 많은, 무수한"
+    },
+    {
+        "term": "untoward",
+        "definition": "적당치 않는,곤란한, 불리한"
+    },
+    {
+        "term": "unwieldy",
+        "definition": "다루기 힘든; 성가시고 어려운"
+    },
+    {
+        "term": "unwonted",
+        "definition": "익숙하지 않은, 일반적이지 않은"
+    },
+    {
+        "term": "upbraid",
+        "definition": "(몹시) 나무라다, 비난하다"
+    },
+    {
+        "term": "utter",
+        "definition": "완전한, 절대적인; 말하다"
+    },
+    {
+        "term": "vacillate",
+        "definition": "마음이 오락가락하다, 주저하다"
+    },
+    {
+        "term": "vain",
+        "definition": "헛된; 허영심 강한"
+    },
+    {
+        "term": "vainglorious",
+        "definition": "자만심이 강한"
+    },
+    {
+        "term": "valiant",
+        "definition": "용기 있는"
+    },
+    {
+        "term": "vault",
+        "definition": "은행금고"
+    },
+    {
+        "term": "vaunt",
+        "definition": "심하게 자랑하다, 뽐내다"
+    },
+    {
+        "term": "vehement",
+        "definition": "격렬한, 열정적인"
+    },
+    {
+        "term": "venerable",
+        "definition": "존경 받는"
+    },
+    {
+        "term": "venerate",
+        "definition": "존경하다"
+    },
+    {
+        "term": "veracity",
+        "definition": "진실성, 정확성"
+    },
+    {
+        "term": "verbose",
+        "definition": "장황한"
+    },
+    {
+        "term": "versed",
+        "definition": "경험이 있는, 잘 알고 있는"
+    },
+    {
+        "term": "vex",
+        "definition": "짜증나게 하다, 귀찮게 하다"
+    },
+    {
+        "term": "vicissitude",
+        "definition": "(인생, 운명) 변천, 부침, 변하기 쉬움"
+    },
+    {
+        "term": "vigilant",
+        "definition": "경계하는, 방심하지 않는"
+    },
+    {
+        "term": "vile",
+        "definition": "사악한, 부도덕한, 불쾌한"
+    },
+    {
+        "term": "vilify",
+        "definition": "비방, 중상하다"
+    },
+    {
+        "term": "vim",
+        "definition": "정력, 활기, 열정"
+    },
+    {
+        "term": "vindicate",
+        "definition": "옹호하다"
+    },
+    {
+        "term": "virtuoso",
+        "definition": "명인, 대가"
+    },
+    {
+        "term": "virulent",
+        "definition": "해로운"
+    },
+    {
+        "term": "visceral",
+        "definition": "내장의; 감정적인; 세련되지 않은, 거친"
+    },
+    {
+        "term": "vitiate",
+        "definition": "손상시키다, 망치다, 무효화하다"
+    },
+    {
+        "term": "vitriol",
+        "definition": "독설"
+    },
+    {
+        "term": "vituperative",
+        "definition": "매도하는, 독설의"
+    },
+    {
+        "term": "voluble",
+        "definition": "유창한, 말 많은"
+    },
+    {
+        "term": "volume",
+        "definition": "(정기간행물의) 책 권; 소리의 크기; 부피"
+    },
+    {
+        "term": "voluptuous",
+        "definition": "사치스런, 향락적인, 관능적인"
+    },
+    {
+        "term": "voracious",
+        "definition": "식욕이 왕성한,게걸스러운"
+    },
+    {
+        "term": "votary",
+        "definition": "열렬한 추종자,신봉자"
+    },
+    {
+        "term": "vulgar",
+        "definition": "저속한"
+    },
+    {
+        "term": "wan",
+        "definition": "병약한,안색이 나쁜"
+    },
+    {
+        "term": "watchful",
+        "definition": "경계를 서는,조심하는,주의 깊은"
+    },
+    {
+        "term": "wax",
+        "definition": "커지다,강해지다"
+    },
+    {
+        "term": "whet",
+        "definition": "날카롭게 하다;자극하다"
+    },
+    {
+        "term": "willful",
+        "definition": "고집불통의,고의적인"
+    },
+    {
+        "term": "willowy",
+        "definition": "(사람이) 키 크고 날씬한,우아한"
+    },
+    {
+        "term": "worldly",
+        "definition": "세속적인,경험 많고 세상을 잘아는"
+    },
+    {
+        "term": "zeal",
+        "definition": "강한 열정"
+    },
+    {
+        "term": "zealot",
+        "definition": "광신도,열광자"
+    },
+    {
+        "term": "zest",
+        "definition": "기분 좋은 맛,자극,흥미,관심"
+    }
+]

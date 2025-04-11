@@ -3,7 +3,7 @@ import InputPanel from "./InputPanel";
 import HintList from "./HintList";
 import WordHistory from "./WordHistory";
 import ScorePanel from "./ScorePanel";
-import wordList from "../data/wordList.json";
+import wordList from "../data/geo.json";
 import RuleDialog from './RuleDialog';
 import { CheckCircleIcon, XMarkIcon, XCircleIcon } from '@heroicons/react/20/solid';
 
