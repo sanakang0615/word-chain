@@ -169,9 +169,11 @@ export default function GameBoard() {
             </p>
           )}
 
-          <p className="text-md text-gray-700 mb-2 leading-relaxed">
-            <span className="font-semibold italic text-gray-800">Definition:</span> {getMatch(systemWord).definition}
+          <p className="text-md text-gray-700 mb-2 leading-relaxed whitespace-pre-line">
+            <span className="font-semibold italic text-gray-800">Definition & Examples:</span>{" "}
+            {getMatch(systemWord).definition}
           </p>
+
 
           {getMatch(systemWord).antonym && (
             <p className="text-md text-gray-700 mb-2 leading-relaxed">
