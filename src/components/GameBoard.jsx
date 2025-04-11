@@ -175,9 +175,9 @@ export default function GameBoard() {
           </p>
 
 
-          {getMatch(systemWord).antonym && (
+          {getMatch(systemWord).synonyms && (
             <p className="text-md text-gray-700 mb-2 leading-relaxed">
-              <span className="font-semibold text-gray-800">Synonyms:</span> {getMatch(systemWord).antonym}
+              <span className="font-semibold text-gray-800">Synonyms:</span> {getMatch(systemWord).synonyms}
             </p>
           )}
 
