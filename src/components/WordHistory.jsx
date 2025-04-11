@@ -3,7 +3,7 @@ import React from "react";
 export default function WordHistory({ history }) {
   return (
     <div className="mb-6">
-      <h2 className="text-lg font-bold mb-4">Word History</h2>
+      <h2 className="text-lg font-bold my-4">Word History</h2>
       <ul role="list" className="space-y-4 relative">
         {history.map((entry, idx) => (
           <li key={idx} className="relative flex gap-x-4">

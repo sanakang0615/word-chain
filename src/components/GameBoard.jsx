@@ -3,7 +3,7 @@ import InputPanel from "./InputPanel";
 import HintList from "./HintList";
 import WordHistory from "./WordHistory";
 import ScorePanel from "./ScorePanel";
-import wordList from "../data/geo.json";
+import wordList from "../data/anki.json";
 import RuleDialog from './RuleDialog';
 import { CheckCircleIcon, XMarkIcon, XCircleIcon } from '@heroicons/react/20/solid';
 
@@ -129,9 +129,9 @@ export default function GameBoard() {
     setTimeout(() => setGameStatus(null), 5000);
   };
 
-  const getDefinition = (word) => {
+  const getMatch = (word) => {
     const match = wordList.find(w => w.term === word);
-    return match ? match.definition : "No definition available.";
+    return match ? match : "No definition available.";
   };
 
   return (
@@ -141,7 +141,7 @@ export default function GameBoard() {
       <div className="flex items-center justify-between mb-4 border-b pb-2 border-[#cab89f]">
         <div className="text-3xl font-black flex items-center gap-2">
           <span className="tracking-wide font-sixtyfour">Death's Word Chain</span>
-          <img src="/grim-reaper.png" alt="Scythe" className="h-12 w-12" style={{ paddingBottom: "5px" }} />
+          {/* <img src="/grim-reaper.png" alt="Scythe" className="h-12 w-12" style={{ paddingBottom: "5px" }} /> */}
         </div>
         <div className="text-2xl">
            
@@ -154,11 +154,42 @@ export default function GameBoard() {
         </div>
 
         <div className="w-2/3 relative">
-          <p className="text-lg my-4">
-            Grim Reaper's Word: <span className="font-bold">{systemWord}</span>
+        <div className="mb-6">
+          <p className="text-xl font-bold text-gray-900 my-5">
+            <div className="flex items-center">
+            <img src="/grim-reaper.png" alt="Scythe" className="h-10 w-10" style={{ paddingBottom: "2px", marginRight: "8px"}} />
+            <span >Grim Reaper's Word: <span className="text-red-700">{systemWord}</span></span>
+        </div>
+          
           </p>
-          <p className="text-sm italic">Definition: {getDefinition(systemWord)}</p>
-          <p className="text-lg my-4">You should start with '{lastLetter}'!</p>
+
+          {getMatch(systemWord).ipa && (
+            <p className="text-md text-gray-800 italic mb-2">
+              <span className="font-semibold">IPA:</span> [{getMatch(systemWord).ipa}]
+            </p>
+          )}
+
+          <p className="text-md text-gray-700 mb-2 leading-relaxed">
+            <span className="font-semibold italic text-gray-800">Definition:</span> {getMatch(systemWord).definition}
+          </p>
+
+          {getMatch(systemWord).antonym && (
+            <p className="text-md text-gray-700 mb-2 leading-relaxed">
+              <span className="font-semibold text-gray-800">Synonyms:</span> {getMatch(systemWord).antonym}
+            </p>
+          )}
+
+          {getMatch(systemWord).antonyms && (
+            <p className="text-md text-gray-700 mb-2 leading-relaxed">
+              <span className="font-semibold text-gray-800">Antonyms:</span> {getMatch(systemWord).antonyms}
+            </p>
+          )}
+
+          <p className="text-lg mt-8 font-medium text-gray-900">
+            Now, you should start with <span className="text-blue-700 font-bold">'{lastLetter}'</span>!
+          </p>
+        </div>
+
 
           <InputPanel
             userInput={userInput}
@@ -180,7 +211,7 @@ export default function GameBoard() {
                     Successfully matched the word: <span className="font-semibold">{lastCorrectWord}</span>
                   </p>
                   <p className="mt-1 text-sm text-green-700 italic">
-                    Definition: {getDefinition(lastCorrectWord)}
+                    Definition: {getMatch(lastCorrectWord).definition}
                   </p>
                 </div>
                 <div className="ml-auto pl-3">
