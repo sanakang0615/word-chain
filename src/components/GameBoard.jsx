@@ -222,7 +222,7 @@ export default function GameBoard() {
           {showSlashEffect && (
             <>
               <img 
-                src="/slash1_right.png" 
+                src="/slash_right.png" 
                 alt="Slash 1" 
                 className="absolute top-0 left-0 w-full h-full object-contain slash-anim-1 pointer-events-none z-10"
                 style={{transform: 'scale(1.2)'}}
