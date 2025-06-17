@@ -3,20 +3,19 @@ import { Button } from "./ui/Button";
 
 export default function ScorePanel({ score, hintLeft, onGiveUp }) {
   return (
-    <div className="flex flex-wrap justify-between items-end mt-6 gap-4">
-      <div className="flex-1 min-w-[120px] bg-white rounded-lg shadow-md p-4 border border-gray-200">
-        <h2 className="text-3xl font-jacquard mb-1 text-center border-b pb-1">Score</h2>
-        <p className="text-5xl font-jacquard text-center text-red-600">{score.toFixed(1)}</p>
+    <div className="mt-6 bg-gray-800/50 rounded-lg p-4 border border-yellow-300/80">
+      <div className="flex justify-between items-center">
+        <div className="text-gray-200">
+          <span className="text-yellow-500 font-bold">Score: {score}</span>
+          <span className="ml-4 text-blue-700">Hints left: {hintLeft}</span>
+        </div>
+        <button
+          onClick={onGiveUp}
+          className="px-4 py-2 bg-yellow-200/30 text-yellow-700 rounded-lg hover:bg-yellow-100/60 transition-colors"
+        >
+          Give Up
+        </button>
       </div>
-
-      <div className="flex-1 min-w-[120px] bg-white rounded-lg shadow-md p-4 border border-gray-200">
-        <h2 className="text-3xl mb-1 text-center border-b pb-1 font-jacquard">Hints Left</h2>
-        <p className="text-5xl font-jacquard text-center text-blue-600">{hintLeft}</p>
-      </div>
-
-      {/* <div className="self-center">
-        <Button onClick={onGiveUp} variant="destructive">Concede</Button>
-      </div> */}
     </div>
   );
 }

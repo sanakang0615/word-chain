@@ -22,6 +22,7 @@ export default function GameBoard() {
   const [hintCount, setHintCount] = useState(0);
   const [gameStatus, setGameStatus] = useState(null);
   const [lastCorrectWord, setLastCorrectWord] = useState("");
+  const [hearts, setHearts] = useState([true, true, true]); // Track heart states
   
 
   useEffect(() => {
@@ -112,6 +113,10 @@ export default function GameBoard() {
     } else {
       setHints(newHints);
       setHintCount(hintCount + 1);
+      // Update hearts with animation
+      const newHearts = [...hearts];
+      newHearts[2 - hintCount] = false;
+      setHearts(newHearts);
       setScore(prev => Math.max(0, prev - 0.5));
     }
   };
@@ -122,6 +127,7 @@ export default function GameBoard() {
     setUserInput("");
     setHints([]);
     setHintCount(0);
+    setHearts([true, true, true]); // Reset hearts
     setScore(3);
     const newWord = wordList[Math.floor(Math.random() * wordList.length)].term;
     setSystemWord(newWord);
@@ -134,181 +140,234 @@ export default function GameBoard() {
     return match ? match : "No definition available.";
   };
 
+  // Speech bubble message logic
+  const getSpeechBubbleMessage = () => {
+    if (gameStatus === "success") return "Nice! You survived... for now.";
+    if (gameStatus === "fail" && message.includes("already been used")) return "That word was already used! Try again.";
+    if (gameStatus === "fail" && message.includes("HAHAHAHA")) return "HAHAHAHA! Choose another word, mortal.";
+    if (gameStatus === "fail" && message.includes("gave up")) return "Giving up so soon? The Reaper wins this round!";
+    if (gameStatus === "win") return "You beat me... this time. Play again if you dare!";
+    if (gameStatus === "fail" && message.includes("No hints left")) return "No hints left! Face your fate.";
+    if (gameStatus === "info" && message.includes("Grim Reaper brings a new word")) return "No valid words! The Reaper brings a new word...";
+    return "Let's see what you've got! Type a word to begin.";
+  };
+
   return (
     <>
     <RuleDialog />
-    <div className="max-w-[90vw] min-h-[90vh] mx-auto my-10 bg-[#f5efe6] text-[#2c2c2c] border-[#d2c4ae] font-serif border rounded-xl shadow-xl p-6">
-      <div className="flex items-center justify-between mb-4 border-b pb-2 border-[#cab89f]">
-        <div className="text-3xl font-black flex items-center gap-2">
-          <span className="tracking-wide font-sixtyfour">Death's Word Chain</span>
-          {/* <img src="/grim-reaper.png" alt="Scythe" className="h-12 w-12" style={{ paddingBottom: "5px" }} /> */}
-        </div>
-        <div className="text-2xl">
-           
+    <div className="min-h-screen bg-gray-900 py-10 flex flex-col justify-between">
+      {/* Top Row: Grim Reaper + Speech Bubble */}
+      <div className="flex justify-center items-start mb-4 relative w-full" style={{minHeight: '140px'}}>
+        <img src="/reaper_pixels.png" alt="Grim Reaper" className="h-32 w-auto pixel-shadow" />
+        <div className="ml-4 mt-2 relative flex items-start" style={{zIndex:2, maxWidth: '70vw'}}>
+          <div className="pixel-speech-bubble px-6 py-4 font-bold pixelify-sans text-white text-lg" style={{wordBreak: 'break-word', whiteSpace: 'pre-line', maxWidth: '420px', minWidth: '180px'}}>
+            {getSpeechBubbleMessage()}
+            <div className="pixel-speech-tail" />
+          </div>
         </div>
       </div>
 
-      <div className="flex">
-        <div className="w-1/3 pr-4">
-          <WordHistory history={history} />
-        </div>
-
-        <div className="w-2/3 relative">
-        <div className="mb-6">
-          <p className="text-xl font-bold text-gray-900 my-5">
-            <div className="flex items-center">
-            <img src="/grim-reaper.png" alt="Scythe" className="h-10 w-10" style={{ paddingBottom: "2px", marginRight: "8px"}} />
-            <span >Grim Reaper's Word: <span className="text-red-700">{systemWord}</span></span>
-        </div>
-          
-          </p>
-
+      {/* Middle Row: Word & Definition Box */}
+      <div className="flex-1 flex flex-col items-center justify-center">
+        <div className="pixel-box px-10 py-8 mb-8 max-w-2xl w-full">
+          <div className="text-2xl pixelify-sans text-white mb-2 text-center">
+            Grim Reaper's Word: <span className="text-red-500 jersey-25 text-3xl">{systemWord}</span>
+          </div>
           {getMatch(systemWord).ipa && (
-            <p className="text-md text-gray-800 italic mb-2">
-              <span className="font-semibold">IPA:</span> [{getMatch(systemWord).ipa}]
-            </p>
+            <div className="text-md text-gray-300 italic mb-2 text-center">
+              <span className="font-semibold">IPA:</span>
+              <span className="jersey-25 text-xl"> [{getMatch(systemWord).ipa}]</span>
+            </div>
           )}
-
-          <p className="text-md text-gray-700 mb-2 leading-relaxed whitespace-pre-line">
-            <span className="font-semibold italic text-gray-800">Definition & Examples:</span>{" "}
-            {getMatch(systemWord).definition}
-          </p>
-
-
+          <div className="text-md text-gray-200 mb-2 leading-relaxed whitespace-pre-line text-center">
+            <span className="font-semibold italic">Definition & Examples:</span> <span className="jersey-25 text-xl"> {getMatch(systemWord).definition}</span>
+          </div>
           {getMatch(systemWord).synonyms && (
-            <p className="text-md text-gray-700 mb-2 leading-relaxed">
-              <span className="font-semibold text-gray-800">Synonyms:</span> {getMatch(systemWord).synonyms}
-            </p>
+            <div className="text-md text-gray-300 mb-2 text-center">
+              <span className="font-semibold">Synonyms:</span> <span className="jersey-25 text-xl"> {getMatch(systemWord).synonyms}</span>
+            </div>
           )}
-
           {getMatch(systemWord).antonyms && (
-            <p className="text-md text-gray-700 mb-2 leading-relaxed">
-              <span className="font-semibold text-gray-800">Antonyms:</span> {getMatch(systemWord).antonyms}
-            </p>
+            <div className="text-md text-gray-300 mb-2 text-center">
+                <span className="font-semibold">Antonyms:</span> <span className="jersey-25 text-lg"> {getMatch(systemWord).antonyms}</span>
+              </div>
           )}
-
-          <p className="text-lg mt-8 font-medium text-gray-900">
-            Now, you should start with <span className="text-blue-700 font-bold">'{lastLetter}'</span>!
-          </p>
+          <div className="text-xl mt-6 font-medium text-gray-200 text-center">
+            Now, you should start with <span className="text-red-700 font-bold jersey-25 text-2xl">'{lastLetter}'</span>!
+          </div>
         </div>
 
+        {/* Game status messages (success, fail, info, win) */}
+        {/* (Removed old colored message boxes, all feedback is now in the speech bubble) */}
+      </div>
 
-          <InputPanel
-            userInput={userInput}
-            setUserInput={setUserInput}
-            handleSubmit={handleSubmit}
-            handleHint={handleHint}
-            handleGiveUp={handleGiveUp}
-            hintLeft={3 - hintCount}
+      {/* Bottom Row: Orange Action Bar */}
+      <div className="w-full flex flex-col items-center mt-8">
+        <div className="pixel-action-bar flex flex-row items-center justify-center gap-3 px-6 py-4 mb-2">
+          <input
+            type="text"
+            value={userInput}
+            onChange={(e) => setUserInput(e.target.value)}
+            onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
+            placeholder="Enter your word..."
+            className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none font-mono jersey-25 outline-none focus:border-orange-500 transition-all"
+            style={{ minWidth: 180, maxWidth: 260 }}
           />
-
-          {gameStatus === "success" && (
-            <div className="rounded-md bg-green-50 p-4 mt-4">
-              <div className="flex">
-                <div className="shrink-0">
-                  <CheckCircleIcon className="size-5 text-green-400" aria-hidden="true" />
-                </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-green-800">
-                    Successfully matched the word: <span className="font-semibold">{lastCorrectWord}</span>
-                  </p>
-                  <p className="mt-1 text-sm text-green-700 italic">
-                    Definition: {getMatch(lastCorrectWord).definition}
-                  </p>
-                </div>
-                <div className="ml-auto pl-3">
-                  <button
-                    type="button"
-                    onClick={() => setGameStatus(null)}
-                    className="inline-flex rounded-md bg-green-50 p-1.5 text-green-500 hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-green-50"
-                  >
-                    <span className="sr-only">Dismiss</span>
-                    <XMarkIcon className="size-5" aria-hidden="true" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {gameStatus === "fail" && (
-            <div className="rounded-md bg-red-50 p-4 mt-4">
-              <div className="flex">
-                <div className="shrink-0">
-                  <XCircleIcon className="size-5 text-red-400" aria-hidden="true" />
-                </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-red-800">{message}</p>
-                </div>
-                <div className="ml-auto pl-3">
-                  <button
-                    type="button"
-                    onClick={() => setGameStatus(null)}
-                    className="inline-flex rounded-md bg-red-50 p-1.5 text-red-500 hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 focus:ring-offset-red-50"
-                  >
-                    <span className="sr-only">Dismiss</span>
-                    <XMarkIcon className="size-5" aria-hidden="true" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {gameStatus === "info" && (
-            <div className="rounded-md bg-yellow-50 p-4 mt-4">
-              <div className="flex">
-                <div className="shrink-0">
-                  <CheckCircleIcon className="size-5 text-yellow-400" aria-hidden="true" />
-                </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-yellow-800">{message}</p>
-                </div>
-                <div className="ml-auto pl-3">
-                  <button
-                    type="button"
-                    onClick={() => setGameStatus(null)}
-                    className="inline-flex rounded-md bg-yellow-50 p-1.5 text-yellow-500 hover:bg-yellow-100 focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-offset-2 focus:ring-offset-yellow-50"
-                  >
-                    <span className="sr-only">Dismiss</span>
-                    <XMarkIcon className="size-5" aria-hidden="true" />
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-          {gameStatus === "win" && (
-  <div className="rounded-md bg-green-100 p-4 mt-4 border border-green-300">
-    <div className="flex items-center">
-      <CheckCircleIcon className="size-5 text-green-600 mr-2" aria-hidden="true" />
-      <div className="flex-1">
-        <p className="text-sm font-bold text-green-800">
-          🎊 Congratulations! You reached 10 points and defeated the Reaper!
-        </p>
-        <p className="text-sm italic text-green-700 mt-1">
-          Try again if you dare... 🔁
-        </p>
-      </div>
-      <button
-        onClick={() => {
-          setGameStatus(null);
-          setScore(3);
-          setHintCount(0);
-          const newWord = wordList[Math.floor(Math.random() * wordList.length)].term;
-          setSystemWord(newWord);
-          setHistory([{ word: newWord, source: "system" }]);
-        }}
-        className="ml-4 rounded-md bg-white px-3 py-1.5 text-sm font-semibold text-green-700 hover:bg-green-200 shadow-sm"
-      >
-        Restart
-      </button>
-    </div>
-  </div>
-)}
-
-
-          <HintList hints={hints} lastLetter={lastLetter} />
-          <ScorePanel score={score} hintLeft={3 - hintCount} onGiveUp={handleGiveUp} />
+          <button
+            onClick={handleSubmit}
+            className="pixel-btn-orange"
+          >
+            Submit
+          </button>
+          <button
+            onClick={handleHint}
+            disabled={hintCount >= 3}
+            className={`pixel-btn-orange ${hintCount >= 3 ? 'opacity-50 cursor-not-allowed' : ''}`}
+          >
+            Hint ({3 - hintCount})
+          </button>
+          <button
+            onClick={handleGiveUp}
+            className="pixel-btn-orange"
+          >
+            Give Up
+          </button>
+          <div className="ml-6 flex flex-col items-center">
+            <span className="text-orange-300 font-bold pixelify-sans text-lg">Score: {score}</span>
+            <span className="text-orange-200 pixelify-sans text-sm">Hints left: {3 - hintCount}</span>
+          </div>
+        </div>
+        <div className="flex gap-2 mt-1">
+          {hearts.map((isAlive, index) => (
+            <img
+              key={index}
+              src="/red_heart.png"
+              alt="Heart"
+              className={`h-8 w-8 transition-all duration-1000 ${!isAlive ? 'opacity-0 scale-0' : 'opacity-100 scale-100'}`}
+              style={{ animation: !isAlive ? 'heartDisappear 1s ease-out' : '' }}
+            />
+          ))}
         </div>
       </div>
+
+      {/* Hint List (keep as is, but below the action bar) */}
+      <div className="flex justify-center mt-2">
+        <HintList hints={hints} lastLetter={lastLetter} />
+      </div>
+
+      <style jsx>{`
+        .pixel-speech-bubble {
+          position: relative;
+          background: #222;
+          border: 1.5px solid #fff;
+          box-shadow: none;
+          border-radius: 0;
+          font-family: 'Pixelify Sans', 'VT323', monospace;
+          font-size: 1.1rem;
+          color: #fff;
+          display: block;
+        }
+        .pixel-speech-tail {
+          position: absolute;
+          left: -22px;
+          top: 32px;
+          width: 0;
+          height: 0;
+          border-top: 18px solid transparent;
+          border-bottom: 18px solid transparent;
+          border-right: 18px solid #fff;
+          z-index: 1;
+        }
+        .pixel-speech-bubble::after {
+          content: '';
+          position: absolute;
+          left: -14px;
+          top: 34px;
+          width: 0;
+          height: 0;
+          border-top: 14px solid transparent;
+          border-bottom: 14px solid transparent;
+          border-right: 14px solid #222;
+          z-index: 2;
+        }
+        .pixel-box {
+          border: 6px solid white;
+          box-shadow: 0 0 0 4px #222, 0 0 0 8px #fff, 0 0 0 12px #222;
+          border-radius: 0.5rem;
+          background: #181818;
+          font-family: 'Pixelify Sans', 'VT323', monospace;
+        }
+        .pixel-action-bar {
+          background: #ff9800;
+          border: 4px solid #fff3e0;
+          box-shadow: 0 0 0 4px #b45309, 0 0 0 8px #fff3e0;
+          border-radius: 0.5rem;
+        }
+        .pixel-btn-orange {
+          background: #ff9800;
+          color: #222;
+          border: 3px solid #fff3e0;
+          font-family: 'Pixelify Sans', 'VT323', monospace;
+          font-size: 1.1rem;
+          padding: 0.5rem 1.2rem;
+          margin: 0 0.2rem;
+          border-radius: 0.25rem;
+          box-shadow: 0 2px #b45309;
+          transition: background 0.2s, color 0.2s;
+        }
+        .pixel-btn-orange:hover:not(:disabled) {
+          background: #ffa726;
+          color: #000;
+        }
+        .pixel-input {
+          border-radius: 0.25rem;
+          font-family: 'Pixelify Sans', 'VT323', monospace;
+        }
+        .pixel-shadow {
+          filter: drop-shadow(0 0 8px #fff3e0) drop-shadow(0 0 2px #ff9800);
+        }
+      `}</style>
+      <style jsx>{`
+        @keyframes heartDisappear {
+          0% {
+            opacity: 1;
+            transform: translateX(0) scale(1);
+          }
+          10% {
+            transform: translateX(-8px) scale(1.05);
+          }
+          20% {
+            transform: translateX(8px) scale(1.05);
+          }
+          30% {
+            transform: translateX(-6px) scale(1.05);
+          }
+          40% {
+            transform: translateX(6px) scale(1.05);
+          }
+          50% {
+            transform: translateX(-4px) scale(1.05);
+          }
+          60% {
+            transform: translateX(4px) scale(1.05);
+          }
+          70% {
+            transform: translateX(-2px) scale(1.05);
+          }
+          80% {
+            transform: translateX(2px) scale(1.05);
+            opacity: 0.7;
+          }
+          90% {
+            transform: translateX(0) scale(1.2);
+            opacity: 0.3;
+          }
+          100% {
+            opacity: 0;
+            transform: translateX(0) scale(0);
+          }
+        }
+      `}</style>
     </div>
     </>
   );
