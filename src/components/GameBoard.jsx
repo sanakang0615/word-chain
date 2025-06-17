@@ -158,6 +158,7 @@ export default function GameBoard() {
   return (
     <>
     <RuleDialog />
+    <WordHistory history={history} />
     <div className="min-h-screen bg-gray-900 py-10 flex flex-col justify-between">
       {/* Top Row: Grim Reaper + Speech Bubble */}
       <div className="flex justify-center items-start mb-2 relative w-full" style={{minHeight: '140px'}}>
