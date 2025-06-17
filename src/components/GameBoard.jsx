@@ -30,13 +30,14 @@ export default function GameBoard() {
   const [userInput, setUserInput] = useState("");
   const [hints, setHints] = useState([]);
   const [history, setHistory] = useState([]);
-  const [score, setScore] = useState(3);
+  const [score, setScore] = useState(100);
   const [hintCount, setHintCount] = useState(0);
   const [gameStatus, setGameStatus] = useState(null);
   const [lastCorrectWord, setLastCorrectWord] = useState("");
   const [hearts, setHearts] = useState([true, true, true]); // Track heart states
   const [showHintModal, setShowHintModal] = useState(false);
   const WIN_SCORE = 100;
+  const LOSE_SCORE = 0;
   
   const isMobile = useIsMobile();
 
@@ -69,12 +70,12 @@ export default function GameBoard() {
         setHistory((prev) => [...prev, { word: userInput, source: "user" }]);
         setLastCorrectWord(userInput); // ✅ 이 라인을 추가하세요
       
-        // 점수 증가 + 승리 체크
-        setScore((prevScore) => {
-          const newScore = prevScore + 1;
-          if (newScore >= WIN_SCORE) {
-            setMessage("🎉 You reached 100 points! You win!");
-            setGameStatus("win");
+        // 정답 시 HP 5 감소
+        setScore(prev => {
+          const newScore = Math.max(LOSE_SCORE, prev - 5);
+          if (newScore <= LOSE_SCORE) {
+            setMessage("💀 HP 0! The Reaper wins! Game Over.");
+            setGameStatus("lose");
           }
           return newScore;
         });
@@ -104,6 +105,7 @@ export default function GameBoard() {
        else {
       setMessage("👿 HAHAHAHAHAHA Try again or use a hint...");
       setGameStatus("fail");
+      // 오답 시 HP 변화 없음
       setTimeout(() => setGameStatus(null), 5000);
     }
   };
@@ -132,7 +134,14 @@ export default function GameBoard() {
       const newHearts = [...hearts];
       newHearts[2 - hintCount] = false;
       setHearts(newHearts);
-      setScore(prev => Math.max(0, prev - 0.5));
+      setScore(prev => {
+        const newScore = Math.min(WIN_SCORE, prev + 2); // 힌트 시 2 증가
+        if (newScore <= LOSE_SCORE) {
+          setMessage("💀 HP 0! The Reaper wins! Game Over.");
+          setGameStatus("lose");
+        }
+        return newScore;
+      });
       setTimeout(() => setShowHintModal(true), 1000);
     }
   };
@@ -144,7 +153,14 @@ export default function GameBoard() {
     setHints([]);
     setHintCount(0);
     setHearts([true, true, true]); // Reset hearts
-    setScore(3);
+    setScore(prev => {
+      const newScore = WIN_SCORE; // 기브업 시 HP 풀로 리셋
+      if (newScore <= LOSE_SCORE) {
+        setMessage("💀 HP 0! The Reaper wins! Game Over.");
+        setGameStatus("lose");
+      }
+      return newScore;
+    });
     const newWord = wordList[Math.floor(Math.random() * wordList.length)].term;
     setSystemWord(newWord);
     setHistory([{ word: newWord, source: "system" }]);
