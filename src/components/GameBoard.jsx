@@ -172,6 +172,14 @@ export default function GameBoard() {
       </div>
       {/* Middle Row: Word & Definition Box */}
       <div className="flex-1 flex flex-col items-center justify-center">
+        {/* Reaper HP Bar (moved here) */}
+        <div className="flex flex-col items-center mb-4">
+          <span className="pixelify-sans text-white text-sm mb-1 tracking-widest" style={{letterSpacing: '0.1em'}}>REAPER HP</span>
+          <div className="reaper-hp-bar-outer">
+            <div className="reaper-hp-bar-inner" style={{width: `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`}} />
+          </div>
+          <span className="pixelify-sans text-white text-xs mt-1">{score} / {WIN_SCORE}</span>
+        </div>
         <div className="pixel-box px-10 py-8 mb-8 max-w-2xl w-full">
           <div className="text-2xl pixelify-sans text-white mb-2 text-center">
             Grim Reaper's Word: <span className="text-red-500 jersey-25 text-3xl">{systemWord}</span>
@@ -199,18 +207,10 @@ export default function GameBoard() {
             Now, you should start with <span className="text-red-700 font-bold jersey-25 text-2xl">'{lastLetter}'</span>!
           </div>
         </div>
-        {/* Reaper HP Bar (moved here) */}
-        <div className="flex flex-col items-center mb-4">
-          <span className="pixelify-sans text-white text-sm mb-1 tracking-widest" style={{letterSpacing: '0.1em'}}>REAPER HP</span>
-          <div className="reaper-hp-bar-outer">
-            <div className="reaper-hp-bar-inner" style={{width: `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`}} />
-          </div>
-          <span className="pixelify-sans text-white text-xs mt-1">{score} / {WIN_SCORE}</span>
-        </div>
       </div>
 
       {/* Bottom Row: Orange Action Bar */}
-      <div className="w-full flex flex-col items-center mt-8">
+      <div className="w-full flex flex-col items-center mt-4">
         <div className="pixel-action-bar flex flex-row items-center justify-center gap-3 px-6 py-4 mb-2">
           <input
             type="text"
@@ -245,7 +245,7 @@ export default function GameBoard() {
             <span className="text-orange-200 pixelify-sans text-sm">Hints left: {3 - hintCount}</span>
           </div> */}
         </div>
-        <div className="flex gap-2 mt-1">
+        <div className="flex gap-2 mt-2">
           {hearts.map((isAlive, index) => (
             <img
               key={index}

@@ -55,7 +55,7 @@ export default function WordHistory({ history }) {
               >
                 <div className="flex items-center gap-2">
                   <span className="text-sm opacity-70">
-                    {item.source === "system" ? "🪦 Reaper said:" : "👤 You said:"}
+                    {item.source === "system" ? <span className="tossface">🪦</span> : <span className="tossface">👤</span>} {item.source === "system" ? "Reaper said:" : "You said:"}
                   </span>
                   <span className="font-medium jersey-25 text-lg">{item.word}</span>
                 </div>
@@ -68,6 +68,10 @@ export default function WordHistory({ history }) {
         .pixel-word-sidebar {
           font-family: 'Pixelify Sans', 'VT323', monospace;
           border-radius: 0;
+          overscroll-behavior: none;
+        }
+        .pixel-word-sidebar > div {
+          overscroll-behavior: none;
         }
       `}</style>
     </>
