@@ -233,7 +233,7 @@ export default function GameBoard() {
               onChange={(e) => setUserInput(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
               placeholder="Enter your word..."
-              className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none font-mono jersey-25 outline-none focus:border-orange-500 transition-all jersey-25 max-w-xs w-full"
+              className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none jersey-25 outline-none focus:border-orange-500 transition-all max-w-xs w-full"
               style={{ minWidth: 0, maxWidth: 260 }}
             />
           </div>
