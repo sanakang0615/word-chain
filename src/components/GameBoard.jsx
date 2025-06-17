@@ -23,6 +23,8 @@ export default function GameBoard() {
   const [gameStatus, setGameStatus] = useState(null);
   const [lastCorrectWord, setLastCorrectWord] = useState("");
   const [hearts, setHearts] = useState([true, true, true]); // Track heart states
+  const [showHintModal, setShowHintModal] = useState(false);
+  const WIN_SCORE = 100;
   
 
   useEffect(() => {
@@ -57,8 +59,8 @@ export default function GameBoard() {
         // 점수 증가 + 승리 체크
         setScore((prevScore) => {
           const newScore = prevScore + 1;
-          if (newScore >= 70) {
-            setMessage("🎉 You reached 10 points! You win!");
+          if (newScore >= WIN_SCORE) {
+            setMessage("🎉 You reached 100 points! You win!");
             setGameStatus("win");
           }
           return newScore;
@@ -118,6 +120,7 @@ export default function GameBoard() {
       newHearts[2 - hintCount] = false;
       setHearts(newHearts);
       setScore(prev => Math.max(0, prev - 0.5));
+      setTimeout(() => setShowHintModal(true), 1000);
     }
   };
 
@@ -157,7 +160,7 @@ export default function GameBoard() {
     <RuleDialog />
     <div className="min-h-screen bg-gray-900 py-10 flex flex-col justify-between">
       {/* Top Row: Grim Reaper + Speech Bubble */}
-      <div className="flex justify-center items-start mb-4 relative w-full" style={{minHeight: '140px'}}>
+      <div className="flex justify-center items-start mb-2 relative w-full" style={{minHeight: '140px'}}>
         <img src="/reaper_pixels.png" alt="Grim Reaper" className="h-32 w-auto pixel-shadow" />
         <div className="ml-4 mt-2 relative flex items-start" style={{zIndex:2, maxWidth: '70vw'}}>
           <div className="pixel-speech-bubble px-6 py-4 font-bold pixelify-sans text-white text-lg" style={{wordBreak: 'break-word', whiteSpace: 'pre-line', maxWidth: '420px', minWidth: '180px'}}>
@@ -166,7 +169,6 @@ export default function GameBoard() {
           </div>
         </div>
       </div>
-
       {/* Middle Row: Word & Definition Box */}
       <div className="flex-1 flex flex-col items-center justify-center">
         <div className="pixel-box px-10 py-8 mb-8 max-w-2xl w-full">
@@ -196,9 +198,14 @@ export default function GameBoard() {
             Now, you should start with <span className="text-red-700 font-bold jersey-25 text-2xl">'{lastLetter}'</span>!
           </div>
         </div>
-
-        {/* Game status messages (success, fail, info, win) */}
-        {/* (Removed old colored message boxes, all feedback is now in the speech bubble) */}
+        {/* Reaper HP Bar (moved here) */}
+        <div className="flex flex-col items-center mb-4">
+          <span className="pixelify-sans text-white text-sm mb-1 tracking-widest" style={{letterSpacing: '0.1em'}}>REAPER HP</span>
+          <div className="reaper-hp-bar-outer">
+            <div className="reaper-hp-bar-inner" style={{width: `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`}} />
+          </div>
+          <span className="pixelify-sans text-white text-xs mt-1">{score} / {WIN_SCORE}</span>
+        </div>
       </div>
 
       {/* Bottom Row: Orange Action Bar */}
@@ -210,7 +217,7 @@ export default function GameBoard() {
             onChange={(e) => setUserInput(e.target.value)}
             onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
             placeholder="Enter your word..."
-            className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none font-mono jersey-25 outline-none focus:border-orange-500 transition-all"
+            className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none font-mono jersey-25 outline-none focus:border-orange-500 transition-all jersey-25"
             style={{ minWidth: 180, maxWidth: 260 }}
           />
           <button
@@ -232,10 +239,10 @@ export default function GameBoard() {
           >
             Give Up
           </button>
-          <div className="ml-6 flex flex-col items-center">
+          {/* <div className="ml-6 flex flex-col items-center">
             <span className="text-orange-300 font-bold pixelify-sans text-lg">Score: {score}</span>
             <span className="text-orange-200 pixelify-sans text-sm">Hints left: {3 - hintCount}</span>
-          </div>
+          </div> */}
         </div>
         <div className="flex gap-2 mt-1">
           {hearts.map((isAlive, index) => (
@@ -250,10 +257,8 @@ export default function GameBoard() {
         </div>
       </div>
 
-      {/* Hint List (keep as is, but below the action bar) */}
-      <div className="flex justify-center mt-2">
-        <HintList hints={hints} lastLetter={lastLetter} />
-      </div>
+      {/* HintList as modal */}
+      <HintList hints={hints} lastLetter={lastLetter} open={showHintModal} onClose={() => setShowHintModal(false)} />
 
       <style jsx>{`
         .pixel-speech-bubble {
@@ -270,7 +275,8 @@ export default function GameBoard() {
         .pixel-speech-tail {
           position: absolute;
           left: -22px;
-          top: 32px;
+          top: 50%;
+          transform: translateY(-50%);
           width: 0;
           height: 0;
           border-top: 18px solid transparent;
@@ -282,7 +288,8 @@ export default function GameBoard() {
           content: '';
           position: absolute;
           left: -14px;
-          top: 34px;
+          top: 50%;
+          transform: translateY(-50%);
           width: 0;
           height: 0;
           border-top: 14px solid transparent;
@@ -324,7 +331,24 @@ export default function GameBoard() {
           font-family: 'Pixelify Sans', 'VT323', monospace;
         }
         .pixel-shadow {
-          filter: drop-shadow(0 0 8px #fff3e0) drop-shadow(0 0 2px #ff9800);
+          filter: drop-shadow(0 0 12px #fff) drop-shadow(0 0 4px #fff);
+        }
+        .reaper-hp-bar-outer {
+          width: 320px;
+          height: 22px;
+          background: #181818;
+          border: 2.5px solid #fff;
+          box-shadow: 0 0 0 2px #222;
+          border-radius: 0;
+          overflow: hidden;
+          margin-bottom: 2px;
+          display: flex;
+          align-items: center;
+        }
+        .reaper-hp-bar-inner {
+          height: 100%;
+          background: linear-gradient(90deg, #ff9800 60%, #ff3c00 100%);
+          transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
         }
       `}</style>
       <style jsx>{`

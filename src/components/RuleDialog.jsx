@@ -12,7 +12,7 @@ export default function RuleDialog() {
 
       <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4 text-center">
-        <DialogPanel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-800 p-8 text-left align-middle shadow-2xl ring-2 ring-yellow-400/30 transition-all duration-700 animate-fadeInUp border-2 border-yellow-300/80">
+        <DialogPanel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-800 p-8 text-left align-middle shadow-2xl ring-2 ring-white transition-all duration-700 animate-fadeInUp border-2 border-white">
 
           <div className="flex gap-8 mt-2">
             {/* Left Column - Grim Reaper Image */}
@@ -55,7 +55,7 @@ export default function RuleDialog() {
                     <path 
                       d="M20 10 Q10 10 10 20 L10 40 Q10 50 20 50 L35 50 L25 65 L50 50 L90 50 Q100 50 100 40 L100 20 Q100 10 90 10 Z" 
                       fill="rgba(30, 30, 30, 0.95)" 
-                      stroke="#ffb300" 
+                      stroke="#fff" 
                       strokeWidth="3"
                       filter="url(#glow)"
                     />
@@ -63,7 +63,7 @@ export default function RuleDialog() {
                       x="55" 
                       y="25" 
                       textAnchor="middle" 
-                      className="fill-yellow-400 text-xs pixelify-sans font-bold"
+                      className="fill-white text-xs pixelify-sans font-bold"
                     >
                       Your time
                     </text>
@@ -71,7 +71,7 @@ export default function RuleDialog() {
                       x="55" 
                       y="40" 
                       textAnchor="middle" 
-                      className="fill-yellow-400 text-xs pixelify-sans font-bold"
+                      className="fill-white text-xs pixelify-sans font-bold"
                     >
                       is up!
                     </text>
@@ -125,7 +125,7 @@ export default function RuleDialog() {
                     filter: drop-shadow(0 0 4px #ff9800);
                   }
                   .pixel-shadow-orange {
-                    filter: drop-shadow(0 0 8px #fff3e0) drop-shadow(0 0 2px #ff9800);
+                    filter: drop-shadow(0 0 12px #fff) drop-shadow(0 0 4px #fff);
                   }
                 `}</style>
               </div>
@@ -135,7 +135,7 @@ export default function RuleDialog() {
             <div className="w-2/3 ml-1">
               <DialogTitle
                 as="h3"
-                className="ml-6 text-4xl text-yellow-500 pixelify-sans tracking-wider mb-8"
+                className="ml-6 text-4xl pixelify-sans tracking-wider mb-8 text-[#ff9800]"
               >
                 Death's Word Chain
               </DialogTitle>
@@ -150,13 +150,13 @@ export default function RuleDialog() {
                   <li>Earn 70 points to defeat the Reaper!</li>
                 </ul>
                 <div className="flex justify-between items-center mt-8">
-                  <p className="text-yellow-500 text-3xl italic pixelify-sans">
+                  <p className="text-white text-3xl italic pixelify-sans">
                     Are you ready..?
                   </p>
                   <button
                     type="button"
                     onClick={() => setOpen(false)}
-                    className="pixelify-sans inline-flex justify-center rounded-full bg-yellow-400 px-5 py-2 text-xl font-semibold text-black shadow-md hover:bg-yellow-300 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-yellow-500"
+                    className="pixelify-sans inline-flex justify-center rounded bg-[#ff9800] border-2 border-[#fff3e0] px-5 py-2 text-xl font-semibold text-[#222] shadow-md hover:bg-orange-400 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff9800]"
                   >
                     Let's Begin
                   </button>
