@@ -186,15 +186,30 @@ export default function GameBoard() {
       </div>
       {/* Middle Row: Word & Definition Box */}
       <div className="flex-1 flex flex-col items-center justify-center">
-        {/* Reaper HP Bar (moved here) */}
-        <div className="flex flex-col items-center mb-4">
-          <span className="pixelify-sans text-white text-sm mb-1 tracking-widest" style={{letterSpacing: '0.1em'}}>REAPER HP</span>
-          <div className="reaper-hp-bar-outer">
-            <div className="reaper-hp-bar-inner" style={{width: `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`}} />
+        {/* Reaper HP Bar and Hearts Row */}
+        <div className="flex flex-row items-center justify-between w-full max-w-2xl mb-4 px-2 relative" style={{minHeight: 40}}>
+          {/* HP Bar (left) */}
+          <div className="flex flex-col items-start">
+            <span className="pixelify-sans text-white text-sm mb-1 tracking-widest" style={{letterSpacing: '0.1em'}}>REAPER HP</span>
+            <div className="reaper-hp-bar-outer">
+              <div className="reaper-hp-bar-inner" style={{width: `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`}} />
+            </div>
+            <span className="pixelify-sans text-white text-xs mt-1">{score} / {WIN_SCORE}</span>
           </div>
-          <span className="pixelify-sans text-white text-xs mt-1">{score} / {WIN_SCORE}</span>
+          {/* Hearts (right) */}
+          <div className="flex flex-row gap-2 items-center absolute right-0 top-0 sm:static sm:ml-auto">
+            {hearts.map((isAlive, index) => (
+              <img
+                key={index}
+                src="/red_heart.png"
+                alt="Heart"
+                className={`h-8 w-8 transition-all duration-1000 ${!isAlive ? 'opacity-0 scale-0' : 'opacity-100 scale-100'}`}
+                style={{ animation: !isAlive ? 'heartDisappear 1s ease-out' : '' }}
+              />
+            ))}
+          </div>
         </div>
-        <div className="pixel-box px-10 py-8 mb-8 max-w-2xl w-full">
+        <div className="pixel-box px-10 py-8 mb-8 max-w-2xl w-full" style={{position: 'relative'}}>
           <div className="text-2xl pixelify-sans text-white mb-2 text-center">
             Grim Reaper's Word: <span className="text-red-500 jersey-25 text-3xl">{systemWord}</span>
           </div>
@@ -258,17 +273,6 @@ export default function GameBoard() {
               Give Up
             </button>
           </div>
-        </div>
-        <div className="flex gap-2 mt-3 sm:mt-2">
-          {hearts.map((isAlive, index) => (
-            <img
-              key={index}
-              src="/red_heart.png"
-              alt="Heart"
-              className={`h-8 w-8 transition-all duration-1000 ${!isAlive ? 'opacity-0 scale-0' : 'opacity-100 scale-100'}`}
-              style={{ animation: !isAlive ? 'heartDisappear 1s ease-out' : '' }}
-            />
-          ))}
         </div>
       </div>
 
