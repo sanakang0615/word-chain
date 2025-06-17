@@ -14,10 +14,10 @@ export default function RuleDialog() {
         <div className="flex min-h-full items-center justify-center p-4 text-center">
         <DialogPanel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-800 p-8 text-left align-middle shadow-2xl ring-2 ring-white transition-all duration-700 animate-fadeInUp border-2 border-white">
 
-          <div className="flex gap-8 mt-2">
+          <div className="flex flex-col sm:flex-row gap-8 mt-2">
             {/* Left Column - Grim Reaper Image */}
-            <div className="w-1/3 flex items-center justify-center relative">
-              <div className="relative w-full h-[300px]">
+            <div className="w-full sm:w-1/3 flex items-center justify-center relative mb-6 sm:mb-0">
+              <div className="relative w-full h-[220px] sm:h-[300px]">
                 <img 
                   src="/reaper_pixels.png" 
                   alt="Grim Reaper" 
@@ -132,10 +132,10 @@ export default function RuleDialog() {
             </div>
 
             {/* Right Column - Content */}
-            <div className="w-2/3 ml-1">
+            <div className="w-full sm:w-2/3 ml-0 sm:ml-1">
               <DialogTitle
                 as="h3"
-                className="ml-6 text-4xl pixelify-sans tracking-wider mb-8 text-[#ff9800]"
+                className="ml-6 text-4xl pixelify-sans tracking-wider mb-8 text-[#ff9800] mt-10 sm:mt-8"
               >
                 Death's Word Chain
               </DialogTitle>

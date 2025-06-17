@@ -12,6 +12,18 @@ const getHintWords = (startLetter, usedWords) => {
   return hints.map(w => ({ term: w.term, definition: w.definition })).slice(0, 3);
 };
 
+// Add a hook to detect mobile
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth <= 640);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
+  return isMobile;
+}
+
 export default function GameBoard() {
   const [systemWord, setSystemWord] = useState("");
   const [message, setMessage] = useState("");
@@ -26,6 +38,7 @@ export default function GameBoard() {
   const [showHintModal, setShowHintModal] = useState(false);
   const WIN_SCORE = 100;
   
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     const randomStart = wordList[Math.floor(Math.random() * wordList.length)].term;
@@ -158,8 +171,9 @@ export default function GameBoard() {
   return (
     <>
     <RuleDialog />
-    <WordHistory history={history} />
-    <div className="min-h-screen bg-gray-900 py-10 flex flex-col justify-between">
+    {/* Only show WordHistory on desktop/tablet */}
+    {!isMobile && <WordHistory history={history} />}
+    <div className="w-full min-h-screen bg-gray-900 py-10 flex flex-col justify-between overflow-x-hidden">
       {/* Top Row: Grim Reaper + Speech Bubble */}
       <div className="flex justify-center items-start mb-2 relative w-full" style={{minHeight: '140px'}}>
         <img src="/reaper_pixels.png" alt="Grim Reaper" className="h-32 w-auto pixel-shadow" />
@@ -211,41 +225,41 @@ export default function GameBoard() {
 
       {/* Bottom Row: Orange Action Bar */}
       <div className="w-full flex flex-col items-center mt-4">
-        <div className="pixel-action-bar flex flex-row items-center justify-center gap-3 px-6 py-4 mb-2">
-          <input
-            type="text"
-            value={userInput}
-            onChange={(e) => setUserInput(e.target.value)}
-            onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
-            placeholder="Enter your word..."
-            className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none font-mono jersey-25 outline-none focus:border-orange-500 transition-all jersey-25"
-            style={{ minWidth: 180, maxWidth: 260 }}
-          />
-          <button
-            onClick={handleSubmit}
-            className="pixel-btn-orange"
-          >
-            Submit
-          </button>
-          <button
-            onClick={handleHint}
-            disabled={hintCount >= 3}
-            className={`pixel-btn-orange ${hintCount >= 3 ? 'opacity-50 cursor-not-allowed' : ''}`}
-          >
-            Hint ({3 - hintCount})
-          </button>
-          <button
-            onClick={handleGiveUp}
-            className="pixel-btn-orange"
-          >
-            Give Up
-          </button>
-          {/* <div className="ml-6 flex flex-col items-center">
-            <span className="text-orange-300 font-bold pixelify-sans text-lg">Score: {score}</span>
-            <span className="text-orange-200 pixelify-sans text-sm">Hints left: {3 - hintCount}</span>
-          </div> */}
+        <div className="pixel-action-bar flex flex-col sm:flex-row items-center justify-center gap-3 px-6 py-4 mb-2 w-full">
+          <div className="w-full sm:w-auto mb-3 sm:mb-0 flex justify-center">
+            <input
+              type="text"
+              value={userInput}
+              onChange={(e) => setUserInput(e.target.value)}
+              onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
+              placeholder="Enter your word..."
+              className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none font-mono jersey-25 outline-none focus:border-orange-500 transition-all jersey-25 max-w-xs w-full"
+              style={{ minWidth: 0, maxWidth: 260 }}
+            />
+          </div>
+          <div className="flex flex-row gap-3 w-full sm:w-auto justify-center">
+            <button
+              onClick={handleSubmit}
+              className="pixel-btn-orange"
+            >
+              Submit
+            </button>
+            <button
+              onClick={handleHint}
+              disabled={hintCount >= 3}
+              className={`pixel-btn-orange ${hintCount >= 3 ? 'opacity-50 cursor-not-allowed' : ''}`}
+            >
+              Hint ({3 - hintCount})
+            </button>
+            <button
+              onClick={handleGiveUp}
+              className="pixel-btn-orange"
+            >
+              Give Up
+            </button>
+          </div>
         </div>
-        <div className="flex gap-2 mt-2">
+        <div className="flex gap-2 mt-3 sm:mt-2">
           {hearts.map((isAlive, index) => (
             <img
               key={index}
