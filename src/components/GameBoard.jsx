@@ -36,6 +36,9 @@ export default function GameBoard() {
   const [lastCorrectWord, setLastCorrectWord] = useState("");
   const [hearts, setHearts] = useState([true, true, true]); // Track heart states
   const [showHintModal, setShowHintModal] = useState(false);
+  const [hpInfinite, setHpInfinite] = useState(false); // HP 무한대 모드
+  const [showLoseModal, setShowLoseModal] = useState(false); // 패배 모달
+  const [showSlashEffect, setShowSlashEffect] = useState(false); // 슬래시 효과
   const WIN_SCORE = 100;
   const LOSE_SCORE = 0;
   
@@ -46,6 +49,12 @@ export default function GameBoard() {
     setSystemWord(randomStart);
     setHistory([{ word: randomStart, source: "system" }]);
   }, []);
+
+  useEffect(() => {
+    if (score <= 0 && !hpInfinite) {
+      setShowLoseModal(true);
+    }
+  }, [score, hpInfinite]);
 
   const lastLetter = systemWord.slice(-1);
   const usedWords = history.map(h => h.word);
@@ -69,9 +78,14 @@ export default function GameBoard() {
         setGameStatus("success");
         setHistory((prev) => [...prev, { word: userInput, source: "user" }]);
         setLastCorrectWord(userInput); // ✅ 이 라인을 추가하세요
+        
+        // 슬래시 효과 표시
+        setShowSlashEffect(true);
+        setTimeout(() => setShowSlashEffect(false), 1500);
       
         // 정답 시 HP 5 감소
         setScore(prev => {
+          if (hpInfinite) return prev;
           const newScore = Math.max(LOSE_SCORE, prev - 5);
           if (newScore <= LOSE_SCORE) {
             setMessage("💀 HP 0! The Reaper wins! Game Over.");
@@ -135,6 +149,7 @@ export default function GameBoard() {
       newHearts[2 - hintCount] = false;
       setHearts(newHearts);
       setScore(prev => {
+        if (hpInfinite) return prev;
         const newScore = Math.min(WIN_SCORE, prev + 2); // 힌트 시 2 증가
         if (newScore <= LOSE_SCORE) {
           setMessage("💀 HP 0! The Reaper wins! Game Over.");
@@ -154,6 +169,7 @@ export default function GameBoard() {
     setHintCount(0);
     setHearts([true, true, true]); // Reset hearts
     setScore(prev => {
+      if (hpInfinite) return prev;
       const newScore = WIN_SCORE; // 기브업 시 HP 풀로 리셋
       if (newScore <= LOSE_SCORE) {
         setMessage("💀 HP 0! The Reaper wins! Game Over.");
@@ -184,6 +200,10 @@ export default function GameBoard() {
     return "Let's see what you've got! Type a word to begin.";
   };
 
+  // HP 바와 숫자에 무한대(∞) 표시
+  const hpDisplay = hpInfinite ? '∞' : score;
+  const hpBarWidth = hpInfinite ? '100%' : `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`;
+
   return (
     <>
     <RuleDialog />
@@ -192,7 +212,30 @@ export default function GameBoard() {
     <div className="w-full min-h-screen bg-gray-900 py-10 flex flex-col justify-between overflow-x-hidden">
       {/* Top Row: Grim Reaper + Speech Bubble */}
       <div className="flex justify-center items-start mb-2 relative w-full" style={{minHeight: '140px'}}>
-        <img src="/reaper_pixels.png" alt="Grim Reaper" className="h-32 w-auto pixel-shadow" />
+        <div className="relative">
+          <img 
+            src="/reaper_pixels.png" 
+            alt="Grim Reaper" 
+            className={`h-32 w-auto pixel-shadow transition-all duration-300 ${gameStatus === 'success' ? 'reaper-hurt' : ''}`} 
+          />
+          {/* 슬래시 효과 */}
+          {showSlashEffect && (
+            <>
+              <img 
+                src="/slash1_right.png" 
+                alt="Slash 1" 
+                className="absolute top-0 left-0 w-full h-full object-contain slash-anim-1 pointer-events-none z-10"
+                style={{transform: 'scale(1.2)'}}
+              />
+              <img 
+                src="/slash_left.png" 
+                alt="Slash 2" 
+                className="absolute top-0 left-0 w-full h-full object-contain slash-anim-2 pointer-events-none z-10"
+                style={{transform: 'scale(1.2)'}}
+              />
+            </>
+          )}
+        </div>
         <div className="ml-4 mt-2 relative flex items-start" style={{zIndex:2, maxWidth: '70vw'}}>
           <div className="pixel-speech-bubble px-6 py-4 font-bold pixelify-sans text-white text-lg" style={{wordBreak: 'break-word', whiteSpace: 'pre-line', maxWidth: '420px', minWidth: '180px'}}>
             {getSpeechBubbleMessage()}
@@ -208,9 +251,9 @@ export default function GameBoard() {
           <div className="flex flex-col items-start">
             <span className="pixelify-sans text-white text-sm mb-1 tracking-widest" style={{letterSpacing: '0.1em'}}>REAPER HP</span>
             <div className="reaper-hp-bar-outer">
-              <div className="reaper-hp-bar-inner" style={{width: `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`}} />
+              <div className="reaper-hp-bar-inner" style={{width: hpBarWidth}} />
             </div>
-            <span className="pixelify-sans text-white text-xs mt-1">{score} / {WIN_SCORE}</span>
+            <span className="pixelify-sans text-white text-xs mt-1">{hpDisplay} / {WIN_SCORE}</span>
           </div>
           {/* Hearts (right) */}
           <div className="flex flex-row gap-2 items-center absolute right-0 top-0 sm:static sm:ml-auto">
@@ -264,7 +307,7 @@ export default function GameBoard() {
               onChange={(e) => setUserInput(e.target.value)}
               onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
               placeholder="Enter your word..."
-              className="pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none jersey-25 outline-none focus:border-orange-500 transition-all max-w-xs w-full"
+              className="jersey-25 pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none outline-none focus:border-orange-500 transition-all max-w-xs w-full"
               style={{ minWidth: 0, maxWidth: 260 }}
             />
           </div>
@@ -294,6 +337,70 @@ export default function GameBoard() {
 
       {/* HintList as modal */}
       <HintList hints={hints} lastLetter={lastLetter} open={showHintModal} onClose={() => setShowHintModal(false)} />
+
+      {/* 패배 모달 */}
+      {showLoseModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80">
+          {/* 애니메이션 배경 레이어 */}
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="reaper-lose-bg-anim" />
+          </div>
+          <div className="bg-gray-900 border-4 border-white rounded-xl p-8 max-w-lg w-full flex flex-col items-center relative z-10">
+            <img src="/grim_reaper_lose.png" alt="Grim Reaper Lose" className="w-48 h-auto mb-4" />
+            <h2 className="text-3xl font-bold text-orange-400 mb-2 pixelify-sans">You win!</h2>
+            <p className="text-white text-lg mt-2 mb-6 text-center jersey-25">
+              The Grim Reaper's avatar has perished, <br/> but its shadow lingers...<br/>
+              Would you like to keep fighting in simulation mode? <br/>
+              <span className="text-orange-300">Word history will remain, but HP mode is now disabled.</span><br/>
+              (HP will show ∞ and will not decrease anymore)
+            </p>
+            <div className="flex gap-6 mt-2">
+              <button
+                className="px-6 py-2 bg-orange-500 text-white font-bold rounded pixelify-sans border-2 border-white hover:bg-orange-600 transition"
+                onClick={() => {
+                  setHpInfinite(true);
+                  setShowLoseModal(false);
+                  setScore(Infinity);
+                }}
+              >
+                Yes, keep fighting!
+              </button>
+              <button
+                className="px-6 py-2 bg-gray-700 text-white font-bold rounded pixelify-sans border-2 border-white hover:bg-gray-800 transition"
+                onClick={() => {
+                  setHpInfinite(false);
+                  setShowLoseModal(false);
+                  setScore(WIN_SCORE);
+                  setHistory([{ word: wordList[Math.floor(Math.random() * wordList.length)].term, source: "system" }]);
+                  setMessage("");
+                  setHintCount(0);
+                  setHearts([true, true, true]);
+                  setHints([]);
+                  setUserInput("");
+                }}
+              >
+                No, reset game
+              </button>
+            </div>
+          </div>
+          <style jsx>{`
+            .reaper-lose-bg-anim {
+              position: absolute;
+              bottom: -40%;
+              left: 0;
+              width: 100%;
+              height: 140%;
+              background: linear-gradient(0deg, rgba(255,60,0,0.7) 0%, rgba(255,255,255,0.2) 60%, transparent 100%);
+              animation: rise 2.2s cubic-bezier(0.4,0,0.2,1) forwards;
+              z-index: 1;
+            }
+            @keyframes rise {
+              0% { bottom: -40%; }
+              100% { bottom: 0%; }
+            }
+          `}</style>
+        </div>
+      )}
 
       <style jsx>{`
         .pixel-speech-bubble {
@@ -424,6 +531,64 @@ export default function GameBoard() {
           100% {
             opacity: 0;
             transform: translateX(0) scale(0);
+          }
+        }
+        .reaper-hurt {
+          animation: reaperHurt 1.5s ease-out;
+        }
+        @keyframes reaperHurt {
+          0% { transform: translateX(0) rotate(0deg); }
+          10% { transform: translateX(-8px) rotate(-3deg); }
+          20% { transform: translateX(12px) rotate(4deg); }
+          30% { transform: translateX(-10px) rotate(-3deg); }
+          40% { transform: translateX(8px) rotate(2deg); }
+          50% { transform: translateX(-6px) rotate(-2deg); }
+          60% { transform: translateX(4px) rotate(1deg); }
+          70% { transform: translateX(-3px) rotate(-1deg); }
+          80% { transform: translateX(2px) rotate(0.5deg); }
+          90% { transform: translateX(-1px) rotate(-0.5deg); }
+          100% { transform: translateX(0) rotate(0deg); }
+        }
+        .slash-anim-1 {
+          animation: slashEffect1 1.5s ease-out;
+        }
+        .slash-anim-2 {
+          animation: slashEffect2 1.5s ease-out 0.2s;
+        }
+        @keyframes slashEffect1 {
+          0% { 
+            opacity: 0; 
+            transform: scale(0.8) translateX(-30px) translateY(-20px) rotate(-15deg);
+          }
+          15% { 
+            opacity: 1; 
+            transform: scale(1.2) translateX(30px) translateY(20px) rotate(15deg);
+          }
+          30% { 
+            opacity: 0.8; 
+            transform: scale(1.3) translateX(50px) translateY(30px) rotate(20deg);
+          }
+          100% { 
+            opacity: 0; 
+            transform: scale(1.5) translateX(80px) translateY(50px) rotate(25deg);
+          }
+        }
+        @keyframes slashEffect2 {
+          0% { 
+            opacity: 0; 
+            transform: scale(0.8) translateX(30px) translateY(-30px) rotate(25deg);
+          }
+          15% { 
+            opacity: 1; 
+            transform: scale(1.2) translateX(-30px) translateY(30px) rotate(-25deg);
+          }
+          30% { 
+            opacity: 0.8; 
+            transform: scale(1.3) translateX(-50px) translateY(40px) rotate(-30deg);
+          }
+          100% { 
+            opacity: 0; 
+            transform: scale(1.5) translateX(-80px) translateY(60px) rotate(-35deg);
           }
         }
       `}</style>
