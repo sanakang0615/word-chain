@@ -347,7 +347,7 @@ export default function GameBoard() {
           )}
         </div>
         <div className="ml-4 mt-2 relative flex items-start" style={{zIndex:2, maxWidth: '70vw'}}>
-          <div className="pixel-speech-bubble px-6 py-4 font-bold pixelify-sans text-white text-lg" style={{wordBreak: 'break-word', whiteSpace: 'pre-line', maxWidth: '420px', minWidth: '180px'}}>
+          <div className="pixel-speech-bubble px-6 py-4 font-bold pixelify-sans text-white text-lg" style={{wordBreak: 'break-word', whiteSpace: 'pre-line', maxWidth: isMobile ? '60vw' : '420px', minWidth: '180px'}}>
             {getSpeechBubbleMessage()}
             <div className="pixel-speech-tail" />
           </div>
@@ -366,21 +366,22 @@ export default function GameBoard() {
             <span className="pixelify-sans text-white text-xs mt-1">{hpDisplay} / {WIN_SCORE}</span>
           </div>
           {/* Hearts (right) */}
-          <div className="flex flex-row gap-2 items-center absolute right-0 top-0 sm:static sm:ml-auto">
+          <div className="flex flex-row gap-2 items-center absolute right-0 top-0 sm:static sm:ml-auto mb-0.5">
             {hearts.map((isAlive, index) => (
               <img
                 key={index}
                 src="/red_heart.png"
                 alt="Heart"
-                className={`h-8 w-8 transition-all duration-1000 ${!isAlive ? 'opacity-0 scale-0' : 'opacity-100 scale-100'}`}
+                className={`h-6 w-6 sm:h-8 sm:w-8 transition-all duration-1000 ${!isAlive ? 'opacity-0 scale-0' : 'opacity-100 scale-100'} ${index === hearts.length - 1 ? 'mr-1 sm:mr-0' : ''}`}
                 style={{ animation: !isAlive ? 'heartDisappear 1s ease-out' : '' }}
               />
             ))}
           </div>
         </div>
         <div className="pixel-box px-10 py-8 mb-8 max-w-2xl w-full" style={{position: 'relative'}}>
-          <div className="text-2xl pixelify-sans text-white mb-2 text-center">
-            Grim Reaper's Word: <span className="text-red-500 jersey-25 text-3xl">{systemWord}</span>
+          <div className="text-2xl pixelify-sans text-white mb-2 text-center sm:flex sm:justify-center sm:items-baseline">
+            <span className="block sm:inline">Grim Reaper's Word: </span>
+            <span className="text-red-500 jersey-25 text-3xl sm:ml-2">{systemWord}</span>
           </div>
           {getMatch(systemWord).ipa && (
             <div className="text-md text-gray-300 italic mb-2 text-center">

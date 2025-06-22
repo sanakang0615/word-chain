@@ -88,7 +88,7 @@ export default function About() {
                 Sound effects and music from:
               </p>
               <ul className="text-sm space-y-1 ml-4">
-                <li>• <a href="https://www.myinstants.com/en/search/?name=undertale" target="_blank" rel="noopener noreferrer" className="text-orange-300 hover:underline">Undertale game soundtrack</a></li>
+                <li>• <a href="https://www.myinstants.com/en/search/?name=undertale" target="_blank" rel="noopener noreferrer" className="text-orange-300 hover:underline">Undertale game soundtrack</a> by Toby Fox</li>
               </ul>
             </div>
 
@@ -99,7 +99,7 @@ export default function About() {
               </p>
               <ul className="text-sm space-y-1 ml-4">
                 <li>• Generated with GPT-4o image generation</li>
-                <li>• Inspired by Undertale's design</li>
+                <li>• Inspired by Undertale's design by Toby Fox</li>
               </ul>
             </div>
 
