@@ -17,10 +17,10 @@ export default function RuleDialog({ onDialogClose }) {
   };
 
   return (
-    <Dialog open={open} onClose={() => {}} className="relative z-10">
+    <Dialog open={open} onClose={() => {}} className="relative z-[60]">
       <DialogBackdrop className="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-500" />
 
-      <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
+      <div className="fixed inset-0 z-[60] w-screen overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4 text-center">
         <DialogPanel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-800 p-8 text-left align-middle shadow-2xl ring-2 ring-white transition-all duration-700 animate-fadeInUp border-2 border-white">
 

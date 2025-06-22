@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import InputPanel from "./InputPanel";
 import HintList from "./HintList";
 import WordHistory from "./WordHistory";
+import About from "./About";
 import ScorePanel from "./ScorePanel";
 import wordList from "../data/anki.json";
 import RuleDialog from './RuleDialog';
@@ -273,8 +274,9 @@ export default function GameBoard() {
 
   const handleMusicToggle = () => {
     soundManager.playSelectSound();
+    const wasPlaying = soundManager.isBackgroundMusicPlaying();
     soundManager.toggleBackgroundMusic();
-    setIsMusicPlaying(soundManager.isBackgroundMusicPlaying());
+    setIsMusicPlaying(!wasPlaying);
   };
 
   const handleRulesDialogClose = () => {
@@ -291,6 +293,8 @@ export default function GameBoard() {
     <RuleDialog onDialogClose={handleRulesDialogClose} />
     {/* Only show WordHistory on desktop/tablet */}
     {!isMobile && <WordHistory history={history} />}
+    {/* Only show About on desktop/tablet */}
+    {!isMobile && <About />}
     
     {/* Music Toggle Button - Top Right (Only show when rules dialog is closed) */}
     {!isRulesDialogOpen && (
@@ -464,6 +468,7 @@ export default function GameBoard() {
               <button
                 className="px-6 py-2 bg-orange-500 text-white font-bold rounded pixelify-sans border-2 border-white hover:bg-orange-600 transition"
                 onClick={() => {
+                  soundManager.playSelectSound();
                   setHpInfinite(true);
                   setShowLoseModal(false);
                   setScore(Infinity);
@@ -474,6 +479,7 @@ export default function GameBoard() {
               <button
                 className="px-6 py-2 bg-gray-700 text-white font-bold rounded pixelify-sans border-2 border-white hover:bg-gray-800 transition"
                 onClick={() => {
+                  soundManager.playSelectSound();
                   setHpInfinite(false);
                   setShowLoseModal(false);
                   setScore(WIN_SCORE);
