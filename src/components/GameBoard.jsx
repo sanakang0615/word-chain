@@ -6,6 +6,7 @@ import ScorePanel from "./ScorePanel";
 import wordList from "../data/anki.json";
 import RuleDialog from './RuleDialog';
 import { CheckCircleIcon, XMarkIcon, XCircleIcon } from '@heroicons/react/20/solid';
+import soundManager from '../utils/sound';
 
 const getHintWords = (startLetter, usedWords) => {
   const hints = wordList.filter(w => w.term.startsWith(startLetter) && !usedWords.includes(w.term));
@@ -39,6 +40,9 @@ export default function GameBoard() {
   const [hpInfinite, setHpInfinite] = useState(false); // HP 무한대 모드
   const [showLoseModal, setShowLoseModal] = useState(false); // 패배 모달
   const [showSlashEffect, setShowSlashEffect] = useState(false); // 슬래시 효과
+  const [showMissEffect, setShowMissEffect] = useState(false); // Miss 효과
+  const [isMusicPlaying, setIsMusicPlaying] = useState(true); // Background music state
+  const [isRulesDialogOpen, setIsRulesDialogOpen] = useState(true); // Rules dialog state
   const WIN_SCORE = 100;
   const LOSE_SCORE = 0;
   
@@ -48,6 +52,10 @@ export default function GameBoard() {
     const randomStart = wordList[Math.floor(Math.random() * wordList.length)].term;
     setSystemWord(randomStart);
     setHistory([{ word: randomStart, source: "system" }]);
+    
+    // Start background music when component mounts
+    soundManager.startBackgroundMusic();
+    setIsMusicPlaying(true); // Ensure state reflects that music is playing
   }, []);
 
   useEffect(() => {
@@ -55,6 +63,34 @@ export default function GameBoard() {
       setShowLoseModal(true);
     }
   }, [score, hpInfinite]);
+
+  // Handle background music after user interaction
+  useEffect(() => {
+    const handleUserInteraction = () => {
+      if (!soundManager.isBackgroundMusicPlaying()) {
+        soundManager.startBackgroundMusic();
+        setIsMusicPlaying(true);
+      }
+      // Remove event listeners after first interaction
+      document.removeEventListener('click', handleUserInteraction);
+      document.removeEventListener('keydown', handleUserInteraction);
+    };
+
+    // Try to start music immediately
+    soundManager.startBackgroundMusic();
+    setIsMusicPlaying(soundManager.isBackgroundMusicPlaying());
+
+    // If music didn't start due to autoplay policy, wait for user interaction
+    if (!soundManager.isBackgroundMusicPlaying()) {
+      document.addEventListener('click', handleUserInteraction);
+      document.addEventListener('keydown', handleUserInteraction);
+    }
+
+    return () => {
+      document.removeEventListener('click', handleUserInteraction);
+      document.removeEventListener('keydown', handleUserInteraction);
+    };
+  }, []);
 
   const lastLetter = systemWord.slice(-1);
   const usedWords = history.map(h => h.word);
@@ -65,13 +101,23 @@ export default function GameBoard() {
     );
   
     if (usedWords.includes(userInput)) {
+      // Play incorrect sound for already used word
+      soundManager.playIncorrectSound();
       setMessage("⚠️ This word has already been used!");
       setGameStatus("fail");
+      
+      // Miss 효과 표시
+      setShowMissEffect(true);
+      setTimeout(() => setShowMissEffect(false), 1500);
+      
       setTimeout(() => setGameStatus(null), 5000);
       return;
     }
   
     if (match && userInput.startsWith(lastLetter)) {
+        // Play correct sound for correct answer
+        soundManager.playCorrectSound();
+        
         const updatedUsedWords = [...usedWords, userInput];
       
         setMessage("😏 Success!");
@@ -88,6 +134,8 @@ export default function GameBoard() {
           if (hpInfinite) return prev;
           const newScore = Math.max(LOSE_SCORE, prev - 5);
           if (newScore <= LOSE_SCORE) {
+            // Play soul shatter sound when HP reaches 0 or below
+            soundManager.playSoulShatterSound();
             setMessage("💀 HP 0! The Reaper wins! Game Over.");
             setGameStatus("lose");
           }
@@ -117,8 +165,15 @@ export default function GameBoard() {
         setTimeout(() => setGameStatus(null), 5000);
       }
        else {
+      // Play incorrect sound for wrong answer
+      soundManager.playIncorrectSound();
       setMessage("👿 HAHAHAHAHAHA Try again or use a hint...");
       setGameStatus("fail");
+      
+      // Miss 효과 표시
+      setShowMissEffect(true);
+      setTimeout(() => setShowMissEffect(false), 1500);
+      
       // 오답 시 HP 변화 없음
       setTimeout(() => setGameStatus(null), 5000);
     }
@@ -126,6 +181,9 @@ export default function GameBoard() {
   
 
   const handleHint = () => {
+    // Play hint sound when hint button is clicked
+    soundManager.playHintSound();
+    
     if (hintCount >= 3) {
       setMessage("🚫 No hints left!");
       setGameStatus("fail");
@@ -162,6 +220,9 @@ export default function GameBoard() {
   };
 
   const handleGiveUp = () => {
+    // Play flee sound when giving up
+    soundManager.playFleeSound();
+    
     setMessage("💀 You gave up!!!!!!!!! The Reaper wins this round HAHAHAHHAHAHA");
     setGameStatus("fail");
     setUserInput("");
@@ -181,6 +242,12 @@ export default function GameBoard() {
     setSystemWord(newWord);
     setHistory([{ word: newWord, source: "system" }]);
     setTimeout(() => setGameStatus(null), 5000);
+  };
+
+  const handleInputChange = (e) => {
+    // Play typing sound when user types
+    soundManager.playTypingSound();
+    setUserInput(e.target.value);
   };
 
   const getMatch = (word) => {
@@ -204,11 +271,43 @@ export default function GameBoard() {
   const hpDisplay = hpInfinite ? '∞' : score;
   const hpBarWidth = hpInfinite ? '100%' : `${Math.max(0, Math.min(100, (score / WIN_SCORE) * 100))}%`;
 
+  const handleMusicToggle = () => {
+    soundManager.playSelectSound();
+    soundManager.toggleBackgroundMusic();
+    setIsMusicPlaying(soundManager.isBackgroundMusicPlaying());
+  };
+
+  const handleRulesDialogClose = () => {
+    setIsRulesDialogOpen(false);
+    // Ensure background music is playing when game starts
+    if (!soundManager.isBackgroundMusicPlaying()) {
+      soundManager.startBackgroundMusic();
+      setIsMusicPlaying(true);
+    }
+  };
+
   return (
     <>
-    <RuleDialog />
+    <RuleDialog onDialogClose={handleRulesDialogClose} />
     {/* Only show WordHistory on desktop/tablet */}
     {!isMobile && <WordHistory history={history} />}
+    
+    {/* Music Toggle Button - Top Right (Only show when rules dialog is closed) */}
+    {!isRulesDialogOpen && (
+      <button
+        onClick={handleMusicToggle}
+        className="fixed top-4 right-4 z-[999999] focus:outline-none pointer-events-auto"
+        style={{ zIndex: 999999 }}
+        aria-label={isMusicPlaying ? "Mute background music" : "Unmute background music"}
+      >
+        <img 
+          src={isMusicPlaying ? "/sound_on.png" : "/sound_off.png"} 
+          alt={isMusicPlaying ? "Sound On" : "Sound Off"}
+          className="w-8 h-8 pointer-events-none"
+        />
+      </button>
+    )}
+    
     <div className="w-full min-h-screen bg-gray-900 py-10 flex flex-col justify-between overflow-x-hidden">
       {/* Top Row: Grim Reaper + Speech Bubble */}
       <div className="flex justify-center items-start mb-2 relative w-full" style={{minHeight: '140px'}}>
@@ -222,18 +321,25 @@ export default function GameBoard() {
           {showSlashEffect && (
             <>
               <img 
-                src="/slash_right.png" 
+                src="/grim-motion/slash.png" 
                 alt="Slash 1" 
-                className="absolute top-0 left-0 w-full h-full object-contain slash-anim-1 pointer-events-none z-10"
-                style={{transform: 'scale(1.2)'}}
+                className="absolute top-10 left-0 w-3/4 h-3/4 object-contain punch-anim pointer-events-none z-10"
+                style={{transform: 'scale(1.0)'}}
               />
               <img 
-                src="/slash_left.png" 
-                alt="Slash 2" 
-                className="absolute top-0 left-0 w-full h-full object-contain slash-anim-2 pointer-events-none z-10"
-                style={{transform: 'scale(1.2)'}}
+                src="/grim-motion/hit.png" 
+                alt="HIT" 
+                className="absolute top-9 right-3 w-12 h-12 object-contain hit-text-anim pointer-events-none z-20"
               />
             </>
+          )}
+          {/* Miss 효과 */}
+          {showMissEffect && (
+            <img 
+              src="/grim-motion/miss.png" 
+              alt="MISS" 
+              className="absolute top-14 right-5 w-12 h-12 object-contain miss-text-anim pointer-events-none z-20"
+            />
           )}
         </div>
         <div className="ml-4 mt-2 relative flex items-start" style={{zIndex:2, maxWidth: '70vw'}}>
@@ -304,7 +410,7 @@ export default function GameBoard() {
             <input
               type="text"
               value={userInput}
-              onChange={(e) => setUserInput(e.target.value)}
+              onChange={handleInputChange}
               onKeyPress={(e) => e.key === "Enter" && handleSubmit()}
               placeholder="Enter your word..."
               className="jersey-25 pixel-input flex-1 px-4 py-2 text-lg bg-black text-orange-200 border-4 border-orange-400 rounded-none outline-none focus:border-orange-500 transition-all max-w-xs w-full"
@@ -492,6 +598,89 @@ export default function GameBoard() {
           background: linear-gradient(90deg, #ff9800 60%, #ff3c00 100%);
           transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
         }
+        .punch-anim {
+          animation: punchImpact 0.3s ease-out;
+        }
+        .hit-text-anim {
+          animation: hitTextEffect 0.6s ease-out;
+        }
+        .miss-text-anim {
+          animation: missTextEffect 0.6s ease-out;
+        }
+        @keyframes punchImpact {
+          0% { 
+            opacity: 0; 
+            transform: scale(0.8);
+          }
+          25% { 
+            opacity: 1; 
+            transform: scale(1.2);
+          }
+          50% { 
+            opacity: 0.9; 
+            transform: scale(1.0);
+          }
+          75% {
+            opacity: 0.6;
+            transform: scale(1.0);
+          }
+          100% { 
+            opacity: 0; 
+            transform: scale(1.0);
+          }
+        }
+        @keyframes hitTextEffect {
+          0% { 
+            opacity: 0; 
+            transform: scale(0.3) rotate(-15deg);
+          }
+          20% { 
+            opacity: 1; 
+            transform: scale(1.3) rotate(5deg);
+          }
+          40% { 
+            opacity: 1; 
+            transform: scale(1.1) rotate(-2deg);
+          }
+          60% {
+            opacity: 0.9;
+            transform: scale(1.0) rotate(0deg);
+          }
+          80% {
+            opacity: 0.7;
+            transform: scale(1.0) rotate(0deg);
+          }
+          100% { 
+            opacity: 0; 
+            transform: scale(1.0) rotate(0deg);
+          }
+        }
+        @keyframes missTextEffect {
+          0% { 
+            opacity: 0; 
+            transform: scale(0.3) rotate(15deg);
+          }
+          20% { 
+            opacity: 1; 
+            transform: scale(1.3) rotate(-5deg);
+          }
+          40% { 
+            opacity: 1; 
+            transform: scale(1.1) rotate(2deg);
+          }
+          60% {
+            opacity: 0.9;
+            transform: scale(1.0) rotate(0deg);
+          }
+          80% {
+            opacity: 0.7;
+            transform: scale(1.0) rotate(0deg);
+          }
+          100% { 
+            opacity: 0; 
+            transform: scale(1.0) rotate(0deg);
+          }
+        }
       `}</style>
       <style jsx>{`
         @keyframes heartDisappear {
@@ -549,46 +738,33 @@ export default function GameBoard() {
           90% { transform: translateX(-1px) rotate(-0.5deg); }
           100% { transform: translateX(0) rotate(0deg); }
         }
-        .slash-anim-1 {
-          animation: slashEffect1 1.5s ease-out;
-        }
         .slash-anim-2 {
-          animation: slashEffect2 1.5s ease-out 0.2s;
+          animation: punchImpact2 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.05s;
         }
-        @keyframes slashEffect1 {
+        @keyframes punchImpact2 {
           0% { 
             opacity: 0; 
-            transform: scale(0.8) translateX(-30px) translateY(-20px) rotate(-15deg);
+            transform: scale(0.1);
           }
           15% { 
             opacity: 1; 
-            transform: scale(1.2) translateX(30px) translateY(20px) rotate(15deg);
+            transform: scale(1.4);
           }
           30% { 
-            opacity: 0.8; 
-            transform: scale(1.3) translateX(50px) translateY(30px) rotate(20deg);
+            opacity: 0.9; 
+            transform: scale(0.8);
+          }
+          45% {
+            opacity: 0.7;
+            transform: scale(1.2);
+          }
+          60% {
+            opacity: 0.5;
+            transform: scale(1.0);
           }
           100% { 
             opacity: 0; 
-            transform: scale(1.5) translateX(80px) translateY(50px) rotate(25deg);
-          }
-        }
-        @keyframes slashEffect2 {
-          0% { 
-            opacity: 0; 
-            transform: scale(0.8) translateX(30px) translateY(-30px) rotate(25deg);
-          }
-          15% { 
-            opacity: 1; 
-            transform: scale(1.2) translateX(-30px) translateY(30px) rotate(-25deg);
-          }
-          30% { 
-            opacity: 0.8; 
-            transform: scale(1.3) translateX(-50px) translateY(40px) rotate(-30deg);
-          }
-          100% { 
-            opacity: 0; 
-            transform: scale(1.5) translateX(-80px) translateY(60px) rotate(-35deg);
+            transform: scale(1.0);
           }
         }
       `}</style>

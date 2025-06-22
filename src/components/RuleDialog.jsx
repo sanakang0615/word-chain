@@ -2,12 +2,22 @@
 
 import { useState } from 'react'
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
+import soundManager from '../utils/sound'
 
-export default function RuleDialog() {
+export default function RuleDialog({ onDialogClose }) {
   const [open, setOpen] = useState(true)
 
+  const handleLetsBegin = () => {
+    soundManager.playSelectSound();
+    soundManager.playGasterVanishSound();
+    setOpen(false);
+    if (onDialogClose) {
+      onDialogClose();
+    }
+  };
+
   return (
-    <Dialog open={open} onClose={setOpen} className="relative z-10">
+    <Dialog open={open} onClose={() => {}} className="relative z-10">
       <DialogBackdrop className="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-500" />
 
       <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
@@ -155,7 +165,7 @@ export default function RuleDialog() {
                   </p>
                   <button
                     type="button"
-                    onClick={() => setOpen(false)}
+                    onClick={handleLetsBegin}
                     className="pixelify-sans inline-flex justify-center rounded bg-[#ff9800] border-2 border-[#fff3e0] px-5 py-2 text-xl font-semibold text-[#222] shadow-md hover:bg-orange-400 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff9800]"
                   >
                     Let's Begin

@@ -1,4 +1,5 @@
 import React from "react";
+import soundManager from '../utils/sound';
 
 export default function HintList({ hints, lastLetter, open, onClose }) {
   if (!open || hints.length === 0) return null;
@@ -6,10 +7,15 @@ export default function HintList({ hints, lastLetter, open, onClose }) {
   // 모바일 감지
   const isMobile = typeof window !== 'undefined' && window.innerWidth <= 640;
 
+  const handleClose = () => {
+    soundManager.playSelectSound();
+    onClose();
+  };
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/60"
-      onClick={onClose} // 배경 클릭 시 닫기
+      onClick={handleClose} // 배경 클릭 시 닫기
       style={{ touchAction: 'manipulation' }}
     >
       <div
@@ -22,7 +28,7 @@ export default function HintList({ hints, lastLetter, open, onClose }) {
         onClick={e => e.stopPropagation()} // 모달 내부 클릭은 닫기 방지
       >
         <button
-          onClick={onClose}
+          onClick={handleClose}
           className="absolute top-2 right-3 text-white text-3xl font-bold pixelify-sans hover:text-orange-400 focus:outline-none p-2 sm:p-1"
           style={{ zIndex: 10, width: isMobile ? 48 : 36, height: isMobile ? 48 : 36 }}
           aria-label="Close hints"
@@ -44,7 +50,7 @@ export default function HintList({ hints, lastLetter, open, onClose }) {
         {/* 모바일에서 하단에도 닫기 버튼 */}
         {isMobile && (
           <button
-            onClick={onClose}
+            onClick={handleClose}
             className="mt-6 w-full py-3 text-xl font-bold bg-[#ff9800] text-[#222] rounded pixelify-sans border-2 border-white shadow-lg"
             style={{ fontSize: 22 }}
           >

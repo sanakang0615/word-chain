@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import soundManager from '../utils/sound';
 
 export default function WordHistory({ history }) {
   const [open, setOpen] = useState(false);
@@ -14,20 +15,30 @@ export default function WordHistory({ history }) {
     return () => window.removeEventListener("mousedown", handle);
   }, [open]);
 
+  const handleHistoryToggle = () => {
+    soundManager.playSelectSound();
+    setOpen((v) => !v);
+  };
+
+  const handleClose = () => {
+    soundManager.playSelectSound();
+    setOpen(false);
+  };
+
   return (
     <>
       {/* Bookmark Button */}
       <button
         className="bookmark-btn fixed top-1/2 left-0 z-40 -translate-y-1/2 bg-[#ff9800] border-2 border-white px-1 py-2 rounded-none pixelify-sans text-base text-[#222] font-bold shadow-lg hover:bg-orange-400 focus:outline-none tracking-widest flex items-center justify-center"
         style={{ borderRight: 'none', borderRadius: 0, letterSpacing: '0.08em', height: 120, width: 36 }}
-        onClick={() => setOpen((v) => !v)}
+        onClick={handleHistoryToggle}
         aria-label="Open word history"
       >
         <span style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)', fontSize: '1.1rem', letterSpacing: '0.1em' }}>HISTORY</span>
       </button>
       {/* Overlay for closing and blur */}
       {open && (
-        <div className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm" onClick={() => setOpen(false)} />
+        <div className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm" onClick={handleClose} />
       )}
       {/* Sidebar */}
       <div
@@ -36,7 +47,7 @@ export default function WordHistory({ history }) {
       >
         <button
           className="absolute top-2 right-2 text-white text-xl font-bold pixelify-sans hover:text-orange-400 focus:outline-none"
-          onClick={() => setOpen(false)}
+          onClick={handleClose}
           aria-label="Close word history"
         >
           ×
