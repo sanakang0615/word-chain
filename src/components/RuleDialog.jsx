@@ -22,11 +22,11 @@ export default function RuleDialog({ onDialogClose }) {
 
       <div className="fixed inset-0 z-[60] w-screen overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4 text-center">
-        <DialogPanel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-800 p-8 text-left align-middle shadow-2xl ring-2 ring-white transition-all duration-700 animate-fadeInUp border-2 border-white">
+        <DialogPanel className="w-full max-w-5xl transform overflow-hidden rounded-2xl bg-gray-800 p-8 pb-12 text-left align-middle shadow-2xl ring-2 ring-white transition-all duration-700 animate-fadeInUp border-2 border-white">
 
           <div className="flex flex-col sm:flex-row gap-8 mt-2">
             {/* Left Column - Grim Reaper Image */}
-            <div className="w-full sm:w-1/3 flex items-center justify-center relative mb-6 sm:mb-0">
+            <div className="mt-3 w-full sm:w-1/3 flex items-center justify-center relative mb-6 sm:mb-0">
               <div className="relative w-full h-[220px] sm:h-[300px]">
                 <img 
                   src="/reaper_pixels.png" 
@@ -142,25 +142,32 @@ export default function RuleDialog({ onDialogClose }) {
             </div>
 
             {/* Right Column - Content */}
-            <div className="w-full sm:w-2/3 ml-0 sm:ml-1">
+            <div className="w-full sm:w-2/3 ml-0 sm:ml-4">
               <DialogTitle
                 as="h3"
-                className="ml-6 text-4xl pixelify-sans tracking-wider mb-8 text-[#ff9800] mt-10 sm:mt-8"
+                className="ml-6 text-4xl pixelify-sans tracking-wider mb-5 text-[#ff9800] mt-10 sm:mt-8"
               >
                 Death's Word Chain
               </DialogTitle>
 
               <div className="pixelify-sans text-md leading-relaxed space-y-2 text-gray-300">
                 <p>You are being chased by the Grim Reaper...</p>
-                <p style={{marginBottom: "18px"}}>To escape death, you must play a word chain using GRE vocabulary.</p>
+                <p>To escape death, you must play a word chain using GRE vocabulary. </p>
+                <p><strong> <span className="mr-1">⚠️</span> ONLY words from the <a href="https://blog.naver.com/cyclonics_kr/222238898109" target="_blank" rel="noopener noreferrer" className="text-orange-300 hover:underline">Anki GRE Voca Set</a> are accepted!</strong></p>
+                {/* Important Rule Highlight */}
+                {/* <div className="bg-yellow-900/30 border-2 border-yellow-500 px-4 py-2 rounded-lg animate-pulse">
+                  <p className="text-yellow-200 font-bold text-lg">
+                    <strong> <span className="mr-1">⚠️</span> ONLY words from the <a href="https://blog.naver.com/cyclonics_kr/222238898109" target="_blank" rel="noopener noreferrer" className="text-orange-300 hover:underline">Anki GRE Voca Set</a> are accepted!</strong>
+                  </p>
+                </div> */}
+                
                 <ul className="list-disc pl-6 space-y-1">
-                  <li>Start each word with the last letter of the previous word.</li>
                   <li>You only get 3 hints. Each costs 0.5 points.</li>
                   <li>Each correct answer gives you +1 point.</li>
                   <li>Earn 70 points to defeat the Reaper!</li>
                 </ul>
                 <div className="flex justify-between items-center mt-8">
-                  <p className="text-white text-3xl italic pixelify-sans">
+                  <p className="text-white text-2xl italic pixelify-sans">
                     Are you ready..?
                   </p>
                   <button

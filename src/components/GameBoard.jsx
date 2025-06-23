@@ -425,20 +425,20 @@ export default function GameBoard() {
           <div className="flex flex-row gap-3 w-full sm:w-auto justify-center">
             <button
               onClick={handleSubmit}
-              className="pixel-btn-orange"
+              className="pixel-btn-orange mx-15"
             >
               Submit
             </button>
             <button
               onClick={handleHint}
               disabled={hintCount >= 3}
-              className={`pixel-btn-orange ${hintCount >= 3 ? 'opacity-50 cursor-not-allowed' : ''}`}
+              className={`pixel-btn-orange mx-1 ${hintCount >= 3 ? 'opacity-50 cursor-not-allowed' : ''}`}
             >
               Hint ({3 - hintCount})
             </button>
             <button
               onClick={handleGiveUp}
-              className="pixel-btn-orange"
+              className="pixel-btn-orange mx-1"
             >
               Give Up
             </button>
@@ -773,6 +773,48 @@ export default function GameBoard() {
             opacity: 0; 
             transform: scale(1.0);
           }
+        }
+      `}</style>
+      <style jsx global>{`
+        /* Prevent overscroll and white background */
+        html, body {
+          background-color: #111827 !important;
+          overscroll-behavior: none;
+          -webkit-overflow-scrolling: touch;
+        }
+        
+        /* For iOS Safari */
+        body {
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        }
+        
+        /* Main container should handle scrolling */
+        .w-full.min-h-screen {
+          overflow-y: auto;
+          overflow-x: hidden;
+          height: 100vh;
+          background-color: #111827;
+        }
+        
+        /* Prevent rubber band effect on iOS */
+        * {
+          -webkit-touch-callout: none;
+          -webkit-user-select: none;
+          -khtml-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+        
+        /* Allow text selection in input fields */
+        input, textarea {
+          -webkit-user-select: text;
+          -moz-user-select: text;
+          -ms-user-select: text;
+          user-select: text;
         }
       `}</style>
     </div>
